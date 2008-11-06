@@ -1,0 +1,6 @@
+﻿eniamos q entregar QA, SCM (Plan de configuracion), Plan de despliegue (que mo lo entregamos en la primera) y plan de aceptacion
+
+
+Adminstracion de configuracion de software
+
+hghg
