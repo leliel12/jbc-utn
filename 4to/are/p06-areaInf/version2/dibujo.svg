@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="dibujo.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.76238695"
+     inkscape:cx="340.39742"
+     inkscape:cy="640.42674"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3615"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1024"
+     inkscape:window-height="746"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 216.42553,107.95987 L 217.7372,371.60552"
+       id="path3654"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/juan/org3.png"
+       inkscape:export-xdpi="74"
+       inkscape:export-ydpi="74" />
+    <g
+       id="g3318"
+       inkscape:export-filename="/home/juan/org3.png"
+       inkscape:export-xdpi="74"
+       inkscape:export-ydpi="74">
+      <g
+         id="g3259">
+        <text
+           id="text2389"
+           y="204.50601"
+           x="46.378445"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           xml:space="preserve"><tspan
+             style="text-align:center;text-anchor:middle"
+             y="204.50601"
+             x="46.378445"
+             sodipodi:role="line"
+             id="tspan2397">Archivo</tspan></text>
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.76221192;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2457"
+           width="86.494415"
+           height="41.047375"
+           x="6.3735409"
+           y="176.69211"
+           rx="0.24360016"
+           ry="0.81550962" />
+      </g>
+      <g
+         transform="translate(4.6374533,9.2749067)"
+         id="g3237">
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="117.79131"
+           y="178.66597"
+           id="text2401"><tspan
+             sodipodi:role="line"
+             id="tspan2403"
+             x="117.79131"
+             y="178.66597">Derecho</tspan><tspan
+             sodipodi:role="line"
+             x="117.79131"
+             y="203.66597"
+             id="tspan2407">Laboral</tspan></text>
+        <rect
+           ry="0.92509049"
+           rx="0.24346113"
+           y="161.87695"
+           x="112.13216"
+           height="46.562954"
+           width="86.445053"
+           id="rect3229"
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.81157625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(0,-0.9274907)"
+         id="g3243">
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="235.58263"
+           y="203.70822"
+           id="text2411"><tspan
+             sodipodi:role="line"
+             x="235.58263"
+             y="203.70822"
+             id="tspan2415">Civil y Comercial</tspan></text>
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.08289671;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect3231"
+           width="154.80803"
+           height="46.291634"
+           x="233.7691"
+           y="174.06999"
+           rx="0.4359965"
+           ry="0.91970003" />
+      </g>
+      <g
+         id="g3253">
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="359.8703"
+           y="29.210278"
+           id="text2383"><tspan
+             sodipodi:role="line"
+             id="tspan2385"
+             x="359.8703"
+             y="29.210278"
+             style="text-align:center;text-anchor:middle">Socios</tspan><tspan
+             sodipodi:role="line"
+             x="359.8703"
+             y="54.210278"
+             id="tspan2387"
+             style="text-align:center;text-anchor:middle">(Gerencia General)</tspan></text>
+        <rect
+           ry="1.0272161"
+           rx="0.50870508"
+           y="11.835774"
+           x="268.16293"
+           height="51.703281"
+           width="180.62447"
+           id="rect3233"
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.2361933;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(0,-6.4232256)"
+         id="g3248">
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="423.86325"
+           y="205.5632"
+           id="text2435"><tspan
+             sodipodi:role="line"
+             x="423.86325"
+             y="205.5632"
+             id="tspan2439">Administración</tspan></text>
+        <rect
+           ry="1.0291582"
+           rx="0.43061572"
+           y="173.17026"
+           x="415.12131"
+           height="51.801041"
+           width="152.89751"
+           id="rect3235"
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.1384356;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(2.782472,9.2749067)"
+         id="g3269">
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="611.21637"
+           y="176.811"
+           id="text2443"><tspan
+             sodipodi:role="line"
+             id="tspan2445"
+             x="611.21637"
+             y="176.811">Atención al</tspan><tspan
+             sodipodi:role="line"
+             x="611.21637"
+             y="201.811"
+             id="tspan2449">Cliente</tspan></text>
+        <g
+           id="g3266">
+          <rect
+             style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.04239631;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+             id="rect3264"
+             width="127.95129"
+             height="51.897079"
+             x="595.9339"
+             y="156.4274"
+             rx="0.360358"
+             ry="1.0310663" />
+        </g>
+      </g>
+      <g
+         transform="translate(8.9751019,0)"
+         id="g3278">
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="330.18671"
+           y="274.19751"
+           id="text2419"><tspan
+             sodipodi:role="line"
+             x="330.18671"
+             y="274.19751"
+             id="tspan2423">Civil</tspan></text>
+        <rect
+           ry="0.8172996"
+           rx="0.18899859"
+           y="245.28134"
+           x="320.28409"
+           height="41.137474"
+           width="67.107193"
+           id="rect3276"
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.67211312;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         id="g3285">
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="330.18668"
+           y="327.99197"
+           id="text2427"><tspan
+             sodipodi:role="line"
+             x="330.18668"
+             y="327.99197"
+             id="tspan2431">Comercial</tspan></text>
+        <rect
+           ry="0.72260535"
+           rx="0.3035706"
+           y="300.99524"
+           x="329.04156"
+           height="36.371189"
+           width="107.78795"
+           id="rect3283"
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.80094534;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <path
+         inkscape:connection-end="#g3243"
+         inkscape:connector-type="polyline"
+         id="path3296"
+         d="M 311.63686,319.64456 L 311.26217,219.97558"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:connection-start="#g3285"
+         inkscape:connector-type="polyline"
+         id="path3298"
+         d="M 328.64109,318.82767 L 311.63686,318.71707"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connection-start="#g3278"
+         inkscape:connector-type="polyline"
+         id="path3300"
+         d="M 328.92313,265.85009 L 311.63686,265.8501"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connection-start="#g3253"
+         inkscape:connector-type="polyline"
+         id="path3302"
+         d="M 358.64884,64.157152 L 358.93889,109.10418"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:connector-type="polyline"
+         id="path3304"
+         d="M 45.447043,108.17668 L 358.0114,108.17668"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:connection-start="#g3259"
+         inkscape:connector-type="polyline"
+         id="path3306"
+         d="M 49.076353,176.311 L 47.302024,108.17668"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connection-start="#g3237"
+         inkscape:connector-type="polyline"
+         id="path3308"
+         d="M 159.85153,167.08088 L 159.52839,108.17668"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connection-start="#g3243"
+         inkscape:connector-type="polyline"
+         id="path3310"
+         d="M 311.04975,172.60105 L 310.70937,107.24919"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connection-start="#g3269"
+         inkscape:connector-type="polyline"
+         id="path3312"
+         d="M 662.54498,165.18111 L 662.22834,108.17668"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:connector-type="polyline"
+         id="path3314"
+         d="M 360.79387,107.24919 L 663.15583,108.17668"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:connection-start="#g3248"
+         inkscape:connector-type="polyline"
+         id="path3316"
+         d="M 491.28258,166.17781 L 490.64256,107.24919"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 191.5038,618.19945 C 234.78891,616.88778 234.78891,616.88778 234.78891,616.88778 L 234.78891,616.88778"
+         id="path2483" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 190.19213,696.89964 C 229.54223,696.89964 229.54223,696.89964 229.54223,696.89964"
+         id="path2485" />
+    </g>
+    <rect
+       ry="1.0272161"
+       rx="0.50870508"
+       y="48.007893"
+       x="552.43878"
+       height="51.703281"
+       width="180.62447"
+       id="rect3367"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.23619330000000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="/home/juan/org3.png"
+       inkscape:export-xdpi="74"
+       inkscape:export-ydpi="74" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       x="557.64691"
+       y="82.722939"
+       id="text3369"
+       inkscape:export-filename="/home/juan/org3.png"
+       inkscape:export-xdpi="74"
+       inkscape:export-ydpi="74"><tspan
+         sodipodi:role="line"
+         x="557.64691"
+         y="82.722939"
+         id="tspan3373">-Estudio Contable</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 551.82067,74.451912 L 358.0114,75.714511"
+       id="path3381"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/juan/org3.png"
+       inkscape:export-xdpi="74"
+       inkscape:export-ydpi="74" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       x="482.69452"
+       y="586.71936"
+       id="text3521"><tspan
+         sodipodi:role="line"
+         id="tspan3523"
+         x="482.69452"
+         y="586.71936" /></text>
+    <g
+       id="g3622"
+       transform="translate(-154.77704,-57.713475)"
+       inkscape:export-filename="/home/juan/org3.png"
+       inkscape:export-xdpi="74"
+       inkscape:export-ydpi="74">
+      <g
+         inkscape:export-ydpi="74"
+         inkscape:export-xdpi="74"
+         inkscape:export-filename="/home/juan/org2.png"
+         transform="translate(-23.610058,14.428369)"
+         id="g3550">
+        <rect
+           ry="1.0272161"
+           rx="0.50870508"
+           y="539.88104"
+           x="74.958176"
+           height="51.703281"
+           width="180.62447"
+           id="rect3537"
+           style="fill:#cfd7d6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.2361933;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="/home/juan/org1.png"
+           inkscape:export-xdpi="74"
+           inkscape:export-ydpi="74" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="161.3354"
+           y="559.17426"
+           id="text3501"><tspan
+             sodipodi:role="line"
+             x="161.3354"
+             y="559.17426"
+             id="tspan3507">Administrador</tspan><tspan
+             sodipodi:role="line"
+             x="161.3354"
+             y="584.17426"
+             id="tspan2467">de Base de Datos</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="74"
+         inkscape:export-xdpi="74"
+         inkscape:export-filename="/home/juan/org2.png"
+         transform="translate(35.415087,5.2466795)"
+         id="g3544">
+        <rect
+           ry="1.0272161"
+           rx="0.50870508"
+           y="546.43939"
+           x="237.60524"
+           height="51.703281"
+           width="180.62447"
+           id="rect3535"
+           style="fill:#cfd7d6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.2361933;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="/home/juan/org1.png"
+           inkscape:export-xdpi="74"
+           inkscape:export-ydpi="74" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="278.07401"
+           y="577.53766"
+           id="text3511"><tspan
+             sodipodi:role="line"
+             x="278.07401"
+             y="577.53766"
+             id="tspan3515">Aplicaciones</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="74"
+         inkscape:export-xdpi="74"
+         inkscape:export-filename="/home/juan/org2.png"
+         transform="translate(44.596776,3.9350096)"
+         id="g3539">
+        <rect
+           inkscape:export-ydpi="74"
+           inkscape:export-xdpi="74"
+           inkscape:export-filename="/home/juan/org1.png"
+           style="fill:#cfd7d6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.2361933;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect3533"
+           width="180.62447"
+           height="51.703281"
+           x="452.71909"
+           y="547.75098"
+           rx="0.50870508"
+           ry="1.0272161" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="484.00623"
+           y="580.16095"
+           id="text3517"><tspan
+             sodipodi:role="line"
+             id="tspan3519"
+             x="484.00623"
+             y="580.16095">Infraestructura</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="74"
+         inkscape:export-xdpi="74"
+         inkscape:export-filename="/home/juan/org2.png"
+         transform="translate(31.480078,-26.233398)"
+         id="g3556">
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="268.89233"
+           y="484.40912"
+           id="text3497"><tspan
+             sodipodi:role="line"
+             id="tspan3499"
+             x="268.89233"
+             y="484.40912">Sistemas</tspan></text>
+        <rect
+           ry="1.0272161"
+           rx="0.50870508"
+           y="454.62247"
+           x="244.16359"
+           height="51.703281"
+           width="180.62447"
+           id="rect3525"
+           style="fill:#cfd7d6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.2361933;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="/home/juan/org1.png"
+           inkscape:export-xdpi="74"
+           inkscape:export-ydpi="74" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="280.69736"
+           y="472.6041"
+           id="text3527"><tspan
+             sodipodi:role="line"
+             id="tspan3529"
+             x="280.69736"
+             y="472.6041">Area</tspan><tspan
+             sodipodi:role="line"
+             x="280.69736"
+             y="497.6041"
+             id="tspan3531">de Sistemas</tspan></text>
+      </g>
+      <path
+         inkscape:export-ydpi="74"
+         inkscape:export-xdpi="74"
+         inkscape:export-filename="/home/juan/org2.png"
+         inkscape:connection-end="#g3556"
+         inkscape:connection-start="#g3544"
+         inkscape:connector-type="polyline"
+         id="path3564"
+         d="M 363.89575,551.06797 L 365.39271,480.71045"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="74"
+         inkscape:export-xdpi="74"
+         inkscape:export-filename="/home/juan/org2.png"
+         inkscape:connector-type="polyline"
+         id="path3566"
+         d="M 140.34868,508.01918 L 586.31644,509.33085"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="74"
+         inkscape:export-xdpi="74"
+         inkscape:export-filename="/home/juan/org2.png"
+         inkscape:connection-start="#g3539"
+         inkscape:connector-type="polyline"
+         id="path3568"
+         d="M 587.12867,551.06789 L 586.31644,508.01918"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="74"
+         inkscape:export-xdpi="74"
+         inkscape:export-filename="/home/juan/org2.png"
+         inkscape:connector-type="polyline"
+         id="path3570"
+         d="M 138.57615,554.15922 L 138.56911,506.23961"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.06419917px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <g
+         transform="translate(203.30883,3.9350096)"
+         id="g3615">
+        <rect
+           inkscape:export-ydpi="74"
+           inkscape:export-xdpi="74"
+           inkscape:export-filename="/home/juan/org1.png"
+           style="fill:#cfd7d6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.2361933;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect3596"
+           width="180.62447"
+           height="51.703281"
+           x="178.58009"
+           y="648.74963"
+           rx="0.50870508"
+           ry="1.0272161" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="196.75052"
+           y="682.47131"
+           id="text3598"><tspan
+             sodipodi:role="line"
+             id="tspan3600"
+             x="196.75052"
+             y="682.47131">Analisis y Diseño</tspan></text>
+      </g>
+      <g
+         transform="translate(201.99716,70.830156)"
+         id="g2471">
+        <rect
+           inkscape:export-ydpi="74"
+           inkscape:export-xdpi="74"
+           inkscape:export-filename="/home/juan/org1.png"
+           style="fill:#cfd7d6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.2361933;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2473"
+           width="180.62447"
+           height="51.703281"
+           x="178.58009"
+           y="648.74963"
+           rx="0.50870508"
+           ry="1.0272161" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+           x="222.98392"
+           y="682.47131"
+           id="text2475"><tspan
+             sodipodi:role="line"
+             id="tspan2477"
+             x="222.98392"
+             y="682.47131">Desarrollo</tspan></text>
+      </g>
+      <path
+         inkscape:export-ydpi="74"
+         inkscape:export-xdpi="74"
+         inkscape:export-filename="/home/juan/org2.png"
+         inkscape:connector-type="polyline"
+         id="path2479"
+         d="M 345.68611,755.53471 L 346.87557,604.16116"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.30749583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
