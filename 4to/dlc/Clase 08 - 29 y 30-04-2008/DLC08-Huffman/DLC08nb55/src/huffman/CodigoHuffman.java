@@ -1,0 +1,84 @@
+/**
+ * Representa el código Huffman de un signo del alfabeto de entrada.
+ * 
+ * @author Ing. Valerio Frittelli
+ * @version Octubre de 2004
+ */
+package huffman;
+public class CodigoHuffman
+{
+    public static final int MAXBITS = 175;    // máxima cantidad de bits que aceptamos para un código
+    private byte bits[];                      // acá guardamos los bits, de atrás hacia adelante
+    private int startPos;                     // indica dónde comienza la cadena de bits dentro del vector 
+
+    /**
+     *  Constructor por defecto. Ajusta startPos en MAXBITS y crea el vector de tamaño MAXBITS
+     */
+    public CodigoHuffman() 
+    { 
+        startPos = MAXBITS; 
+        bits = new byte[MAXBITS]; 
+    }
+    
+    /**
+     *  Constructor. Inicializa el objeto con los datos tomados de otro, que viene como parámetro
+     */
+    public CodigoHuffman (CodigoHuffman c)
+    {
+        for(int i = c.startPos; i < MAXBITS; i++)
+        {
+            bits[i] = c.bits[i];
+        }
+        startPos = c.startPos;
+    }
+    
+    /**
+     *  Acceso al valor de startPos
+     *  @return el valor de startPos
+     */
+    public int getStartPos() 
+    {
+        return startPos;
+    }
+    
+    /**
+     * Ajusta el valor de un bit específico en la posición startPos -1
+     * @param bit el bit a almacenar en la posición que corresponde en el momento de la invocación (startPos - 1)
+     */
+    public void setBit(byte bit)
+    {
+        try
+        {
+            startPos--;
+            bits[startPos] = bit;
+        }
+        catch(IndexOutOfBoundsException e)
+        {
+            System.out.println("Error: no alcanza el vector de bits...");
+            System.exit(1);
+        }
+    }
+    
+    /**
+     *  Accede al vector que contiene al código Huffman del signo
+     *  @return una referencia al vector que contiene al código
+     */
+    public byte[] getCodigo()
+    {
+        return bits;
+    }
+    
+    /**
+     *  Obtiene una cadena con la respesentación del objeto
+     *  @return una cadena con todos los bits presentes en el vector bits
+     */
+    public String toString()
+    {
+       StringBuffer res = new StringBuffer("");
+       for(int i = startPos; i < MAXBITS; i++)
+       {
+           res.append(bits[i]);
+       }
+       return res.toString();
+    }
+}

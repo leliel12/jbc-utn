@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=class\ Nodo
+comment0.text=\nClase\ para\ representar\ un\ nodo\ gen\u00E9rico\ para\ una\ lista\ gen\u00E9rica.\n@author\ Ing.\ Valerio\ Frittelli\n@version\ Abril\ de\ 2004\n\n
+comment1.params=
+comment1.target=Comparable\ getInfo()
+comment1.text=\nAccede\ al\ valor\ del\ info\n@return\ el\ valor\ del\ info\n\n
+comment2.params=p
+comment2.target=void\ setInfo(Comparable)
+comment2.text=\nCambia\ el\ valor\ del\ info\n@param\ p\ nuevo\ valor\ del\ info\n\n
+comment3.params=
+comment3.target=Nodo()
+comment3.text=\nConstructor\ por\ defecto.\ \n\n
+comment4.params=x\ p
+comment4.target=Nodo(Comparable,Nodo)
+comment4.text=\nCrea\ un\ nodo\ incializando\ todos\ los\ atributos\ en\ base\ a\ par\u00E1metros\ \n\n
+comment5.target=next
+comment6.params=
+comment6.target=String\ toString()
+comment6.text=\nConvierte\ el\ contenido\ del\ nodo\ en\ String\n@return\ el\ contenido\ del\ nodo\ convertido\ en\ String\n\n
+comment7.target=info
+comment8.params=
+comment8.target=Nodo\ getNext()
+comment8.text=\nAccede\ a\ la\ direcci\u00F3n\ del\ sucesor\n@return\ la\ direcci\u00F3n\ del\ nodo\ sucesor\n\n
+comment9.params=p
+comment9.target=void\ setNext(Nodo)
+comment9.text=\nCambia\ la\ direcci\u00F3n\ del\ sucesor\n@param\ p\ direcci\u00F3n\ del\ nuevo\ sucesor\n\n
+numComments=10

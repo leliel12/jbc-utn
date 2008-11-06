@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ColaDePrioridad()
+comment0.text=\nConstructor\ por\ defecto\n\n
+comment1.target=Nodo\ getFrente()
+comment1.text=\nAcceso\ a\ la\ direcci\u00F3n\ del\ primer\ Nodo\n@return\ direcci\u00F3n\ del\ primer\ Nodo\n\n
+comment2.params=p
+comment2.target=void\ setFrente(Nodo)
+comment2.text=\nModifica\ la\ direcci\u00F3n\ del\ primer\ Nodo\n@param\ p\ nueva\ direcci\u00F3n\ del\ primer\ Nodo\n\n
+comment3.params=x
+comment3.target=void\ insertar(Comparable)
+comment3.text=\nInserta\ un\ nodo\ en\ forma\ ordenada\n@param\ x\ el\ objeto\ a\ almacenar\ en\ el\ nuevo\ nodo\n\n
+comment4.target=Comparable\ borrar()
+comment4.text=\nElimina\ el\ primer\ nodo\n@return\ una\ referencia\ al\ info\ del\ nodo\ eliminado,\ o\ null\ si\ la\ lista\ estaba\ vac\u00EDa\n\n
+comment5.params=x
+comment5.target=Nodo\ buscar(Comparable)
+comment5.text=\nBusca\ un\ nodo\ en\ la\ lista\ que\ contenga\ al\ objeto\ x\ \n@param\ x\ el\ objeto\ a\ buscar\n@return\ una\ referencia\ al\ nodo\ que\ contiene\ a\ x,\ si\ exist\u00EDa\ tal\ nodo,\ o\ null\ si\ no\ exist\u00EDa\n\n
+comment6.target=String\ toString()
+comment6.text=\nRedefine\ el\ m\u00E9todo\ toString\n@return\ el\ contenido\ de\ la\ lista\ convertido\ a\ String\n\n
+numComments=7

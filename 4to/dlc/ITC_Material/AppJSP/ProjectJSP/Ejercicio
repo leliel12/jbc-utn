@@ -1,0 +1,7 @@
+
+Realizar una JSP, que contenga lo siguiente:
+Titulo: Mi Pagina JSP
+Debe tener un mensaje de bienvenida en otra JSP (use include)
+Debe mostar la fecha actual (utilice el paquete java.util)
+realice un Servlet el cual se ejecutará primero, pasandole como parámetro 
+a la JSP su nombre completo, el cual deberá ser mostrado en la primer JSP.

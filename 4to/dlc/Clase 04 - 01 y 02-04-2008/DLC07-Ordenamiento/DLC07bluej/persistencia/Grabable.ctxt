@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=int\ sizeOf()
+comment0.text=\nCalcula\ el\ tama\u00F1o\ en\ bytes\ del\ objeto,\ tal\ como\ ser\u00E1\ grabado\ en\ un\ RegisterFile.\ \n@return\ el\ tama\u00F1o\ en\ bytes\ del\ objeto.\n\n
+comment1.params=a
+comment1.target=void\ grabar(RandomAccessFile)
+comment1.text=\nIndica\ c\u00F3mo\ grabar\ un\ objeto\ en\ un\ RandomAccessFile.\ Este\ m\u00E9todo\ ser\u00E1\ invocado\ por\ los\ \nm\u00E9todos\ de\ la\ clase\ RegisterFile\ para\ almacenar\ el\ objeto\ en\ disco.\n@param\ el\ RandomAccessFile\ donde\ ser\u00E1\ grabado\ el\ objeto\n\n
+comment2.params=a
+comment2.target=void\ leer(RandomAccessFile)
+comment2.text=\nIndica\ c\u00F3mo\ leer\ un\ objeto\ desde\ un\ RandomAccessFile.\ Este\ m\u00E9todo\ ser\u00E1\ invocado\ por\ los\ \nm\u00E9todos\ de\ la\ clase\ RegisterFile\ para\ leer\ el\ objeto\ desde\ disco.\n@param\ a\ el\ archivo\ donde\ se\ har\u00E1\ la\ lectura\n\n
+numComments=3

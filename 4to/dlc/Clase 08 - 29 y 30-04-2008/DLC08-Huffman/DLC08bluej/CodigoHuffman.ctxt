@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CodigoHuffman()
+comment0.text=\nConstructor\ por\ defecto.\ Ajusta\ startPos\ en\ MAXBITS\ y\ crea\ el\ vector\ de\ tama\u00F1o\ MAXBITS\n\n
+comment1.params=c
+comment1.target=CodigoHuffman(CodigoHuffman)
+comment1.text=\nConstructor.\ Inicializa\ el\ objeto\ con\ los\ datos\ tomados\ de\ otro,\ que\ viene\ como\ par\u00E1metro\n\n
+comment2.target=int\ getStartPos()
+comment2.text=\nAcceso\ al\ valor\ de\ startPos\n@return\ el\ valor\ de\ startPos\n\n
+comment3.params=bit
+comment3.target=void\ setBit(byte)
+comment3.text=\nAjusta\ el\ valor\ de\ un\ bit\ espec\u00EDfico\ en\ la\ posici\u00F3n\ startPos\ -1\n@param\ bit\ el\ bit\ a\ almacenar\ en\ la\ posici\u00F3n\ que\ corresponde\ en\ el\ momento\ de\ la\ invocaci\u00F3n\ (startPos\ -\ 1)\n\n
+comment4.target=byte[]\ getCodigo()
+comment4.text=\nAccede\ al\ vector\ que\ contiene\ al\ c\u00F3digo\ Huffman\ del\ signo\n@return\ una\ referencia\ al\ vector\ que\ contiene\ al\ c\u00F3digo\n\n
+comment5.target=String\ toString()
+comment5.text=\nObtiene\ una\ cadena\ con\ la\ respesentaci\u00F3n\ del\ objeto\n@return\ una\ cadena\ con\ todos\ los\ bits\ presentes\ en\ el\ vector\ bits\n\n
+numComments=6

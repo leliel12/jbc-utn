@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib>
+  <description>BaseTL 1.0 core library</description>
+  <info>Tag library para BaseClass</info>
+  <display-name>BaseTL core</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>bt</short-name>
+
+  <tag>
+    <name>showAttribute</name>
+    <tagclass>utn.frc.dlc.barg.web.tag.BaseTagShow</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>Muestra un atributo</info>
+    <attribute>
+        <description>
+        	Se refiere al objeto BaseClass del cual se quiere mostrar un atributo
+        </description>
+        <name>object</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <description>
+        	Se refiere al atributo del objeto BaseClass que se quiere mostrar
+        </description>
+        <name>attribute</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>         
+  <tag>
+    <name>setAttribute</name>
+    <tagclass>utn.frc.dlc.barg.web.tag.BaseTagSet</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>Setea un atributo en PageScope</info>
+    <attribute>
+        <description>
+        	Se refiere al objeto BaseClass del cual se quiere obtener un atributo
+        </description>
+        <name>object</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <description>
+        	Se refiere al atributo del objeto BaseClass que se quiere obtener
+        </description>
+        <name>attribute</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <description>
+        	Se refiere a la variable en PageScope donde se almacenará el atributo obtenido
+        </description>
+        <name>var</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>         
+</taglib>

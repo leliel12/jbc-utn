@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BArg">
+        <wb-resource deploy-path="/" source-path="/"/>
+        <dependent-module deploy-path="/" handle="module:/resource/BArg-war/BArg-war">
+            <dependent-object>WebModule_1190410609156</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

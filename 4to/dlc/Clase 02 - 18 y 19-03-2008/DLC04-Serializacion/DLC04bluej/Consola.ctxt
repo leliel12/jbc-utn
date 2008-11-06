@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=String\ readLine()
+comment0.text=\nLee\ un\ string\ desde\ teclado.\ El\ string\ termina\ con\ un\ salto\ de\ linea\n@return\ el\ string\ leido\ (sin\ el\ salto\ de\ linea)\n\n
+comment1.target=int\ readInt()
+comment1.text=\nLee\ un\ integer\ desde\ teclado.\ La\ entrada\ termina\ con\ un\ salto\ de\ linea\n@return\ el\ valor\ cargado,\ como\ un\ int\n\n
+comment2.target=double\ readDouble()
+comment2.text=\nLee\ un\ double\ desde\ teclado.\ La\ entrada\ termina\ con\ un\ salto\ de\ linea\n@return\ el\ valor\ cargado,\ como\ un\ double\n\n
+numComments=3

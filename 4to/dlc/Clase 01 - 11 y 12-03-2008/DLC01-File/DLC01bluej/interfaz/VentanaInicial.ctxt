@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=VentanaInicial()
+comment0.text=Creates\ new\ form\ VentanaInicial\ \n
+comment1.target=void\ initComponents()
+comment1.text=This\ method\ is\ called\ from\ within\ the\ constructor\ to\ninitialize\ the\ form.\nWARNING\:\ Do\ NOT\ modify\ this\ code.\ The\ content\ of\ this\ method\ is\nalways\ regenerated\ by\ the\ Form\ Editor.\n\n
+comment2.params=evt
+comment2.target=void\ aboutActionPerformed(java.awt.event.ActionEvent)
+comment3.params=evt
+comment3.target=void\ propiedadesActionPerformed(java.awt.event.ActionEvent)
+comment4.params=evt
+comment4.target=void\ jButton2ActionPerformed(java.awt.event.ActionEvent)
+comment5.params=evt
+comment5.target=void\ explorarActionPerformed(java.awt.event.ActionEvent)
+comment6.params=evt
+comment6.target=void\ jbExplActionPerformed(java.awt.event.ActionEvent)
+comment7.params=evt
+comment7.target=void\ salirActionPerformed(java.awt.event.ActionEvent)
+comment8.target=void\ explorar()
+comment9.target=void\ directorio()
+numComments=10

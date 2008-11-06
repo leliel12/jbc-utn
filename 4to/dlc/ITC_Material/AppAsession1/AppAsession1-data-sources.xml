@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<data-sources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xmlns.oracle.com/oracleas/schema/data-sources-10_1.xsd" xmlns="http://xmlns.oracle.com/oracleas/schema">
+    <connection-pool name="jdev-connection-pool-DBConnection3">
+        <connection-factory factory-class="com.mysql.jdbc.Driver" user="root" password="->DataBase_User_YC90q2Ew_wBvGA6UJXB999dDDmrU8FvuLEESFNo4Md0=" url="jdbc:mysql://localhost:3306/manager"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-DBConnection3" jndi-name="jdbc/DBConnection3DS" connection-pool-name="jdev-connection-pool-DBConnection3"/>
+    <connection-pool name="jdev-connection-pool-DBConnection2">
+        <connection-factory factory-class="com.mysql.jdbc.Driver" user="root" password="->DataBase_User_w-kVTEj82RNs6sTVbHJkLONIq4uI1E5DDs2LBjKQ_BA=" url="jdbc:mysql://localhost:3306/manager"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-DBConnection2" jndi-name="jdbc/DBConnection2DS" connection-pool-name="jdev-connection-pool-DBConnection2"/>
+    <connection-pool name="jdev-connection-pool-DBConnection4">
+        <connection-factory factory-class="com.mysql.jdbc.Driver" user="root" password="->DataBase_User_zX0d1iIe8XCpa_7csuePDglkvczULCkcGUgTSZGX6KY=" url="jdbc:mysql://localhost:3306/prepaga"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-DBConnection4" jndi-name="jdbc/DBConnection4DS" connection-pool-name="jdev-connection-pool-DBConnection4"/>
+    <connection-pool name="jdev-connection-pool-DBConnection5">
+        <connection-factory factory-class="com.mysql.jdbc.Driver" user="root" password="->DataBase_User_wHVCMbUWXYC34yMS6yfu5QAJ56cO7OZGXnuvXLlOTMg=" url="jdbc:mysql://localhost:3306/prepaga"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-DBConnection5" jndi-name="jdbc/DBConnection5DS" connection-pool-name="jdev-connection-pool-DBConnection5"/>
+    <connection-pool name="jdev-connection-pool-DBConnection1">
+        <connection-factory factory-class="oracle.jdbc.pool.OracleDataSource" url="jdbc:oracle:thin:@localhost:1521:ORCL"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-DBConnection1" jndi-name="jdbc/DBConnection1DS" connection-pool-name="jdev-connection-pool-DBConnection1"/>
+</data-sources>

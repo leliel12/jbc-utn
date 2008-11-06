@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=nom\ ed
+comment0.target=Persona(String,\ int)
+comment0.text=\nCrea\ un\ objeto\ con\ los\ valores\ tomados\ como\ parametro\n\n
+comment1.target=String\ getNombre()
+comment1.text=\nAcceso\ al\ nombre\n@return\ el\ nombre\ de\ la\ persona\n\n
+comment2.target=int\ getEdad()
+comment2.text=\nAcceso\ a\ la\ edad\n@return\ el\ valor\ de\ la\ edad\n\n
+comment3.params=nom
+comment3.target=void\ setNombre(String)
+comment3.text=\nCambia\ el\ nombre\n@param\ nom\ el\ nuevo\ nombre\n\n
+comment4.params=ed
+comment4.target=void\ setEdad(int)
+comment4.text=\nCambia\ la\ edad\n@param\ ed\ la\ nueva\ edad\n\n
+comment5.target=String\ toString()
+comment5.text=\nRedefinicion\ del\ metodo\ que\ se\ hereda\ de\ Object\n@return\ la\ representacion\ como\ String\ del\ contenido\ del\ objeto\n\n
+comment6.params=x
+comment6.target=int\ compareTo(Object)
+comment6.text=\nRedefinicion\ del\ metodo\ pedido\ por\ la\ interfaz\ Comparable\n@param\ x\ El\ objeto\ a\ comparar\ contra\ el\ parametro\ implicito\n@return\ 0\ si\ los\ nombres\ son\ iguales,\ negativo\ si\ el\ nombre\ del\ implicito\ es\ menor,\ positivo\ si\ es\ mayor.\n\n
+numComments=7

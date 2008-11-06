@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+<jsp-scripting>
+        <session>
+            <variable name="personas" type="java.util.List">
+                <collectionProperty name="personas">
+                    <contains type="utn.frc.dlc.javalib.base.Persona"/>
+                </collectionProperty>
+            </variable>
+        </session>
+    </jsp-scripting>
+<beanData>
+        <bean id="/BArg-war/WebContent/PersonasJSF.jsp" type="java.util.ArrayList">
+            <collectionProperty name="personas">
+                <contains type="utn.frc.dlc.javalib.base.Persona"/>
+            </collectionProperty>
+        </bean>
+    <bean id="/BArg-war/WebContent/PersonasJSF.jsp" type="java.util.List">
+            <collectionProperty name="personas">
+                
+            <contains type="utn.frc.dlc.javalib.base.Persona"/>
+            </collectionProperty>
+        </bean>
+    </beanData>
+</persistence>

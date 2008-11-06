@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=int\ getCodigo()
+comment1.params=c
+comment1.target=void\ setCodigo(int)
+comment10.target=void\ leer()
+comment10.text=\nEste\ m\u00E9todo\ muestra\ la\ forma\ b\u00E1sica\ de\ leer\ datos\ desde\ un\ RandomAccessFile.\n\n
+comment2.target=String\ getNombre()
+comment3.params=n
+comment3.target=void\ setNombre(String)
+comment4.target=float\ getSueldo()
+comment5.params=f
+comment5.target=void\ setSueldo(float)
+comment6.target=byte\ getEdad()
+comment7.params=e
+comment7.target=void\ setEdad(byte)
+comment8.target=String\ toString()
+comment8.text=\nRetorna\ una\ cadena\ con\ el\ contenido\ de\ los\ atributos\ de\ prueba\n\n
+comment9.target=void\ grabar()
+comment9.text=\nEste\ m\u00E9todo\ muestra\ la\ forma\ b\u00E1sica\ de\ abrir\ (y\ posiblemente\ crear)\ un\narchivo\ con\ un\ RandomAccessFile,\ para\ luego\ grabar\ algunos\ valores\ en\ \u00E9l.\n\n
+numComments=11

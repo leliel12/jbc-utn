@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=m\ obj
+comment0.target=void\ mostrarTodo(RegisterFile<?\ extends\ Grabable>,\ Grabable)
+comment0.text=\nMuestra\ el\ contenido\ de\ un\ archivo\ (incluidos\ los\ registros\ marcados\ como\ borrados)\ en\ consola\ estandar\n\n
+comment1.params=m\ obj
+comment1.target=void\ mostrar(RegisterFile<?\ extends\ Grabable>,\ Grabable)
+comment1.text=\nMuestra\ el\ contenido\ del\ archivo\ (s\u00F3lo\ los\ registros\ que\ no\ est\u00E9n\ marcados\ como\ borrados)\ en\ consola\ estandar\n\n
+comment2.target=void\ cargarLegajo()
+comment2.text=\nCarga\ un\ legajo\ por\ teclado\ \n\n
+comment3.target=void\ leerAlumno()
+comment3.text=\nCarga\ un\ registro\ de\ Alumno\ por\ teclado\ \n\n
+comment4.params=reg
+comment4.target=void\ mostrarRegistro(Register)
+comment4.text=\nMuestra\ un\ registro\ por\ consola\ estandar\ \n\n
+comment5.params=args
+comment5.target=void\ main(String[])
+numComments=6

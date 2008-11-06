@@ -1,0 +1,26 @@
+#BlueJ package file
+dependency1.from=Principal
+dependency1.to=VentanaEditor
+dependency1.type=UsesDependency
+package.editor.height=400
+package.editor.width=560
+package.editor.x=50
+package.editor.y=50
+package.numDependencies=1
+package.numTargets=2
+package.showExtends=true
+package.showUses=true
+target1.height=50
+target1.name=Principal
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=80
+target1.x=340
+target1.y=130
+target2.height=50
+target2.name=VentanaEditor
+target2.showInterface=false
+target2.type=ClassTarget
+target2.width=100
+target2.x=90
+target2.y=200

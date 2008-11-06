@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Listado()
+comment0.text=\nPor\ default,\ se\ crea\ un\ Listado\ de\ 10\ elementos\ de\ largo,\ con\ referencias\ nulas\n\n
+comment1.params=n
+comment1.target=Listado(int)
+comment1.text=\nCrea\ un\ Listado\ de\ n\ elementos\ de\ largo,\ con\ referencias\ nulas,\ siempre\ y\ cuando\ n\ sea\ mayor\ a\ cero.\ De\ lo\ contrario,\ el\ Listado\nse\ crea\ de\ tamano\ 10\n\n
+comment2.target=int\ length()
+comment2.text=\nMetodo\ de\ acceso\ para\ el\ tamano\ del\ Listado.\ Provisto\ en\ lugar\ de\ "getLargo"\ por\ razones\ de\ claridad\n@return\ el\ tamano\ del\ Listado\n\n
+comment3.target=int\ getPrimeraLibre()
+comment3.text=\nMetodo\ de\ acceso\ al\ indice\ de\ la\ primera\ casilla\ libre\ en\ el\ Listado.\ \n@return\ el\ tamano\ del\ Listado\n\n
+comment4.target=String\ toString()
+comment4.text=\nRedefinicion\ del\ metodo\ toString\ heredado\ desde\ Object\n@return\ una\ cadena\ con\ el\ contenido\ del\ Listado\ para\ ser\ visualizado\n\n
+comment5.params=x
+comment5.target=boolean\ add(Comparable)
+comment5.text=\nAgrega\ un\ elemento\ al\ Listado,\ en\ la\ primera\ casilla\ libre.\ El\ metodo\ supone\ que\ el\ atributo\ "libre"\ indica\ el\ indice\ de\ la\ primera\ncasilla\ que\ esta\ desocupada\ en\ el\ arreglo,\ completandose\ de\ izquierda\ a\ derecha\n@param\ x\ el\ objeto\ Comparable\ a\ anadir\ al\ Listado\n@return\ true\ si\ el\ anadido\ tuvo\ exito\ -\ false\ si\ el\ objeto\ no\ pudo\ anadirse\ (por\ falta\ de\ lugar).\n\n
+comment6.params=i
+comment6.target=Comparable\ get(int)
+comment6.text=\nDevuelve\ una\ referencia\ al\ objeto\ ubicado\ en\ la\ posicion\ i\ del\ Listado,\ sin\ removerlo\ del\ mismo.\n@param\ i\ el\ indice\ de\ la\ casilla\ con\ el\ objeto\ a\ retornar\n@return\ la\ referencia\ al\ objeto,\ o\ null\ si\ el\ indice\ estaba\ fuera\ de\ rango\n\n
+comment7.params=x
+comment7.target=int\ buscar(Comparable)
+comment7.text=\nBusca\ un\ objeto\ en\ el\ Listado\n@param\ x\ el\ objeto\ a\ buscar\n@return\ el\ indice\ la\ casilla\ que\ contiene\ a\ x,\ si\ existe.\ Si\ x\ no\ existe\ en\ el\ Listado,\ retorna\ -1\n\n
+comment8.target=void\ ordenar()
+comment8.text=\nOrdena\ el\ Listado\ con\ el\ metodo\ Quick\ Sort\n\n
+comment9.params=izq\ der
+comment9.target=void\ quick(int,\ int)
+numComments=10

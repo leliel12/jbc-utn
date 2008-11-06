@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=void\ grabar()
+comment0.text=\nGraba\ un\ objeto\ de\ tipo\ Listado\ en\ disco\n@throws\ FileNotFoundException\ -\ IOException\ si\ el\ archivo\ no\ puede\ abrirse\n\n
+comment1.target=void\ leer()
+comment1.text=\nLee\ un\ objeto\ de\ tipo\ Listado\ desde\ disco\n@throws\ FileNotFoundException\ -\ IOException\ si\ el\ archivo\ no\ puede\ abrirse\n@throws\ ClassNotFoundException\ si\ hay\ un\ error\ de\ moldeo\ al\ levantar\ el\ objeto\n\n
+comment2.params=args
+comment2.target=void\ main(String[])
+numComments=3
