@@ -1,11 +1,11 @@
-*************************
+﻿*************************
 * NO EDITE ESTE ARCHIVO *
 *************************
 
 ***************************************************************
 *	jbc-utn-frc SVN STRUCTURE:                            *
 *       --------------------------                            *
-*		VERSION: 2.0.1                                *
+*		VERSION: 1.0                                  *
 *		FECHA: 08/11/08 05:38:04                      *
 *		AUTOR: JuanBC 	<leliel12@sourceforge.net>    *
 *               CODE: UTF-8                                   *
@@ -16,7 +16,7 @@ LICENCIA:
 ---------
 
 
-﻿	- Toda Documentacion (inckuyendo este archivo)
+﻿	- Toda Documentación (incluyendo este archivo)
 	  contenida en este SVN se encuentra bajo:
         
         Copyright 2008 Juan BC <leliel12@sourceforge.net> 
@@ -48,8 +48,11 @@ LICENCIA:
 ESTRUCTURA:
 -----------
 
+/<YEAR>/<CATEDRA>/
+	carpeta de trabajo de una cátedra.
+
 /<YEAR>/<CATEDRA>/<WORK>
-	carpeta de trabajo de un practico correspondiente a alguna catedra
+	carpeta de trabajo de un practico correspondiente a alguna cátedra
 	ordenadas por año
 
 
@@ -60,7 +63,7 @@ GLOSARIO:
 <YEAR>:
 	Año de cursado. [1..5]
 <CATEDRA>:
-	Catedra de la carrera.
+	Cátedra de la carrera.
 <WORK>:
 	Numero o nombre de trabajo practico.
 			
