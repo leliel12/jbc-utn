@@ -48,6 +48,16 @@ LICENCIA:
 ESTRUCTURA:
 -----------
 
+LICENSE.txt
+	licencia gpl 3
+
+README.txt
+	este archivo.
+
+GNU-MANIFEST-ES.pdf
+	Manifiesto del proyecto GNU
+	Todos deberian leerlo.
+
 /<YEAR>/<CATEDRA>/
 	carpeta de trabajo de una cátedra.
 
