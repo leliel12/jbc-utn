@@ -48,13 +48,13 @@ LICENCIA:
 ESTRUCTURA:
 -----------
 
-LICENSE.txt
+/LICENSE.txt
 	licencia gpl 3
 
-README.txt
+/README.txt
 	este archivo.
 
-GNU-MANIFEST-ES.pdf
+/GNU-MANIFEST-ES.pdf
 	Manifiesto del proyecto GNU
 	Todos deberian leerlo.
 
