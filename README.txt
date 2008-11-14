@@ -93,3 +93,9 @@ por cada uno de los mensajes.
 Los bugs de tener asignado un ID y titulo, deben estos estar en el mensaje de bugfix.
 
 
+NOTAS:
+------
+
+NUNCA USEN FORMATOS COMO *.DOC *.AI *.PSD o *.DOCx
+el texto plano debe estar en formato UTF-8, y el final
+de linea debe ser estilo unix.
