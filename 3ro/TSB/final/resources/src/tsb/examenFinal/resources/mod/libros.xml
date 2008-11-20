@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE libro [
+<!ELEMENT autor ( #PCDATA ) >
+<!ELEMENT descuento EMPTY >
+<!ATTLIST descuento cantidad CDATA #REQUIRED >
+<!ELEMENT disponible EMPTY >
+<!ATTLIST disponible tiempo CDATA #REQUIRED >
+<!ELEMENT enlacelibro EMPTY >
+<!ATTLIST enlacelibro href CDATA #REQUIRED >
+<!ELEMENT formato ( #PCDATA ) >
+<!ELEMENT libro (autor, titulo, disponible, enlacelibro, formato, publicacion|descuento, precio )* >
+<!ELEMENT precio EMPTY >
+<!ATTLIST precio cantidad CDATA #REQUIRED >
+<!ELEMENT publicacion ( #PCDATA ) >
+<!ELEMENT titulo ( #PCDATA ) >
+]>
+
+<libro>
+
+<autor> Gabriel Garcia Marquez </autor>
+<titulo> Cien anios de soledad </titulo>
+<disponible tiempo="24"/>
+<enlacelibro href="/exec/ISBN/84­473­0619­4"/>
+<formato> Rustica </formato>
+<publicacion>1967 </publicacion>
+<precio cantidad="9.99"/>
+
+<autor>Arturo Perez Reverte</autor>
+<titulo> Alatriste </titulo>
+<disponible tiempo="48"/>
+<enlacelibro/>
+<formato> deluxe </formato>
+<descuento cantidad="10%"/>
+<precio cantidad="9.99"/>
+
+</libro>
+
+

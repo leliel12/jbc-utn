@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : backup.xml
+    Created on : 15 de julio de 2008, 22:30
+    Author     : juan
+    Description:
+        Purpose of the document follows.
+-->
+<muestra la="aaa">
+        <!-- tu vieja en pelotas -->
+    <values lala="s" lal="s" lla="s">
+        <double>1</double>
+        <double>0.3</double>
+        <double lala="ss">0.2</double>
+        <double>2.1</double>
+        <double>0.9</double>
+        <double>0.4</double>
+    </values>
+    <Autoclose/>
+</muestra>

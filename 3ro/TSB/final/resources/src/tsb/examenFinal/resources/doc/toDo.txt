@@ -1,0 +1,11 @@
+﻿* agregar otra condicion de corte al XMLReader que termine con la cadena "<!DOCTYPE";
+- crear el lector de doc type;
+- que la valide si es interna o externa;
+- si es interna que genere un temporal;
+- que valide el DTD;
+- que cargue las reglas en alguna estructura de datos criptica;
+- que empiese a validar a la par xml con su respectivo dtd;
+
+
+Peores Casos de DTD
+<!DOCTYPE root_element PUBLIC "DTD_name" "DTD_location">
