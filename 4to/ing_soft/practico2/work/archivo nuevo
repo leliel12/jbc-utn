@@ -1,0 +1,19 @@
+El principal objetivo del plan de aseguramiento de calidad de software es crear un marco de referencia para el aseguramiento de calidad en todos las etapas del proyecto.
+
+
+////////////metricas de proceso/////////////////////////
+*  Que los entregables estén correctamente hechos y que estos siguen los estándares
+*  Que la calendarizacion del proyecto no se desvie en mas de un 15 porciento de lo estimado.
+* 
+//////////////////pruebas///////////////////////////////////
+
+Las actividades de aseguramiento de calidad en el plan de prueba asegurara que la administracion y seguimiento de pruebas en procesos y productos son implementadas de acuerdo al "Plan de prueba".
+El responsable de ACS debe velar por que se cumplan todas las pruebas de verificacion e integracion de manera eficiente, respetando los tiempos definidos en el "Plan de prueba".
+Otra de las tareas del responsable de ACS es asegurarse de que los resultados de todas las actividades de prueba sean debidamente registrados e informados.
+
+///////////////////////////Reportes de problemas y acciones correctivas////////////////////////
+El responsable de ACS enviara un informe semanal, describiendo los errores encontrados u oportunidades de mejora, en el que se detallara por cada area de incumbencia (requerimientos,analisis, disenio,etc) los responsables de confeccion de cada entregable y una breve descripcion o sugerencia de como realizar los cambios.
+Para el seguimiento de estos informes se asigna un estado a cada item de revision indicandole cual es la situacion actual del entregable ("Registrado","En revision","Corregido","Validado","Rechazado"), actualizando el mismo a medida que se vaya trabajando con los mismos.
+Ademas de dejar el informe semanal en el repositorio (Trunk>QA > Referirse a documento de Gestion de configuracion), se enviara un mail a los responsables de los entregables conteniendo Fecha, asunto, autor, objeto de revision, elementos revisados, documentacion resultante(colocando un link al informe almacenado) 
+
+
