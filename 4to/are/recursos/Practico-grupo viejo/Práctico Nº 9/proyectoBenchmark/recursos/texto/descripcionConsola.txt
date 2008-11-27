@@ -1,0 +1,4 @@
+La consola se utiliza para efectuar comparaciones entre benchmarks ya ejecutados sobre diversos equipos, con el fin de efectuar una mejor interpretacion de los resultados obtenidos.
+Para ello es necesario cargarlos, y estos archivos se visualizan en la esquina superior izquierda. De este modo estos constituyen los archivos de los cuales se extraeran los resultados obtenidos para generar graficos e informes.
+A traves de la seleccion de benchmark (haciendo click sobre el mismo en la lista) se visualizaran los resultados obtenidos en las pruebas ejecutadas, junto a la informacion del sistema donde estos fueron llevados a cabo.
+Para facilitar la comparacion, cada uno de los archivos cargados son agrupados por pruebas efectivamente ejecutadas y por informacion de los sistemas, a partir de los cuales se generan los graficos de barras, torta e informes asociados.

@@ -1,0 +1,7 @@
+El programa ejecuta pruebas de lectura y escritura de registros sobre un par de archivos con el fin de medir el rendimiento de la PC.
+Lo primero que debe realizarse es definir los nombres de los archivos y las respectivas longitudes de registro, sobre los cuales se ejecutaran las pruebas. Estos tienen valores por defecto los cuales pueden ser modificados a traves del boton de edicion. El boton crear crea efectivamente los archivos.
+En el panel informacion se visualiza diversa informacion sobre el entrono de ejecucion de las pruebas.
+Para ejecutar las diversas operaciones de prueba es necesario haber ejecutado la primera prueba, que realiza la apertura y grabacion de los archivos.
+Los graficos de barras y torta comparan el rendimiento comparativo de las pruebas en ambos archivos.
+Las pruebas pueden ser guardadas en forma individual, o todas simultaneamente.
+Cuando se abre el programa si hay un archivo de pruebas existente, el mismo se carga, y en caso contrario se crea uno nuevo.
