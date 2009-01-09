@@ -19,33 +19,47 @@ import java.util.Vector;
  */
 public class SmallTxtHandler implements FileHandler {
 
-    private Vector<String> words;
-    public static final String TXT_EXTENSION = ".txt";
+    public static final String TXT_EXT = ".txt";
+    public Iterator<String> words;
 
-    public SmallTxtHandler(File file) {
-        this.words = new Vector<String>();
-    }
-
-    public boolean isMyHandler(File f) {
-        String name=f.getName();
-        name=name.toLowerCase();
-        return name.endsWith(SmallTxtHandler.TXT_EXTENSION);
-    }
-
-    public Iterator iterator() {
-        return words.iterator();
-    }
-
-    private void add(String[] splitedWords) {
-        for (int i = 0; i < splitedWords.length; i++) {
-            String word = splitedWords[i];
-            word = erase(word, ".,!`\":';?");
-            if (word.split("[ ]").length > 1) {
-                this.add(word.split("[ ]"));
-            } else {
-                this.words.add(word);
-            }
+    public void setFile(File f) throws SpiderException {
+        if (!isMyHandler(f)) {
+            throw new SpiderException(f.getName() + " is not handled by an instance of " + this.getClass().getName());
         }
+        try {
+            FileReader reader = new FileReader(f);
+            String text = "";
+            try {
+                int read = 0;
+                do {
+                    read = reader.read();
+                    if (read != -1) {
+                        text += String.valueOf((char) read);
+                    }
+                } while (read != -1);
+            } catch (Exception ex) {
+                reader.close();
+            }
+            text = erase(text, "[].,!`\":';?\n");
+            this.words = toVector(text).iterator();
+        } catch (FileNotFoundException ex) {
+            throw new SpiderException(ex);
+        } catch (IOException ex) {
+            throw new SpiderException(ex);
+        }
+    }
+
+    public boolean isMyHandler(File f) throws SpiderException {
+        String normaliseName = f.getName().toLowerCase();
+        return normaliseName.endsWith(TXT_EXT);
+    }
+
+    public String getNextWord() throws SpiderException {
+        return words.next();
+    }
+
+    public boolean hasNextWord() throws SpiderException {
+        return words.hasNext();
     }
 
     private String erase(String word, String charsToBeErase) {
@@ -59,21 +73,15 @@ public class SmallTxtHandler implements FileHandler {
         return toWork;
     }
 
-    public void readFile(File file) throws FileNotFoundException, SpiderException {
-        String read = "";
-        FileReader reader = new FileReader(file);
-        try {
-            while (true) {
-                char c = (char) reader.read();
-                read += String.valueOf(c);
+    private Vector<String> toVector(String text) {
+        Vector<String> toReturn = new Vector<String>();
+        String[] splited = text.split("[ ]");
+        for (int i = 0; i < splited.length; i++) {
+            String toAdd = splited[i].trim();
+            if (!toAdd.isEmpty()) {
+                toReturn.add(toAdd);
             }
-        } catch (IOException ex) {
         }
-        String[] splitedWords = read.split("[ ]");
-        add(splitedWords);
-    }
-
-    public void clearIteratorBuffer() {
-        this.words.clear();
+        return toReturn;
     }
 }

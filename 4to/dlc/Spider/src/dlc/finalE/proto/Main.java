@@ -4,7 +4,7 @@
  */
 package dlc.finalE.proto;
 
-import dlc.finalE.spider.Connection;
+import dlc.finalE.spider.ConnectionHandler;
 import dlc.finalE.spider.SpiderException;
 import java.io.File;
 import java.util.logging.Level;
@@ -23,10 +23,21 @@ public class Main {
      */
     public static void main(String[] args) {
         try {
-            testDb = new File(System.getProperty("java.io.tmpdir") + File.separator + "testSpider.db4o");
-            print(testDb);
-            Connection.setDBFile(testDb);
-            Connection.getConnection();
+//        try {
+//            testDb = new File(System.getProperty("java.io.tmpdir") + File.separator + "testSpider.db4o");
+//            print(testDb);
+//            Connection.setDBFile(testDb);
+//            Connection.getConnection();
+//        } catch (SpiderException ex) {
+//            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+            SmallTxtHandler th = new SmallTxtHandler();
+            File f = new File("/home/juan/peopssoft001.txt");
+            print(th.isMyHandler(f));
+            th.setFile(f);
+            while(th.hasNextWord()){
+                print(th.getNextWord());
+            }
         } catch (SpiderException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }

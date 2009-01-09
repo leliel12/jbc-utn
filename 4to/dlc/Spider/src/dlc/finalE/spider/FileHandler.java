@@ -5,15 +5,19 @@
 package dlc.finalE.spider;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 
 /**
  *
  * @author juan
  */
-public interface FileHandler extends Iterable {
+public interface FileHandler {
 
-    public void readFile(File f) throws FileNotFoundException, SpiderException;
+    public void setFile(File f) throws SpiderException;
+
     public boolean isMyHandler(File f) throws SpiderException;
-    public void clearIteratorBuffer()throws SpiderException;
+
+    public String getNextWord() throws SpiderException;
+
+    public boolean hasNextWord() throws SpiderException;
+
 }
