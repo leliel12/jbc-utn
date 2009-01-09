@@ -23,9 +23,6 @@ public class SmallTxtHandler implements FileHandler {
     public Iterator<String> words;
 
     public void setFile(File f) throws SpiderException {
-        if (!isMyHandler(f)) {
-            throw new SpiderException(f.getName() + " is not handled by an instance of " + this.getClass().getName());
-        }
         try {
             FileReader reader = new FileReader(f);
             String text = "";
@@ -49,9 +46,8 @@ public class SmallTxtHandler implements FileHandler {
         }
     }
 
-    public boolean isMyHandler(File f) throws SpiderException {
-        String normaliseName = f.getName().toLowerCase();
-        return normaliseName.endsWith(TXT_EXT);
+    public String getFileHandleExtension() {
+        return TXT_EXT;
     }
 
     public String getNextWord() throws SpiderException {

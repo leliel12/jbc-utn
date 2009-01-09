@@ -14,10 +14,10 @@ public interface FileHandler {
 
     public void setFile(File f) throws SpiderException;
 
-    public boolean isMyHandler(File f) throws SpiderException;
-
     public String getNextWord() throws SpiderException;
 
     public boolean hasNextWord() throws SpiderException;
+
+    public String getFileHandleExtension();
 
 }

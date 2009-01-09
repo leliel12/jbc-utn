@@ -10,13 +10,16 @@ package dlc.finalE.spider;
  */
 public interface ConnectionHandler {
 
-    public boolean add2Vocabulary(VocNode vocNode) throws SpiderException;
+    public void add2Vocabulary(VocNode vocNode) throws SpiderException;
 
-    public boolean add2PostList(PostNode postNode) throws SpiderException;
+    public void add2PostList(PostNode postNode) throws SpiderException;
 
     public VocNode[] getFullVocabulary() throws SpiderException;
 
     public PostNode getPostOf(String word) throws SpiderException;
 
-    public boolean commit() throws SpiderException;
+    public void commit() throws SpiderException;
+
+    public void close() throws SpiderException;
+
 }
