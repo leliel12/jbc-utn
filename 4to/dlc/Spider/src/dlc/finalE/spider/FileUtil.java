@@ -54,8 +54,5 @@ abstract class FileUtil {
         return toReturn;
     }
 
-    synchronized static boolean isMyHandler(final FileHandler handler, final File file) {
-        String ext = handler.getFileHandleExtension();
-        return file.getName().endsWith(ext);
-    }
+
 }

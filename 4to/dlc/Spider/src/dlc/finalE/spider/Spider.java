@@ -7,8 +7,6 @@ package dlc.finalE.spider;
 import java.io.File;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -37,14 +35,15 @@ public class Spider implements Runnable {
         do {
             try {
                 if (!this.notYetExploredPaths.isEmpty()) {
-                    File[] toIndex = getFilesToIndex();
+                    File[] toIndexArray = getFilesToIndex();
                     this.notYetExploredPaths.clear();
-                    this.indexer(toIndex);
+                    this.indexer(toIndexArray);
                 }
                 this.wait(this.sleepTime);
             } catch (SpiderException ex) {
                 errorHandler(ex);
             } catch (InterruptedException ex) {
+                errorHandler(new SpiderException("InterruptedException", SpiderException.FATAL_ERROR));
             }
         } while (true);
     }
@@ -67,13 +66,19 @@ public class Spider implements Runnable {
     public synchronized boolean addFileHandler(final FileHandler fh) {
         boolean added = false;
         boolean exist = false;
-        String ext2add = fh.getFileHandleExtension().toLowerCase();
-        for (Iterator<FileHandler> it = fileHandlers.iterator(); it.hasNext() && !exist;) {
-            String ext = it.next().getFileHandleExtension().toLowerCase();
-            exist = exist || (ext2add.equals(ext));
-        }
-        if (!exist) {
-            added = this.fileHandlers.add(fh);
+        File exampleFile = null;
+        try {
+            exampleFile = fh.getExampleFile();
+            for (Iterator<FileHandler> it = fileHandlers.iterator(); it.hasNext() && !exist;) {
+                FileHandler fileHandler = it.next();
+                exist = fileHandler.isMyHandler(exampleFile);
+            }
+            if (!exist) {
+                this.fileHandlers.add(fh);
+                added = true;
+            }
+        } catch (SpiderException ex) {
+            errorHandler(ex);
         }
         return added;
     }
@@ -113,7 +118,7 @@ public class Spider implements Runnable {
             boolean indexed = false;
             for (Iterator<FileHandler> it = fileHandlers.iterator(); it.hasNext() && !indexed;) {
                 FileHandler handler = it.next();
-                if (FileUtil.isMyHandler(handler, file)) {
+                if (handler.isMyHandler(file)) {
                     indexer.addToDb(handler, file);
                     indexed = true;
                 }//if

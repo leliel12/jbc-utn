@@ -4,39 +4,31 @@
  */
 package dlc.finalE.spider;
 
-import dlc.finalE.spider.*;
-
 /**
  *
  * @author juan
  */
 public class VocNode {
 
-    private int nr;
-    private int maxTf;
+    private long nr;
+    private long maxTf;
+    private String word;
 
-    public VocNode(int nr, int maxTf) throws SpiderException {
-        if (nr <= 0) {
-            throw new SpiderException("nr must be > 0", SpiderException.FATAL_ERROR);
-        }
-        if (maxTf <= 0) {
-            throw new SpiderException("maxTf must be > 0", SpiderException.FATAL_ERROR);
-        }
-        this.nr = nr;
-        this.maxTf = maxTf;
+    public VocNode(String word) {
+        this.word = word;
     }
 
     /**
      * @return the nr
      */
-    public int getNr() {
+    public long getNr() {
         return nr;
     }
 
     /**
      * @param nr the nr to set
      */
-    public void setNr(int nr) throws SpiderException {
+    public void setNr(long nr) throws SpiderException {
         if (nr < this.nr) {
             throw new SpiderException("new nr must be >= old nr", SpiderException.FATAL_ERROR);
         }
@@ -46,17 +38,22 @@ public class VocNode {
     /**
      * @return the maxTf
      */
-    public int getMaxTf() {
+    public long getMaxTf() {
         return maxTf;
     }
 
     /**
      * @param maxTf the maxTf to set
      */
-    public void setMaxTf(int maxTf) throws SpiderException {
+    public void setMaxTf(long maxTf) throws SpiderException {
         if (maxTf < this.maxTf) {
             throw new SpiderException("new maxTf must be >= old maxTf", SpiderException.FATAL_ERROR);
         }
         this.maxTf = maxTf;
     }
+
+    public int hashCode(){
+        return this.word.hashCode();
+    }
+
 }

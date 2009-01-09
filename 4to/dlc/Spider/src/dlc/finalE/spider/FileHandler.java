@@ -18,6 +18,10 @@ public interface FileHandler {
 
     public boolean hasNextWord() throws SpiderException;
 
-    public String getFileHandleExtension();
+    public boolean isMyHandler(File f)throws SpiderException;
+
+    public void clearWordBuffer()throws SpiderException;
+
+    public File getExampleFile() throws SpiderException;
 
 }

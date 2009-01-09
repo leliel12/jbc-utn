@@ -15,12 +15,12 @@ public class SpiderException extends Exception {
     public static final byte FATAL_ERROR = 2;
     private byte exceptionType;
 
-    public SpiderException(byte exceptionType) throws SpiderException {
+    public SpiderException(byte exceptionType) {
         super(getExceptionTypeName(exceptionType));
         this.setExceptionType(exceptionType);
     }
 
-    public SpiderException(String msg, byte exceptionType) throws SpiderException {
+    public SpiderException(String msg, byte exceptionType) {
         super(getExceptionTypeName(exceptionType) + " - " + msg);
         this.setExceptionType(exceptionType);
     }
@@ -35,12 +35,8 @@ public class SpiderException extends Exception {
     /**
      * @param exceptionType the exceptionType to set
      */
-    private void setExceptionType(byte exceptionType) throws SpiderException {
-        if (exceptionType < WARNING && exceptionType > FATAL_ERROR) {
-            throw new SpiderException("Invalid Exception Type", FATAL_ERROR);
-        } else {
-            this.exceptionType = exceptionType;
-        }
+    private void setExceptionType(byte exceptionType) {
+        this.exceptionType = exceptionType;
     }
 
     public static String getExceptionTypeName(byte exType) {

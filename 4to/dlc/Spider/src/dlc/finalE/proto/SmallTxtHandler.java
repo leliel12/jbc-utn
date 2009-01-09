@@ -20,6 +20,7 @@ import java.util.Vector;
 public class SmallTxtHandler implements FileHandler {
 
     public static final String TXT_EXT = ".txt";
+    public static final File EXAMPLE_FILE= new File("Example.txt");
     public Iterator<String> words;
 
     public void setFile(File f) throws SpiderException {
@@ -46,9 +47,7 @@ public class SmallTxtHandler implements FileHandler {
         }
     }
 
-    public String getFileHandleExtension() {
-        return TXT_EXT;
-    }
+
 
     public String getNextWord() throws SpiderException {
         return words.next();
@@ -79,5 +78,17 @@ public class SmallTxtHandler implements FileHandler {
             }
         }
         return toReturn;
+    }
+
+    public void clearWordBuffer() throws SpiderException {
+    }
+
+    public boolean isMyHandler(File f) throws SpiderException {
+        String fName=f.getName().toLowerCase();
+        return fName.endsWith(TXT_EXT);
+    }
+
+    public File getExampleFile() throws SpiderException {
+       return SmallTxtHandler.EXAMPLE_FILE;
     }
 }
