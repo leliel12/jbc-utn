@@ -10,19 +10,54 @@ package dlc.finalE.spider;
  */
 public class SpiderException extends Exception {
 
-    public SpiderException(Exception ex) {
-        super("From Exception: " + ex.getClass().getName());
+    public static final byte WARNING = 0;
+    public static final byte ERROR = 1;
+    public static final byte FATAL_ERROR = 2;
+    private byte exceptionType;
+
+    public SpiderException(byte exceptionType) throws SpiderException {
+        super(getExceptionTypeName(exceptionType));
+        this.setExceptionType(exceptionType);
     }
 
-    public SpiderException(Exception ex, String msg) {
-        super("From Exception: " + ex.getClass().getName() + "\n" + msg);
+    public SpiderException(String msg, byte exceptionType) throws SpiderException {
+        super(getExceptionTypeName(exceptionType) + " - " + msg);
+        this.setExceptionType(exceptionType);
     }
 
-    public SpiderException() {
-        super();
+    /**
+     * @return the exceptionType
+     */
+    public byte getExceptionType() {
+        return exceptionType;
     }
 
-    public SpiderException(String msg) {
-        super(msg);
+    /**
+     * @param exceptionType the exceptionType to set
+     */
+    private void setExceptionType(byte exceptionType) throws SpiderException {
+        if (exceptionType < WARNING && exceptionType > FATAL_ERROR) {
+            throw new SpiderException("Invalid Exception Type", FATAL_ERROR);
+        } else {
+            this.exceptionType = exceptionType;
+        }
+    }
+
+    public static String getExceptionTypeName(byte exType) {
+        String toReturn;
+        switch (exType) {
+            case WARNING:
+                toReturn = "Warning";
+                break;
+            case ERROR:
+                toReturn = "Error";
+                break;
+            case FATAL_ERROR:
+                toReturn = "Fatal Error";
+                break;
+            default:
+                toReturn = "Unknow Type";
+        }
+        return toReturn;
     }
 }

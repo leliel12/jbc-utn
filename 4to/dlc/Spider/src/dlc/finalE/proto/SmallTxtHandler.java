@@ -40,9 +40,9 @@ public class SmallTxtHandler implements FileHandler {
             text = erase(text, "[].,!`\":';?\n");
             this.words = toVector(text).iterator();
         } catch (FileNotFoundException ex) {
-            throw new SpiderException(ex);
+            throw new SpiderException("File Not Found", SpiderException.WARNING);
         } catch (IOException ex) {
-            throw new SpiderException(ex);
+            throw new SpiderException("File Not Found", SpiderException.WARNING);
         }
     }
 

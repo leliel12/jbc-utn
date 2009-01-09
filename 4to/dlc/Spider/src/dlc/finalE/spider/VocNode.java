@@ -17,10 +17,10 @@ public class VocNode {
 
     public VocNode(int nr, int maxTf) throws SpiderException {
         if (nr <= 0) {
-            throw new SpiderException("nr must be > 0");
+            throw new SpiderException("nr must be > 0", SpiderException.FATAL_ERROR);
         }
         if (maxTf <= 0) {
-            throw new SpiderException("maxTf must be > 0");
+            throw new SpiderException("maxTf must be > 0", SpiderException.FATAL_ERROR);
         }
         this.nr = nr;
         this.maxTf = maxTf;
@@ -38,7 +38,7 @@ public class VocNode {
      */
     public void setNr(int nr) throws SpiderException {
         if (nr < this.nr) {
-            throw new SpiderException("new nr must be >= old nr");
+            throw new SpiderException("new nr must be >= old nr", SpiderException.FATAL_ERROR);
         }
         this.nr = nr;
     }
@@ -55,7 +55,7 @@ public class VocNode {
      */
     public void setMaxTf(int maxTf) throws SpiderException {
         if (maxTf < this.maxTf) {
-            throw new SpiderException("new maxTf must be >= old maxTf");
+            throw new SpiderException("new maxTf must be >= old maxTf", SpiderException.FATAL_ERROR);
         }
         this.maxTf = maxTf;
     }

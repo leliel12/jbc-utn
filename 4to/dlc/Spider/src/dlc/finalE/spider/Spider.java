@@ -4,36 +4,67 @@
  */
 package dlc.finalE.spider;
 
+import java.io.File;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
  * @author juan
  */
-public class Spider implements Runnable{
+public class Spider implements Runnable {
 
     private ConnectionHandler dBConnection;
     private HashSet<FileHandler> fileHandlers;
-    private HashSet<String> notYetExploredPaths;
+    private HashSet<File> notYetExploredPaths;
+    private Indexer indexer;
+    private long sleepTime;
+    private ErrorHandler errorHandler;
 
-    public Spider(ConnectionHandler conection) {
-        this.dBConnection = conection;
+    public Spider(final ConnectionHandler connection, final ErrorHandler errorHandler) {
+        this.dBConnection = connection;
         this.fileHandlers = new HashSet<FileHandler>();
-        this.notYetExploredPaths = new HashSet<String>();
-
+        this.notYetExploredPaths = new HashSet<File>();
+        this.sleepTime = 10000;
+        this.errorHandler = errorHandler;
+        indexer = new Indexer(this.dBConnection);
     }
 
     @Override
-    public void run(){
-
+    public void run() {
+        do {
+            try {
+                if (!this.notYetExploredPaths.isEmpty()) {
+                    File[] toIndex = getFilesToIndex();
+                    this.notYetExploredPaths.clear();
+                    this.indexer(toIndex);
+                }
+                this.wait(this.sleepTime);
+            } catch (SpiderException ex) {
+                errorHandler(ex);
+            } catch (InterruptedException ex) {
+            }
+        } while (true);
     }
 
-    public synchronized boolean addPath2Explore(String path) {
-        return this.notYetExploredPaths.add(path);
+    public synchronized long getSleepTime() {
+        return sleepTime;
     }
 
-    public synchronized boolean addFileHandler(FileHandler fh) {
+    public synchronized boolean setSleepTime(final long threadSleep) {
+        if (threadSleep >= 0) {
+            this.sleepTime = threadSleep;
+        }
+        return (threadSleep >= 0);
+    }
+
+    public synchronized boolean addPath2Explore(final File toExplore) {
+        return this.notYetExploredPaths.add(toExplore);
+    }
+
+    public synchronized boolean addFileHandler(final FileHandler fh) {
         boolean added = false;
         boolean exist = false;
         String ext2add = fh.getFileHandleExtension().toLowerCase();
@@ -47,7 +78,49 @@ public class Spider implements Runnable{
         return added;
     }
 
-    public synchronized boolean removeFileHandler(FileHandler fh) {
+    public synchronized boolean removeFileHandler(final FileHandler fh) {
         return this.fileHandlers.remove(fh);
     }
+
+    private void errorHandler(SpiderException ex) {
+        byte exType = ex.getExceptionType();
+        switch (exType) {
+            case SpiderException.WARNING:
+                this.errorHandler.warning(ex);
+                break;
+            case SpiderException.ERROR:
+                this.errorHandler.error(ex);
+                break;
+            case SpiderException.FATAL_ERROR:
+                this.errorHandler.fatalError(ex);
+                break;
+        }
+    }
+
+    private synchronized File[] getFilesToIndex() {
+        File[] toReturn = new File[0];
+        for (Iterator<File> it = notYetExploredPaths.iterator(); it.hasNext();) {
+            File toExplore = it.next();
+            File[] toAppend = FileUtil.getFilesOf(toExplore, true);
+            toReturn = FileUtil.appendToArray(toReturn, toAppend);
+        }
+        return toReturn;
+    }
+
+    private void indexer(final File[] toIndex) throws SpiderException {
+        for (int i = 0; i < toIndex.length; i++) {
+            File file = toIndex[i];
+            boolean indexed = false;
+            for (Iterator<FileHandler> it = fileHandlers.iterator(); it.hasNext() && !indexed;) {
+                FileHandler handler = it.next();
+                if (FileUtil.isMyHandler(handler, file)) {
+                    indexer.addToDb(handler, file);
+                    indexed = true;
+                }//if
+            }//filehandlers
+            if (!indexed) {
+                throw new SpiderException("Not FileHandler for: " + file.getAbsolutePath(), SpiderException.WARNING);
+            }
+        }//files
+    }//indexer method
 }
