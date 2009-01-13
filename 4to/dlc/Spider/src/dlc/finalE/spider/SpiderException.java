@@ -13,6 +13,7 @@ public class SpiderException extends Exception {
     public static final byte WARNING = 0;
     public static final byte ERROR = 1;
     public static final byte FATAL_ERROR = 2;
+    public static final byte FILE_HANDLER_NOT_FOUND = 3;
     private byte exceptionType;
 
     public SpiderException(byte exceptionType) {
@@ -50,6 +51,9 @@ public class SpiderException extends Exception {
                 break;
             case FATAL_ERROR:
                 toReturn = "Fatal Error";
+                break;
+            case FILE_HANDLER_NOT_FOUND:
+                toReturn="File Handler Not Found";
                 break;
             default:
                 toReturn = "Unknow Type";

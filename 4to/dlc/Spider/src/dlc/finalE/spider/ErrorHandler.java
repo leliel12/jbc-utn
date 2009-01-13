@@ -15,4 +15,7 @@ public interface ErrorHandler {
     public void error(SpiderException ex);
 
     public void fatalError(SpiderException ex);
+
+    public void fileHandlerNotFound(SpiderException ex);
+
 }

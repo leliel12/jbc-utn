@@ -22,12 +22,16 @@ public class Spider implements Runnable {
     private ErrorHandler errorHandler;
 
     public Spider(final ConnectionHandler connection, final ErrorHandler errorHandler) {
-        this.dBConnection = connection;
-        this.fileHandlers = new HashSet<FileHandler>();
-        this.notYetExploredPaths = new HashSet<File>();
-        this.sleepTime = 10000;
-        this.errorHandler = errorHandler;
-        indexer = new Indexer(this.dBConnection);
+        try {
+            this.dBConnection = connection;
+            this.fileHandlers = new HashSet<FileHandler>();
+            this.notYetExploredPaths = new HashSet<File>();
+            this.sleepTime = 10000;
+            this.errorHandler = errorHandler;
+            indexer = new Indexer(this.dBConnection);
+        } catch (SpiderException ex) {
+            this.errorWrapper(ex);
+        }
     }
 
     @Override
@@ -37,13 +41,13 @@ public class Spider implements Runnable {
                 if (!this.notYetExploredPaths.isEmpty()) {
                     File[] toIndexArray = getFilesToIndex();
                     this.notYetExploredPaths.clear();
-                    this.indexer(toIndexArray);
+                    this.indexerWrapper(toIndexArray);
                 }
                 this.wait(this.sleepTime);
             } catch (SpiderException ex) {
-                errorHandler(ex);
+                errorWrapper(ex);
             } catch (InterruptedException ex) {
-                errorHandler(new SpiderException("InterruptedException", SpiderException.FATAL_ERROR));
+                errorWrapper(new SpiderException("InterruptedException", SpiderException.FATAL_ERROR));
             }
         } while (true);
     }
@@ -78,28 +82,13 @@ public class Spider implements Runnable {
                 added = true;
             }
         } catch (SpiderException ex) {
-            errorHandler(ex);
+            errorWrapper(ex);
         }
         return added;
     }
 
     public synchronized boolean removeFileHandler(final FileHandler fh) {
         return this.fileHandlers.remove(fh);
-    }
-
-    private void errorHandler(SpiderException ex) {
-        byte exType = ex.getExceptionType();
-        switch (exType) {
-            case SpiderException.WARNING:
-                this.errorHandler.warning(ex);
-                break;
-            case SpiderException.ERROR:
-                this.errorHandler.error(ex);
-                break;
-            case SpiderException.FATAL_ERROR:
-                this.errorHandler.fatalError(ex);
-                break;
-        }
     }
 
     private synchronized File[] getFilesToIndex() {
@@ -112,7 +101,7 @@ public class Spider implements Runnable {
         return toReturn;
     }
 
-    private void indexer(final File[] toIndex) throws SpiderException {
+    private void indexerWrapper(final File[] toIndex) throws SpiderException {
         for (int i = 0; i < toIndex.length; i++) {
             File file = toIndex[i];
             boolean indexed = false;
@@ -124,8 +113,25 @@ public class Spider implements Runnable {
                 }//if
             }//filehandlers
             if (!indexed) {
-                throw new SpiderException("Not FileHandler for: " + file.getAbsolutePath(), SpiderException.WARNING);
+                throw new SpiderException("Not FileHandler for: " + file.getAbsolutePath(), SpiderException.FILE_HANDLER_NOT_FOUND);
             }
         }//files
     }//indexer method
+
+    private void errorWrapper(SpiderException ex) {
+        byte exType = ex.getExceptionType();
+        switch (exType) {
+            case SpiderException.WARNING:
+                this.errorHandler.warning(ex);
+                break;
+            case SpiderException.ERROR:
+                this.errorHandler.error(ex);
+                break;
+            case SpiderException.FATAL_ERROR:
+                this.errorHandler.fatalError(ex);
+                break;
+            default:
+                this.errorWrapper(new SpiderException("Unknown Type", SpiderException.FATAL_ERROR));
+        }
+    }
 }

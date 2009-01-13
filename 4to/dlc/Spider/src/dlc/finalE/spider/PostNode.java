@@ -5,6 +5,7 @@
 package dlc.finalE.spider;
 
 import java.io.File;
+import java.util.HashSet;
 import java.util.Hashtable;
 
 /**
@@ -22,9 +23,8 @@ public class PostNode {
     }
 
     public boolean addLocation(File file, long tf) {
-        WordLocation loc=new WordLocation(file);
-        loc.setTf(tf);
-        
+        WordLocation loc = new WordLocation(file, tf);
+        return false;
     }
 
     @Override
@@ -32,21 +32,37 @@ public class PostNode {
         return word.hashCode();
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final PostNode other = (PostNode) obj;
+        if ((this.word == null) ? (other.word != null) : !this.word.equals(other.word)) {
+            return false;
+        }
+        return true;
+    }
+
     public class WordLocation {
 
-        private String fileAblutePath;
+        private String fileAbsolutePath;
         private long tf;
 
-        public WordLocation(File file) {
+        public WordLocation(File file, long tf) {
             this.setFileAbsolutePath(file);
+            this.tf = tf;
         }
 
         public String getFileAbsolutePath() {
-            return fileAblutePath;
+            return fileAbsolutePath;
         }
 
         public void setFileAbsolutePath(File file) {
-            this.fileAblutePath = file.getAbsolutePath();
+            this.fileAbsolutePath = file.getAbsolutePath();
         }
 
         public long getTf() {
@@ -58,7 +74,22 @@ public class PostNode {
         }
 
         public int hashCode() {
-            return fileAblutePath.hashCode();
+            return fileAbsolutePath.hashCode();
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            if (obj == null) {
+                return false;
+            }
+            if (getClass() != obj.getClass()) {
+                return false;
+            }
+            final String other = (String) obj;
+            if ((this.fileAbsolutePath== null) ? (other != null) : !this.fileAbsolutePath.equals(other)) {
+                return false;
+            }
+            return true;
         }
     }
 }

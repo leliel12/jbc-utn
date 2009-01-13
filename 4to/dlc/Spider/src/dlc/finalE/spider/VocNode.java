@@ -29,9 +29,6 @@ public class VocNode {
      * @param nr the nr to set
      */
     public void setNr(long nr) throws SpiderException {
-        if (nr < this.nr) {
-            throw new SpiderException("new nr must be >= old nr", SpiderException.FATAL_ERROR);
-        }
         this.nr = nr;
     }
 
@@ -46,12 +43,25 @@ public class VocNode {
      * @param maxTf the maxTf to set
      */
     public void setMaxTf(long maxTf) throws SpiderException {
-        if (maxTf < this.maxTf) {
-            throw new SpiderException("new maxTf must be >= old maxTf", SpiderException.FATAL_ERROR);
-        }
         this.maxTf = maxTf;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final VocNode other = (VocNode) obj;
+        if ((this.word == null) ? (other.word != null) : !this.word.equals(other.word)) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
     public int hashCode(){
         return this.word.hashCode();
     }

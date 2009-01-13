@@ -31,4 +31,8 @@ public class SmallErrorHandler implements ErrorHandler{
         System.err.println(exMsg);
     }
 
+    public void fileHandlerNotFound(SpiderException ex) {
+        this.warning(ex);
+    }
+
 }
