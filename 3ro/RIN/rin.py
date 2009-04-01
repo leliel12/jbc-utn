@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import random
 
 u_1 = ["Concepto de Red de telecomunicacion, Ventajas y desventajas",
@@ -75,7 +76,9 @@ u_6 = [ "Concepto de seguridad. Confidencialidad. Autenticacion. Integridad. Dis
 
 
 print("")
+i=0;
 while(True):
+    i+=1
     preguntas=[]
     selected=random.randint(0,len(u_1)-1)
     preguntas.append(u_1[selected])
@@ -97,6 +100,7 @@ while(True):
     
     random.shuffle(preguntas)
     
+    print ">>>>>>>> " + str(i)
     for preg in preguntas:
         print("# - "+preg)
     

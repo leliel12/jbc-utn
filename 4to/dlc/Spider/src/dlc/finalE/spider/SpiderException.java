@@ -14,6 +14,7 @@ public class SpiderException extends Exception {
     public static final byte ERROR = 1;
     public static final byte FATAL_ERROR = 2;
     public static final byte FILE_HANDLER_NOT_FOUND = 3;
+    private enum type {1,2,3};
     private byte exceptionType;
 
     public SpiderException(byte exceptionType) {

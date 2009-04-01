@@ -24,12 +24,7 @@ public class Main {
      */
     public static void main(String[] args) {
         String path = System.getProperty("user.home") + File.separator + "testSpider.db4o";
-        ArrayList<String> list=new ArrayList<String>();
-        String a=new String("hola");
-        list.add(a);
-        String b=new String("Hola");
-        boolean bol=list.contains(b);
-        print(bol);
+        
     }
 
     private static void print(Object msg) {
