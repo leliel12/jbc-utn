@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 def get_histogram(img, levels):
+    ''' obtiene el histograma de una imagen '''
     histogram=[0.0 for l in range(levels)]
     pix_total = 0
     for row in img:
@@ -12,6 +13,7 @@ def get_histogram(img, levels):
 
 
 def get_equalized_histogram(histogram):
+    ''' retorna el histograma ecualizado '''
     levels = len(histogram)
     eq_histogram = [0.0 for l in range(levels)]
     last = 0
@@ -25,12 +27,12 @@ def get_equalized_histogram(histogram):
        
     
 def equalize(img, levels):
-    hist = get_histogram(img, levels)
-    eq_hist = get_equalized_histogram(hist)
-    return eq_hist
+    ''' retorna la imagen ecualizada '''
+    pass
 
 
 if __name__ == '__main__':
+    ''' test run '''
     print("TEST RUN")
     
     img = [
@@ -48,9 +50,11 @@ if __name__ == '__main__':
     
     levels = 16
     
-    eq = equalize(img, levels)
+    hist = get_histogram(img, levels)
+    eq_hist = get_equalized_histogram(hist)
+    
     i = 0
-    for value in eq:
+    for value in eq_hist:
         print("Intensity %i: %f" % (i, value))
         i += 1
 
