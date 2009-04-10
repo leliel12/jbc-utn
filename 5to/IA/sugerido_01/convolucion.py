@@ -36,25 +36,25 @@ def _conv(mask, img_part):
     return value   
 
 
-def _split_matrix(img, split_size):
-	splited_mtxs = []
-	nCol = len(img)
-	nRows = len(img)
-	i,j = split_size
-	start_row = 0
-	while(start_row + i) <= nRows:
-		start_col = 0
-		while(start_col + j) <= nCol:
-			sub_mtx = []
-			for idxi in range(start_row, start_row+i):
-				row = []
-				for idxj in range(start_col, start_col+j):
-					row.append(img[idxi][idxj])
-				sub_mtx.append(row)
-			splited_mtxs.append(sub_mtx)
-			start_col += 1
-		start_row += 1	
-	return tuple(splited_mtxs)
+def _split_img(img, split_size):
+    splited_mtxs = []
+    nCol = len(img)
+    nRows = len(img)
+    i,j = split_size
+    start_row = 0
+    while(start_row + i) <= nRows:
+        start_col = 0
+        while(start_col + j) <= nCol:
+            sub_mtx = []
+            for idxi in range(start_row, start_row+i):
+                row = []
+                for idxj in range(start_col, start_col+j):
+                    row.append(img[idxi][idxj])
+                sub_mtx.append(row)
+            splited_mtxs.append(sub_mtx)
+            start_col += 1
+        start_row += 1    
+    return tuple(splited_mtxs)
    
 
 def aplicate_mask(img, mask):
@@ -129,7 +129,8 @@ if __name__ == '__main__':
     print("\t Es aplicable a la imagen? " + 
             str(_is_aplicable_mask(img_size, mask_size)))
     print("\n\tSeparando imagen...")
-    _split_img(img, mask_size)
+    splited = _split_img(img, mask_size)
+    print_matrix(splited, 2)
      
     
             
