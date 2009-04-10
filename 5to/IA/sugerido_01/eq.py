@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+__author__ = 'Juan B Cabral 40.42 - 5k4'
+__licence__ = 'GPL 3'
+
 def get_histogram(img, levels):
     ''' obtiene el histograma de una imagen '''
     histogram=[0.0 for l in range(levels)]
