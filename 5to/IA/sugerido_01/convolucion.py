@@ -136,7 +136,6 @@ def med_filter(img, mask_size):
         extended_row.sort()
         to_pick = int(round(len(extended_row)/2))
         value = extended_row[to_pick]
-        print value
         conv_values.append(value)
     new_img = _aplicate_conv_values(img, img_size,conv_values, mask_size)
     return new_img
