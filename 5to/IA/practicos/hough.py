@@ -1,4 +1,12 @@
+#!/usr/bin/env python
+
+
+__author__ = 'Juan B Cabral 40.42 - 5k4'
+__licence__ = 'GPL 3'
+
+
 from math import sin
+
 
 def _increment_cord(cord_dict, cord):
 	'''_increment_cord({}, () -> none
@@ -22,9 +30,10 @@ def _key_to_cord(key):
 	v2 = int(v2)
 	return (v1,v2)
 
+
 def _get_most_used_cords(cord_dict):
 	'''_get_most_used_cords({}) -> [()]
-	Extrae del diccionario el valor de las llaves que mayor valor possea.
+	Extrae del diccionario el valor de las llaves que mayor valor posea.
 	Retorna una lista  con estos valores en forma de tuplas de dos componentes
 	enteros que representan una coordenada.'''
 	most_used = []
@@ -45,14 +54,20 @@ def polar_hough(points):
 	Dada una serie de puntos utiliza "La Transformada de Hough" para encontrar
 	los valores (r,t) que representan a las constantes de la recta en su
 	forma polar(r = x * cos(t) + y * sen(t)).'''
-	asin = lambda(v): (sin(v))**-(1)
 	cord_dict = {}
 	for x,y in points:
 		r = x # r = x * sen(0) + y * cos(0) -> r = x * 1 + 0 -> r = x
-		t =  asin(x/r)
+		t =  
 		cord = (r,t)
 		_increment_cord(cord_dict, cord)
 	result = _get_most_used_cords(cord_dict)
 	return tuple(result)
 
 
+################################################################################
+# main
+################################################################################
+
+if __name__ == '__main__':
+	points = [(0, 0), (1, 1), (2, 2), (3, 0)]
+	print polar_hough(points)

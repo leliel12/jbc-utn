@@ -16,7 +16,7 @@ def get_histogram(img, levels):
 
 
 def get_equalized_histogram(histogram):
-    ''' retorna el histograma ecualizado '''
+    '''retorna el histograma ecualizado '''
     levels = len(histogram)
     eq_histogram = [0.0 for l in range(levels)]
     last = 0
@@ -33,6 +33,10 @@ def equalize(img, levels):
     ''' retorna la imagen ecualizada '''
     pass
 
+
+################################################################################
+# main
+################################################################################
 
 if __name__ == '__main__':
     ''' test run '''
