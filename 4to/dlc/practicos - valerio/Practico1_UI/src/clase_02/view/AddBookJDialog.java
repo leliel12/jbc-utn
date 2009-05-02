@@ -1,289 +1,216 @@
-/*
- * AddBookJDialog.java
- *
- * Created on 22 de marzo de 2008, 03:24
- *
- * Copyright (C) -  juan
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- */
 package clase_02.view;
 
 import clase_02.back.Book;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.GroupLayout.ParallelGroup;
+import javax.swing.GroupLayout.SequentialGroup;
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.LayoutStyle.ComponentPlacement;
 
-/**
- * ventana de dialogo para agregar un nuevo libro
- * el precio soporta tanto la como "," como el punto "." como marca de fraccion
- * @author  juanbc
- * @version 1.0
- */
-public class AddBookJDialog extends javax.swing.JDialog {
+public class AddBookJDialog extends JDialog
+{
+  private static int isbn;
+  private static String nombre;
+  private static float precio;
+  private JButton jButton1;
+  private JButton jButton2;
+  private JLabel jLabel1;
+  private JLabel jLabel2;
+  private JLabel jLabel3;
+  private JLabel jLabel5;
+  private JLabel jLabel6;
+  private JLabel jLabel7;
+  private JTextField jTextField1;
+  private JTextField jTextField2;
+  private JTextField jTextField3;
 
-    //isbn del libro a agregar
-    private static int isbn;
-    //nombre del libro agregar
-    private static String nombre;
-    //precio del libro agregar
-    private static float precio;
+  public static Book open()
+  {
+    new AddBookJDialog().setVisible(true);
+    if (nombre != null) return new Book(isbn, nombre, precio);
+    return null;
+  }
 
-    /**
-     * metodo estatico que se encarga de crear y mostrar el dialogo y devolver el libro ya creado
-     * @return libro ya creado o null
-     */
-    public static Book open() {
-        new AddBookJDialog().setVisible(true);
-        if(nombre!=null)return new Book(isbn,nombre,precio);
-        else return null;
+  private AddBookJDialog()
+  {
+    super(new JFrame(), true);
+    initComponents();
+    emptyFields();
+    nombre = null;
+  }
+
+  private void emptyFields()
+  {
+    boolean a = true;
+    this.jLabel5.setText("OK!");
+    this.jLabel6.setText("OK!");
+    this.jLabel7.setText("OK!");
+    if (this.jTextField1.getText().trim().compareTo("") == 0) {
+      a = false;
+      this.jLabel5.setText("");
     }
-
-    /** Creates new form AddBookJDialog */
-    private AddBookJDialog() {
-        super(new javax.swing.JFrame(), true);
-        initComponents();
-        this.emptyFields();
-        AddBookJDialog.nombre=null;
+    if (this.jTextField2.getText().trim().compareTo("") == 0) {
+      a = false;
+      this.jLabel6.setText("");
     }
-
-    /**
-     * verifica que los textfields no esten vacios para habilitar o no el boton
-     * de aceptar
-     */
-    private void emptyFields() {
-        boolean a = true;
-        this.jLabel5.setText("OK!");
-        this.jLabel6.setText("OK!");
-        this.jLabel7.setText("OK!");
-        if (this.jTextField1.getText().trim().compareTo("") == 0) {
-            a = false;
-            this.jLabel5.setText("");
-        }
-        if (this.jTextField2.getText().trim().compareTo("") == 0) {
-            a = false;
-            this.jLabel6.setText("");
-        }
-        if (this.jTextField3.getText().trim().compareTo("") == 0) {
-            a = false;
-            this.jLabel7.setText("");
-        }
-        this.jButton1.setEnabled(a);
-        canParse();
+    if (this.jTextField3.getText().trim().compareTo("") == 0) {
+      a = false;
+      this.jLabel7.setText("");
     }
+    this.jButton1.setEnabled(a);
+    canParse();
+  }
 
-    /**
-     * verifica que sea posible parsear los numero de lo contrario deabilita 
-     * el boton
-     */
-    private void canParse() {
-        boolean a = true;
-        try {
-            AddBookJDialog.isbn = Integer.parseInt(this.jTextField1.getText());
-        } catch (Exception ex) {
-            this.jLabel5.setText("");
-            a = false;
-        }
-        try {
-            String aux=this.jTextField3.getText().replace(',', '.');
-            AddBookJDialog.precio = Float.parseFloat(aux);
-        } catch (Exception ex) {
-            this.jLabel7.setText("");
-            a = false;
-        }
-        this.jButton1.setEnabled(a);
+  private void canParse()
+  {
+    boolean a = true;
+    try {
+      isbn = Integer.parseInt(this.jTextField1.getText());
+    } catch (Exception ex) {
+      this.jLabel5.setText("");
+      a = false;
     }
-
-    /** This method is called from within the constructor to
-     * initialize the form.
-     * WARNING: Do NOT modify this code. The content of this method is
-     * always regenerated by the Form Editor.
-     */
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
-
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Agregar Libro...");
-        setModal(true);
-        setResizable(false);
-
-        jLabel1.setText("Nombre");
-
-        jLabel2.setText("ISBN");
-
-        jLabel3.setText("Precio");
-
-        jTextField1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyReleased(java.awt.event.KeyEvent evt) {
-                jTextField1KeyReleased(evt);
-            }
-        });
-
-        jTextField2.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyReleased(java.awt.event.KeyEvent evt) {
-                jTextField2KeyReleased(evt);
-            }
-        });
-
-        jTextField3.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyReleased(java.awt.event.KeyEvent evt) {
-                jTextField3KeyReleased(evt);
-            }
-        });
-
-        jButton1.setText("Aceptar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-
-        jButton2.setText("Cancelar");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-
-        jLabel5.setFont(new java.awt.Font("Zekton", 1, 13));
-        jLabel5.setForeground(new java.awt.Color(61, 185, 13));
-        jLabel5.setText("OK!");
-
-        jLabel6.setFont(new java.awt.Font("Zekton", 1, 13));
-        jLabel6.setForeground(new java.awt.Color(61, 185, 13));
-        jLabel6.setText("OK!");
-
-        jLabel7.setFont(new java.awt.Font("Zekton", 1, 13));
-        jLabel7.setForeground(new java.awt.Color(61, 185, 13));
-        jLabel7.setText("OK!");
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel3))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 433, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 433, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 433, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel7)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton1)))
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel6)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel7)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
-        setBounds((screenSize.width-573)/2, (screenSize.height-181)/2, 573, 181);
-    }// </editor-fold>//GEN-END:initComponents
-    private void jTextField3KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3KeyReleased
-        this.emptyFields();
-    }//GEN-LAST:event_jTextField3KeyReleased
-
-    private void jTextField2KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2KeyReleased
-        this.emptyFields();
-    }//GEN-LAST:event_jTextField2KeyReleased
-
-    private void jTextField1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1KeyReleased
-        this.emptyFields();
-    }//GEN-LAST:event_jTextField1KeyReleased
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        AddBookJDialog.nombre=this.jTextField2.getText();
-        this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        this.dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-
-            public void run() {
-                AddBookJDialog dialog = new AddBookJDialog();
-                dialog.addWindowListener(new java.awt.event.WindowAdapter() {
-
-                    public void windowClosing(java.awt.event.WindowEvent e) {
-                        System.exit(0);
-                    }
-                });
-                dialog.setVisible(true);
-            }
-        });
+    try {
+      String aux = this.jTextField3.getText().replace(',', '.');
+      precio = Float.parseFloat(aux);
+    } catch (Exception aux) {
+      this.jLabel7.setText("");
+      a = false;
     }
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    // End of variables declaration//GEN-END:variables
+    this.jButton1.setEnabled(a);
+  }
+
+  private void initComponents()
+  {
+    this.jLabel1 = new JLabel();
+    this.jLabel2 = new JLabel();
+    this.jLabel3 = new JLabel();
+    this.jTextField1 = new JTextField();
+    this.jTextField2 = new JTextField();
+    this.jTextField3 = new JTextField();
+    this.jButton1 = new JButton();
+    this.jButton2 = new JButton();
+    this.jLabel5 = new JLabel();
+    this.jLabel6 = new JLabel();
+    this.jLabel7 = new JLabel();
+
+    setDefaultCloseOperation(2);
+    setTitle("Agregar Libro...");
+    setModal(true);
+    setResizable(false);
+
+    this.jLabel1.setText("Nombre");
+
+    this.jLabel2.setText("ISBN");
+
+    this.jLabel3.setText("Precio");
+
+    this.jTextField1.addKeyListener(new KeyAdapter() {
+      public void keyReleased(KeyEvent evt) {
+        AddBookJDialog.this.jTextField1KeyReleased(evt);
+      }
+
+    });
+    this.jTextField2.addKeyListener(new KeyAdapter() {
+      public void keyReleased(KeyEvent evt) {
+        AddBookJDialog.this.jTextField2KeyReleased(evt);
+      }
+
+    });
+    this.jTextField3.addKeyListener(new KeyAdapter() {
+      public void keyReleased(KeyEvent evt) {
+        AddBookJDialog.this.jTextField3KeyReleased(evt);
+      }
+
+    });
+    this.jButton1.setText("Aceptar");
+    this.jButton1.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent evt) {
+        AddBookJDialog.this.jButton1ActionPerformed(evt);
+      }
+
+    });
+    this.jButton2.setText("Cancelar");
+    this.jButton2.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent evt) {
+        AddBookJDialog.this.jButton2ActionPerformed(evt);
+      }
+
+    });
+    this.jLabel5.setFont(new Font("Zekton", 1, 13));
+    this.jLabel5.setForeground(new Color(61, 185, 13));
+    this.jLabel5.setText("OK!");
+
+    this.jLabel6.setFont(new Font("Zekton", 1, 13));
+    this.jLabel6.setForeground(new Color(61, 185, 13));
+    this.jLabel6.setText("OK!");
+
+    this.jLabel7.setFont(new Font("Zekton", 1, 13));
+    this.jLabel7.setForeground(new Color(61, 185, 13));
+    this.jLabel7.setText("OK!");
+
+    GroupLayout layout = new GroupLayout(getContentPane());
+    getContentPane().setLayout(layout);
+    layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup().addContainerGap().addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(this.jLabel1).addComponent(this.jLabel2).addComponent(this.jLabel3)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(this.jTextField1, -2, 433, -2).addComponent(this.jTextField3, -2, 433, -2).addComponent(this.jTextField2, -2, 433, -2)).addGap(18, 18, 18).addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(this.jLabel6).addComponent(this.jLabel5).addComponent(this.jLabel7))).addGroup(layout.createSequentialGroup().addComponent(this.jButton2).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jButton1))).addContainerGap()));
+
+    layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jLabel2).addComponent(this.jTextField1, -2, -1, -2).addComponent(this.jLabel5)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jLabel1).addComponent(this.jLabel6).addComponent(this.jTextField2, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jLabel3).addComponent(this.jLabel7).addComponent(this.jTextField3, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jButton1).addComponent(this.jButton2)).addContainerGap(-1, 32767)));
+
+    Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+    setBounds((screenSize.width - 573) / 2, (screenSize.height - 181) / 2, 573, 181); }
+
+  private void jTextField3KeyReleased(KeyEvent evt) {
+    emptyFields();
+  }
+
+  private void jTextField2KeyReleased(KeyEvent evt) {
+    emptyFields();
+  }
+
+  private void jTextField1KeyReleased(KeyEvent evt) {
+    emptyFields();
+  }
+
+  private void jButton1ActionPerformed(ActionEvent evt) {
+    nombre = this.jTextField2.getText();
+    dispose();
+  }
+
+  private void jButton2ActionPerformed(ActionEvent evt) {
+    dispose();
+  }
+
+  public static void main(String[] args)
+  {
+    EventQueue.invokeLater(new Runnable()
+    {
+      public void run() {
+        AddBookJDialog dialog = new AddBookJDialog(null);
+        dialog.addWindowListener(new WindowAdapter()
+        {
+          public void windowClosing(WindowEvent e) {
+            System.exit(0);
+          }
+
+        });
+        dialog.setVisible(true);
+      }
+    });
+  }
 }
