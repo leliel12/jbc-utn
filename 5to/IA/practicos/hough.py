@@ -5,7 +5,7 @@ __author__ = 'Juan B Cabral 40.42 - 5k4'
 __licence__ = 'GPL 3'
 
 
-from math import sin
+from math import atan2
 
 
 def _increment_cord(cord_dict, cord):
@@ -57,7 +57,7 @@ def polar_hough(points):
 	cord_dict = {}
 	for x,y in points:
 		r = x # r = x * sen(0) + y * cos(0) -> r = x * 1 + 0 -> r = x
-		t =  
+		t =  int(atan2(-x,-y))
 		cord = (r,t)
 		_increment_cord(cord_dict, cord)
 	result = _get_most_used_cords(cord_dict)
