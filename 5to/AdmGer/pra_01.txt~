@@ -1,0 +1,35 @@
+Proceso:
+    * Administrar relación con el cliente:
+        + Realizar venta:
+            - Consultar stock.
+            - Confirmar pedido.
+            - Realizar cobro.
+            - Informar sobre entrega de productos.
+        + Recibir consultas:
+            - Consultar stock.
+            - Informar a cliente.
+        + Realizar campaña de marketing:
+            - Analizar la competencia.
+            - Verificar existencia de nuevos materiales.
+            - Realizar publicidades.
+        + Verificar satisfacción del cliente.
+            - Realizar encuesta anónima.
+        
+Diccionario:
+        - Consultar stock:
+            Verificar la disponibilidad de el producto solicitado, y de no haber
+            stock informar cuando se repone.
+        - Confirmar pedido:
+            Informar al cliente de que su pedido ha sido aceptado.
+        - Realizar cobro:
+            Recibir el pago por los productos vendidos, asentarlos y reducir el
+            stock.
+        - Informar sobre entrega de productos:
+            Informar al cliente sobre como debe proceder para retirar su pedido.
+        - Informar a cliente:
+            Brindar al cliente la información que solicito.
+        - Analizar la competencia:
+            Obtener información del mercado actual. Como ser: 
+        - Verificar existencia de nuevos materiales:
+        - Realizar publicidades:
+        - Realizar encuesta anónima:
