@@ -7,24 +7,28 @@ import sys
 class Questions(object):
     def __init__(self, file_path):
         self.questions = self._generate_questions(file_path)
-        self.question_len = len(self.questions)
 
     def _generate_questions(self, file_path):
         f = open(file_path)
         read = f.read()
         f.close()
         read = read.replace("\n","")
-        questions = [q for q in read.split("@@") if q]
+        questions = [q.strip() for q in read.split("@@")]
+        questions = [q for q in questions if q.strip()]
+        questions = [q for q in questions if not q.startswith('#')]
         random.shuffle(questions)
         return questions
         
+
     def random_questions(self, number):
-        n = self.question_len -1
-        selected = []
-        for i in range(number):
-            idx = random.randint(0, n)
+        n = len(self.questions)
+        if number > n:
+            raise ValueError("number must be <= %i: %i" % (n,number))        
+        selected = set()
+        while len(selected) < number:
+            idx = random.randint(0, n - 1)
             q = self.questions[idx]
-            selected.append(q)
+            selected.add(q)
         return selected
 
 if __name__ == '__main__':
