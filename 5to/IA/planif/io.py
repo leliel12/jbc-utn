@@ -27,7 +27,7 @@ lines ingnoring the comments an empty lines.
 import constants
 
 def _is_empty(line):
-    return line.strip() == ''
+    return not line.strip()
 
 
 def _adjust(line):
@@ -35,9 +35,9 @@ def _adjust(line):
 
     
 def _del_comments(line):
-    if constants.COMMENT in line:
-        idx =  line.index(constants.COMMENT)
-        line = line[idx::]
+    if constants.RW_COMMENT in line:
+        idx =  line.index(constants.RW_COMMENT)
+        line = line[0:idx]
     return line
 
 def _append(line, line_list):
@@ -45,7 +45,7 @@ def _append(line, line_list):
         line_list.append(line)
     return line_list
 
-def split_plf(plf_path):
+def plf_tokenizer(plf_path):
     plf_file = open(plf_path, 'r')
     line_list = []
     for line in plf_file.readlines():
@@ -58,7 +58,8 @@ def split_plf(plf_path):
     
 if __name__ == '__main__':
     print __doc__
-    plf = "/home/juan/Escritorio/model.plf"
-    for line in split_plf(plf):
-        print line
-    
+    #plf = "/home/juan/UTN/5to/IA/planif/model.plf"
+    #ln = 1
+    #for line in split_plf(plf):
+        #print "%s - %s" % (str(ln),line)
+        #ln +=1
