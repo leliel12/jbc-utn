@@ -26,29 +26,39 @@ lines ingnoring the comments an empty lines.
 
 import constants
 
-def _get_lines(src):
-    lines = []
-    for line in src.splitlines():
-        if line.strip():
-            lines.append(line.rstrip())
-    return lines
+def _is_empty(line):
+    return line.strip() == ''
+
+
+def _adjust(line):
+    return line.rstrip()
 
     
-def _del_comments(lines):
-    no_comments = []
-    for line in lines:
-        if constants.COMMENT in line:
-            idx =  line.index(constants.COMMENT)
-            no_comment = line[idx::]
-            if no_comment:
-                no_comments.append(no_comment)
+def _del_comments(line):
+    if constants.COMMENT in line:
+        idx =  line.index(constants.COMMENT)
+        line = line[idx::]
+    return line
 
+def _append(line, line_list):
+    if not _is_empty(line):
+        line_list.append(line)
+    return line_list
 
 def split_plf(plf_path):
-    src = open(plf_path, 'r').read()
-    lines = _get_lines(src)
-    lines = _del_comments(lines)
-    return lines
+    plf_file = open(plf_path, 'r')
+    line_list = []
+    for line in plf_file.readlines():
+        if not _is_empty(line):
+            line = _del_comments(line)
+            line = _adjust(line)
+            line_list = _append(line, line_list)
+    plf_file.close()
+    return line_list
     
 if __name__ == '__main__':
     print __doc__
+    plf = "/home/juan/Escritorio/model.plf"
+    for line in split_plf(plf):
+        print line
+    
