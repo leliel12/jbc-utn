@@ -1,0 +1,21 @@
+# Esto es un comentario
+# El interprete va a ignorar estas lineas
+
+(Operation A B) # Esto no deberia estar
+    A = 
+    E =
+    P =
+    
+(predicate1 a b)
+(predicate2 a b c)
+(predicate a b c)
+
+init
+    (predicate3 a b) ^
+    (predicate4 a b) ^
+    (predicate5 a b) # Esto no deberia estar
+    
+end
+    (predicate6 a b) ^
+    (predicate7 a b) ^
+    (predicate8 a b) ^ 

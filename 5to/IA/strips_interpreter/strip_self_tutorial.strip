@@ -1,0 +1,118 @@
+#!/bin/strips
+
+#       strip_self_tutorial.strip
+#       
+#       Copyright 2009 Juan B Cabral <jbcabral_89@yahoo.com.ar>
+#       
+#       This program is free software; you can redistribute it and/or modify
+#       it under the terms of the GNU General Public License as published by
+#       the Free Software Foundation; either version 3 of the License, or
+#       (at your option) any later version.
+#       
+#       This program is distributed in the hope that it will be useful,
+#       but WITHOUT ANY WARRANTY; without even the implied warranty of
+#       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#       GNU General Public License for more details.
+#       
+#       You should have received a copy of the GNU General Public License
+#       along with this program; if not, write to the Free Software
+#       Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#       MA 02110-1301, USA.
+
+# Fuente tutorial de scripting 'strips'.
+# Ver.: 0.1b
+# 11.05.2009 00:41:10
+
+# Esto es un comentario. Todo lo que empieza con numeral (#) es comentario
+# por otro lado como veras la primer linea empieza con '#!' esto se le suele
+# llamar magic line que es la linea que busca un sistema unix donde esta el
+# programa donde correr este archivo en este caso el programa se llama 'strips'
+
+# Como notaras las lineas en blanco tampoco se toman en cuenta solo no existen
+# y nada mas.
+
+# Vamos a definir un predicado
+
+(predicate1 a b c) # Esto de aca atras tambien es un comentario y se va ignorar
+
+# Hay que recordar que este lenguaje es case sensitive, asi que podriamos
+# definir otro dos predicados como:
+
+(Predicate1 a b c)
+(pRedicate1 a b c)
+
+# Ademas que soporta sobrecarga diferenciando los nombres de parametros
+
+(predicate1 A b c)
+
+# Ahora como cuerno se define un operador?
+# Esa es facil (y otra robada a python)
+
+(Operador1 A B C)
+    P = (pRedicate1 a b c) ^ (predicate1 A b c)
+    E = (predicate1 A b c) # Como notaran estas lines estan tabuladas con 4
+    A = (predicate1 a b c) # Espacios, no es necesario que sean 4 pero si que
+                           # sean consistentes (Tambien funcionan los tabs)
+                           # pero no mezclen o se pudre todo.
+
+# las listas que posee el operador siempre son P, E y
+# A. No importa el orden pero eso es lo que busca.
+# y como se hace notar el "And" esta representado con
+# el caracter "^" (no hacen falta pero es una buena costumbre).
+# Si una lista P empieza en una linea solo terminara
+# hasta encontrar una linea que contenga otra de las
+# listas
+                        
+# Hay que aclarar que los operadores tambien son case sensitive asi que:
+# (Operador1) != (OperAdor1) != (operador1)
+# y tambien posee sobrecarga asi (Operador1 A) != (Operador1 a) != (Operador1 b)
+
+# Vamos a ejemplificar uno operador de manera distinta.
+
+(Operador1 A B C)
+ A = (pRedicate1 a b c) ^ 
+ (predicate1 A b c) # como notaran esta lista esta en dos lineas (esto funciona)
+ P = (predicate1 A b c) # y despues hay un espacio (sige funcionando)
+ 
+ E = (predicate1 a b c)
+ 
+# Ahora solo nos queda ver como plantear los estados inicial y final
+# bueno con dos palabras reservadas
+
+init a #todo en minusculas seguido del nombre del estado inicial
+       # y despues el mismo truco de la indentacion
+    (pRedicate1 a b c) ^ (predicate1 A b c)
+    (pRedicate1 a b f) ^ (predicate1 A b e)
+    
+# y ahora el estado final
+
+end a #todo en minusculas seguido del nombre del estado final
+      # y despues el mismo truco de la indentacion
+    (pRedicate1 a b c) ^ (predicate1 A b c)
+    (pRedicate1 a b f) ^ (predicate1 A b e)
+    
+    
+# Pueden haber mas estados iniciales y finales como por ejemplo
+
+end b
+    (pRedicate1 a b c) ^ (predicate1 A b c)
+    (pRedicate1 a b f) ^ (predicate1 A b e)
+
+# El programa intentara resolver desde cada estado inicial como llegar a todos
+# los estados finales definidos o almenos un "unreachable" si el IA desidio 
+# darse por vencido
+
+# Para los que escriban estos codigos hay que tener en cuenta como opera el
+# interete que sigue los suiquientes pasos:
+    # 1 - Lee el archivo 
+    # 2 - Elimina todos los comentarios y lineas vacias.
+    # 3 - Carga una lista con todos los predicados
+    # 4 - Carga una lista con todos los operadores verificando que los
+    #     predicados definidos en sus listas existan.
+    # 5 - Carga una lista con todos los estados iniciales.
+    # 6 - Carga una lista con todos los estados finales.
+    # 7 - Opera por cada estado inicial tratando de llegar al estado final
+    
+# Esto es todo.
+    
+
