@@ -20,7 +20,7 @@
 #       MA 02110-1301, USA.
 
 # Fuente tutorial de scripting 'strips'.
-# Ver.: 0.1b
+# Ver.: 0.2b
 # 11.05.2009 00:41:10
 
 # Esto es un comentario. Todo lo que empieza con numeral (#) es comentario
@@ -52,16 +52,15 @@
     P = (pRedicate1 a b c) ^ (predicate1 A b c)
     E = (predicate1 A b c) # Como notaran estas lines estan tabuladas con 4
     A = (predicate1 a b c) # Espacios, no es necesario que sean 4 pero si que
-                           # sean consistentes (Tambien funcionan los tabs)
-                           # pero no mezclen o se pudre todo.
+                           # sean consistentes (Tambien funcionan los tabs
+                           # pero no mezclen o se pudre todo).
 
 # las listas que posee el operador siempre son P, E y
 # A. No importa el orden pero eso es lo que busca.
 # y como se hace notar el "And" esta representado con
 # el caracter "^" (no hacen falta pero es una buena costumbre).
-# Si una lista P empieza en una linea solo terminara
-# hasta encontrar una linea que contenga otra de las
-# listas
+# Si una linea termina con el simbolo "^" considerara que continua
+# en la linea inferior
                         
 # Hay que aclarar que los operadores tambien son case sensitive asi que:
 # (Operador1) != (OperAdor1) != (operador1)

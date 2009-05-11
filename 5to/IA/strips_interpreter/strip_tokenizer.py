@@ -23,42 +23,68 @@
 
 import constants
 
-def _is_empty(line):
-    return not line.strip()
+################################################################################
+# Line Class
+################################################################################
+
+class Line(object):
+    def __init__(self, line_number, statement):
+        self.statement = str(statement)
+        self.line_number = int(line_number)
+        
+    def __str__(self):
+        return "%i> %s" % (self.line_number, self.statement)
 
 
-def _adjust(line):
-    return line.rstrip()
+################################################################################
+# Globals
+################################################################################
+
+def _is_empty(statement):
+    return not statement.strip()
+
+
+def _adjust(statement):
+    return statement.rstrip()
 
     
-def _del_comments(line):
-    if constants.RW_COMMENT in line:
-        idx =  line.index(constants.RW_COMMENT)
-        line = line[0:idx]
-    return line
+def _del_comments(statement):
+    if constants.RW_COMMENT in statement:
+        idx =  statement.index(constants.RW_COMMENT)
+        statement = statement[0:idx]
+    return statement
 
 
-def _append(line, line_list):
-    if not _is_empty(line):
+def _append(line_number, statement, line_list):
+    if not _is_empty(statement):
+        line = Line(line_number, statement)
         line_list.append(line)
     return line_list
 
+def _merge_multi_line(statement_list):
+    print "DO merge_multi_line"
+    return statement_list
+        
 
 def strip_tokenizer(strip_src):
     line_list = []
-    for line in strip_src.splitlines():
-        if not _is_empty(line):
-            line = _del_comments(line)
-            line = _adjust(line)
-            line_list = _append(line, line_list)
-    return line_list
+    line_number = 0
+    for statement in strip_src.splitlines():
+        if not _is_empty(statement):
+            line_number += 1
+            statement = _del_comments(statement)
+            statement = _adjust(statement)
+            line_list = _append(line_number,statement, line_list)
+    line_list = _merge_multi_line(line_list)
+    return tuple(line_list)
  
+
+################################################################################
+# Main
+################################################################################
     
 if __name__ == '__main__':
     print __doc__
-    plf = open("/home/juan/UTN/5to/IA/planif/strip_self_tutorial.strip").read()
-    
-    ln = 1
+    plf = open("/home/juan/UTN/5to/IA/strips_interpreter/strip_self_tutorial.strip").read()
     for line in strip_tokenizer(plf):
-        print "%s" % (line)
-        ln +=1
+        print line
