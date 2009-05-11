@@ -40,26 +40,28 @@ def _del_comments(line):
         line = line[0:idx]
     return line
 
+
 def _append(line, line_list):
     if not _is_empty(line):
         line_list.append(line)
     return line_list
 
-def plf_tokenizer(plf_path):
-    plf_file = open(plf_path, 'r')
+
+def strip_tokenizer(strip_src):
     line_list = []
-    for line in plf_file.readlines():
+    for line in strip_src.splitlines():
         if not _is_empty(line):
             line = _del_comments(line)
             line = _adjust(line)
             line_list = _append(line, line_list)
-    plf_file.close()
     return line_list
+ 
     
 if __name__ == '__main__':
     print __doc__
-    #plf = "/home/juan/UTN/5to/IA/planif/model.plf"
-    #ln = 1
-    #for line in split_plf(plf):
-        #print "%s - %s" % (str(ln),line)
-        #ln +=1
+    plf = open("/home/juan/UTN/5to/IA/planif/strip_self_tutorial.strip").read()
+    
+    ln = 1
+    for line in strip_tokenizer(plf):
+        print "%s" % (line)
+        ln +=1
