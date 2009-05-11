@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-#       io.py
+#       strip_tokenizer.py
 #       
 #       Copyright 2009 Juan B Cabral <juan@Brother-Eye>
 #       
@@ -19,10 +19,7 @@
 #       Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #       MA 02110-1301, USA.
 
-'''
-Read the plf source code and splits his 
-lines ingnoring the comments an empty lines.
-'''
+'''Splits strip source doce in lines ingnoring the comments an empty lines.'''
 
 import constants
 
