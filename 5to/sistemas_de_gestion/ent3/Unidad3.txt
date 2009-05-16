@@ -1,6 +1,13 @@
 Resumen correspondiente a la unidad temática número 2 de SGe.
 Punto 7 Laudon﻿.
 
+Autor: Juan B Cabral
+Curso: 5k4
+Fecha: 16/05/09 18:09:54 
+
+
+Administración de los Recursos de Datos.
+
 Retos para la administración con DB.
     * Obstáculos Organizacionales para un entorno de DB.
         Un entorno DBMS desafía las estructuras de poder dentro de la
@@ -105,12 +112,48 @@ Creación de un entorno de DB.
         - Dependen de las lineas de telecomunicación.
         
     Requisitos Administrativos en un sistema de DB.
-        - Administración de datos.
-        - Metodología para la planeación y modelado de datos.
-        - La tecnología.
-        - Los usuarios.
+        * Administración de datos.
+            Una función especial dentro de la organización para manejar los
+            recursos de datos de la empresa concernientes a las políticas de
+            información, la planeación de datos, el mantenimiento de los
+            diccionarios de datos y los estándares de calidad de los datos.
+        * Metodología para la planeación y modelado de datos.
+            Es determinar los requerimientos de la organización concernientes
+            a los datos y sus relaciones.
+        * La tecnología de bases de datos administración y los usuarios.
+            Las db modernas requieren soft y hard nuevo así como correcta
+            capacitación de usuarios.
+            Los lenguajes modernos junto con las DBMS modernas permiten a una
+            mayor cantidad de usuarios acceder y manipular los datos.
    
                 
+Tendencias de las Bases de Datos.
+    
+    Análisis multidimensional de datos.
+        - Es un análisis de manera que los modelos tradicionales no pueden.
+        - Cada aspecto de los datos corresponde a una dimensión.
+        - Se realizan gráficos 'cruzando' diferentes datos generando gráficos
+        o valores.
+        
+    Almacenes de Datos.
+        Es un conjunto de datos extraídos de varios sistemas autónomos actuales
+        o históricos los cuales están consolidados en la elaboración de informes
+        y análisis.
+        Se pueden extraer datos de los cuales surgen patrones los cuales pueden
+        servir para guiar las decisiones de los gerentes.
+        Los almacenes de datos permiten el acceso a datos sin que estos
+        perjudiquen el rendimiento de sistemas subyacentes.
+        
+    Bases de Datos y la Web.
+        - La web esta estructurada como una base de datos de hiper medios, por lo
+        tanto enlaza nodos vinculados en un patrón especificado y estos nodos
+        pueden ser: vídeos, texto, imágenes o sonido.
+        - Se han desarrollados una serie de middleware para obtener datos de la
+        organización a través  de la web. (como app servers o cgi).
+          
+          
+    
+        
             
         
       
