@@ -1,1 +1,81 @@
-﻿
+Resumen correspondiente a la unidad temática número 2 de SGe.
+Punto 7 Laudon﻿.
+
+Retos para la administración con DB.
+    * Obstáculos Organizacionales para un entorno de DB.
+        Un entorno DBMS desafía las estructuras de poder dentro de la
+        Organización ya que los datos no se guardan para una sola ares sino para
+        todos.
+        Es necesario realizar los cambios Organizacionales requeridos para el
+        correcto funcionamiento de un entorno de DB.
+    * Integrar y garantizar la calidad de datos.
+        Se debe consumir un tiempo  en integrar datos de diferentes áreas que 
+        pueden pisarse o redundar.
+        
+Organización de datos en un entorno tradicional de archivos.
+
+    Términos y conceptos de la organización de archivos.
+        * Bit: Unidad mas pequeña de datos que puede manejar una pc.
+        * Byte: Conjunto de bits, representan un caracter.
+        * Campo: Agrupación de caracteres en una palabra, oración o numero
+        completo.
+        * Registro: Grupos de campos relacionados bajo algún criterio.
+        * Archivo: Grupo de registros del mismo tipo.
+        * Base de Datos: Grupo de archivos interrelacionados y ordenados de
+        alguna manera.
+        * Entidad: Cosa o evento sobre la cual se debe conservar información.
+        * Atributo: pieza de información que describe a una entidad en
+        particular.
+        * Campo Clave: campo en un registro que identifica únicamente a un
+        registro en una entidad.
+    
+    Problemas en el entorno tradicional de archivos.
+        * Redundancia de datos y confusión.
+        * Dependencia de datos del programa.
+        * Carencia de Flexibilidad.
+        * Seguridad escasa.
+        * Carencia de compartición y disponibilidad de datos.
+
+Las DB y la Administración de Datos.
+
+    Definición rigurosa de DB.
+        Conjunto de datos organizados para abastecer a varias
+        aplicaciones al mismo tiempo, almacenando y administrando datos de
+        manera que aparezcan en un solo lugar.
+    
+    DBMS.
+        Software especial para crear y mantener una DB y permitir el acceso
+        a las aplicaciones para la extracción de los datos necesarios sin tener
+        archivos separados o definiciones de datos en sus programas de
+        computadora.
+        Un DBMS posee:
+            * un lenguaje de definición de datos (DDL)
+            * un lenguaje de manipulación de datos (DML) (SQL)
+            * un diccionario de datos.
+        Un DBMS:
+            * reduce la dependencia de datos de la aplicación.
+            * Aumenta la disponibilidad.
+            * Centraliza las políticas de seguridad.
+            * Aumenta la flexibilidad.
+            
+    Tipos de DB.
+        * RDBMS.
+            Trata a los datos almacenados como si estubieran en tablas de dos
+            dimensiones llamadas relaciones.
+            Los datos son facilmente extraibles y combinables si poseen un 
+            elemento en comun.
+            A cada registro/fila de una relación se le asigna el nombre de 
+            tupla.
+            
+        * DBMS jerárquico o de Red.
+            
+                
+            
+        
+      
+    
+    
+            
+       
+        
+        
