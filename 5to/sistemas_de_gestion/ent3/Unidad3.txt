@@ -60,14 +60,35 @@ Las DB y la Administración de Datos.
             
     Tipos de DB.
         * RDBMS.
-            Trata a los datos almacenados como si estubieran en tablas de dos
+            Trata a los datos almacenados como si estuvieran en tablas de dos
             dimensiones llamadas relaciones.
-            Los datos son facilmente extraibles y combinables si poseen un 
-            elemento en comun.
+            Los datos son fácilmente extraíbles y combinables si poseen un 
+            elemento en común.
             A cada registro/fila de una relación se le asigna el nombre de 
             tupla.
+            Este modelo es el utilizado por los principales desarrolladores de
+            DB.
             
         * DBMS jerárquico o de Red.
+            Modelo lógico antiguo que organiza a los datos en una estructura
+            tipo árbol. Se organiza en pieza de registros llamadas segmentos las
+            cuales están unidas a sus hijos en relaciones de uno a muchos.
+            En el caso de modelo de red esta relación es de mucho a muchos.
+            
+        * OODBMS.
+            Almacena tanto datos como procedimientos que actúan sobre los
+            datos(sic). Muy útil para datos no estructurados como multimedia,
+            datos provenientes de herramientas CAD o datos muy recursivos.
+            Son relativamente mas lentos que los RDBMS para grandes
+            transacciones.
+            Existen sistemas híbridos que mezclan características de RDBM y de 
+            OODBMS.
+            
+
+Creacion de un entorno de DB.
+
+    Diseño.
+        Se debe tener en cuenta dos 
             
                 
             
