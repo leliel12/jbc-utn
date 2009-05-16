@@ -85,11 +85,31 @@ Las DB y la Administración de Datos.
             OODBMS.
             
 
-Creacion de un entorno de DB.
+Creación de un entorno de DB.
 
     Diseño.
-        Se debe tener en cuenta dos 
-            
+        Se debe tener en cuenta dos factores clave.
+            * Diseño Conceptual (lógico).
+                - Describe como deben organizarse los elementos datos en la BD
+                - Identifica las relaciones entre los datos.
+                - Se utiliza la herramienta conocida como DER para diseñar.
+                - Para mejorar el proceso de diseño se utiliza la normalización.
+            * Diseño Físico.
+                Este aspecto ya suele estar diseñado en el DBMS.
+                
+    Distribución de DB.
+        - Es aquella que se almacena en mas de un lugar físico, o existen copias
+        de ellas sincronizadas en diferentes lugares.
+        - Sirve para administrar cada lugar de manera local.
+        - Reducen la vulnerabilidad de un solo sitio central.
+        - Dependen de las lineas de telecomunicación.
+        
+    Requisitos Administrativos en un sistema de DB.
+        - Administración de datos.
+        - Metodología para la planeación y modelado de datos.
+        - La tecnología.
+        - Los usuarios.
+   
                 
             
         
