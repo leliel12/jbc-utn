@@ -1,13 +1,26 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+=Análisis Industrial y Competitivo=
 
-Add your content here.
+==Características Económicas Dominantes de La Industria==
 
+==Fuerzas Motrices Mas Importantes==
 
-= Details =
+===Exploración de Entorno===
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+==Análisis de Fuerzas Competitivas==
+
+===Rivalidad entre Vendedores===
+
+===Intentos de vendedores de Otras Industrias===
+
+===Poder de Negociacion de Proveedores===
+
+===Poder de Negociacion de los Compradores===
+
+===Entradas Potenciales===
+
+==Evaluación de Posiciones Competitivas de los Rivales==
+
+==Análisis de Los competidores==
+
