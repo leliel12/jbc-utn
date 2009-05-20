@@ -1,20 +1,14 @@
 #summary Práctico para Gerenciamiento
 
-= Introducción =
+= Introduccion =
 
-== Empresa Seleccionada ==
+==<nombre de la empresa>==
 
-== Análisis de Costos ==
+==Visión==
 
-Add your content here.
+==Misión==
 
+==Valores==
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-    * tghdasda
-      
-LalaLa
+  * valor1
+  * valor2
