@@ -28,4 +28,5 @@
     * La licencia no debe ser específica de un producto.
     * La licencia no debe restringir otro software.
     * La licencia debe ser tecnológicamente neutral.
-  * Promover un forma de trabajo colaborativa en el mercado
+  * Promover un forma de trabajo colaborativa en el mercado.
+  * Fomentar a las personas que colaboren en mejorar la tecnologia y compartirla.
