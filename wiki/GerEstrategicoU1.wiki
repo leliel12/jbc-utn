@@ -5,10 +5,12 @@
 ==<nombre de la empresa>==
 
 ==Visión==
+ Ser una referencia en calidad y etica de software regionalmente.
 
 ==Misión==
+ satisfacer las necesidades de los clientes y la comunidad en general con productos tecnologicos de calidad manteniendo reglas claras y honestas con nuestros competidores. 
 
 ==Valores==
 
-  * valor1
-  * valor2
+  * Seguir la filosofia FLOSS.
+  * Col
