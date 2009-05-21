@@ -2,7 +2,13 @@
 
 = Introduccion =
 
-==<nombre de la empresa>==
+==Sobre Kenya==
+ Kenya es una proyecto de empresa de software en la provincia de Córdoba. Dada la creciente demanda de tecnologia en el ambito local producto de la crisis internacional, se decidio proponer una empresa que aprobeche el software libre como plataforma de desarrollo y modelo de negocio.
+ Todos sus productos seran llevados adelante en lenguajes, IDE's y sistemas operativos libres (java/python/ruby/ansi C/C++/Netbeans/Linux/oSolaris) y a su vez estos mismos seran licenciados de esta misma manera. Esta desicion de ha tomado por X motivos principales:
+ * No reinventar la rueda (aprobechar lo realizado).
+ * Fomentar la competencia y que el cliente nos elija por nuestro trabajo del dia a dia y no por ser 'esclavo' de un producto.
+ * Motivos eticos que se enumeran en los valores.
+El software libre ha llevado al exito a empresas al borde de la quiebra como Netscape, y ha sido casi ignorado en el mercado local. Es nuestra intencion aprobechar ese descuido.
 
 ==Visión==
  Ser una referencia en calidad y etica de software regionalmente.
