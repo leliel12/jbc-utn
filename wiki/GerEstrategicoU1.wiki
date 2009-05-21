@@ -3,27 +3,28 @@
 = Introduccion =
 
 ==Sobre Kenya==
- Kenya es una proyecto de empresa de software en la provincia de Córdoba. Dada la creciente demanda de tecnologia en el ambito local producto de la crisis internacional, se decidio proponer una empresa que aprobeche el software libre como plataforma de desarrollo y modelo de negocio.
- Todos sus productos seran llevados adelante en lenguajes, IDE's y sistemas operativos libres (java/python/ruby/ansi C/C++/Netbeans/Linux/oSolaris) y a su vez estos mismos seran licenciados de esta misma manera. Esta desicion de ha tomado por X motivos principales:
- * No reinventar la rueda (aprobechar lo realizado).
- * Fomentar la competencia y que el cliente nos elija por nuestro trabajo del dia a dia y no por ser 'esclavo' de un producto.
- * Motivos eticos que se enumeran en los valores.
-El software libre ha llevado al exito a empresas al borde de la quiebra como Netscape, y ha sido casi ignorado en el mercado local. Es nuestra intencion aprobechar ese descuido.
+ Kenya es una proyecto de empresa de software en la provincia de Córdoba.
+ Dada la creciente demanda de tecnología en el ámbito local producto de la crisis internacional, se decidió proponer una empresa que aproveche el software libre como plataforma de desarrollo y modelo de negocio.
+ Todos sus productos serán llevados adelante en lenguajes, IDE's y sistemas operativos libres (java/python/ruby/ansi C/C++/Netbeans/Linux/oSolaris) y a su vez estos mismos serán licenciados de esta misma manera. Esta dedición de ha tomado por X motivos principales:
+ * No reinventar la rueda (aprovechar lo realizado).
+ * Fomentar la competencia y que el cliente nos elija por nuestro trabajo del dia a día y no por ser 'esclavo' de un producto.
+ * Motivos éticos que se enumeran en los valores.
+ El software libre ha llevado al éxito a empresas al borde de la quiebra como Netscape, y ha sido casi ignorado en el mercado local. Es nuestra intención aprovechar ese descuido.
 
 ==Visión==
- Ser una referencia en calidad y etica de software regionalmente.
+ Ser una referencia en calidad y ética de software regionalmente.
 
 ==Misión==
- Satisfacer las necesidades de los clientes y la comunidad en general con productos tecnologicos de calidad manteniendo reglas claras y honestas con nuestros competidores.
+ Satisfacer las necesidades de los clientes y la comunidad en general con productos tecnológicos de calidad manteniendo reglas claras y honestas con nuestros competidores.
 
 ==Valores==
 
-  * Fomentar los motivos eticos de las cuatro Libertades del software libre:
+  * Fomentar los motivos éticos de las cuatro Libertades del software libre:
     * Ejecutar el programa con cualquier propósito.
     * Estudiar y modificar el programa.
     * Copiar el programa de manera que se pueda ayudar al vecino o a cualquiera.
     * Mejorar el programa y publicar las mejoras.
-  * Fomentar la motivación pragmática (ventajas tecnicas y economicas)abanderada por la Open Source Initiative en sus 10:
+  * Fomentar la motivación pragmática (ventajas técnicas y económicas)abanderada por la Open Source Initiative en sus 10:
     * Libre redistribución.
     * Código fuente.
     * Trabajos derivados.
@@ -35,4 +36,4 @@ El software libre ha llevado al exito a empresas al borde de la quiebra como Net
     * La licencia no debe restringir otro software.
     * La licencia debe ser tecnológicamente neutral.
   * Promover un forma de trabajo colaborativa en el mercado.
-  * Fomentar a las personas que colaboren en mejorar la tecnologia y compartirla.
+  * Fomentar a las personas que colaboren en mejorar la tecnología y compartirla.
