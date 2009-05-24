@@ -2,7 +2,7 @@
 
 ==F.O.D.A==
 
-|| *Fortalezas* || *Debilidades*   ||
+||                 || *Fortalezas* || *Debilidades*   ||
 || *Oportunidades* ||
-|| *Amenazas* ||
+|| *Amenazas*      ||
 
