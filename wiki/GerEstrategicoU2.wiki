@@ -52,3 +52,28 @@
 ==Evaluación de Posiciones Competitivas de los Rivales==
 
 ==Análisis de Los competidores==
+
+==Factores Clave del Éxito==
+
+  * *FCE relacionados con la tecnología*
+    * *Capacidad de innovación el el proceso de producción*: desarrollar y mejorar herramientas que agilicen el desarrollo e incrementen la productividad en general.
+    * *Capacidad de innovación en los productos*: analizar las tendencias de usabilidad y   requerimientos de los usuarios para ofrecer más de lo que ellos esperan.
+    * *Experiencia en una tecnología*: Estudiar contínuamente los avances y mejoras en una tecnología determinada para aplicar nuevas ideas basadas en una fuerte base de conocimiento.
+  * *FCE relacionados con la fabricación*
+    * *Eficiencia de producción a bajo costo*: identificar una línea de productos a desarrollar y establecer componentes comunes que permitan la óptima reutilización y minimicen el tiempo de nuevos desarrollos.
+    * *Calidad de fabricación*: Identificación temprana de errores y documentación de los mismos para que estén presentes en nuevos desarrollos y eviten la reincidencia.
+    * *Alta productividad de la mano de obra*: está relacionado a tener herramientas que faciliten el desarrollo y a la reutilización de componentes previamente desarrollados.
+    * *Flexibilidad de fabricación*: desarrollo de templates que sirvan como guía pero que a su vez puedan ser adaptados a las necesidades específicas de los clientes.
+  * *FCE relacionados con la distribución*
+    * *Entrega rápida*: Asegurar al cliente el inmediato cumplimiento de sus requerimientos para afianzar la confianza del mismo en nuestro trabajo.
+  * *FCE relacionados con la mercadotecnia*
+    * *Servicio confiable y asistencia técnica disponible*: Asegurar el cumplimiento de fechas, baja cantidad de defectos y vías de comunicación para soporte.
+    * *Exactitud en el cumplimiento de los pedidos*: Establecer una buena comunicación para el seguimiento de los requerimientos en el comienzo, avances y finalización para asegurar la satisfacción de los mismos.
+    * *Habilidades comerciales*: Seleccionar medios de promoción de productos y servicios adecuados para publicitar el trabajo realizado. Asegurar la reputación con clientes actuales brindando un servicio acorde a lo esperado.
+    * *Garantías para los clientes*: Negociación de cómo se llevarán a cabo los requerimientos, aprobación de parte de los clientes y qué especificaciones podrán cambiar en los avances de los mismos.
+  * *FCE relacionados con habilidades*
+    * *Experiencia en una tecnología en particular*: para poder asesorar basado en una fuerte base de conocimientos.
+  * *Capacidad de la organización*
+    *Capacidad de responder con rapidez a las cambiantes condiciones de mercado*: analizar periódicamente los cambios que ocurren en el mercado para mantener un alto nivel de competitividad.
+  * *Otros tipos de FCE*
+    *Imágen / reputación favorable con los clientes*: dada por el cumplimiento de los requerimientos, la calidad del producto y del servicio.
