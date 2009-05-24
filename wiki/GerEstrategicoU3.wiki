@@ -30,19 +30,40 @@
     * Presiones de las grandes multinacionales por aferrarse a modelos antiguos.
     * Perdida del interés del proyecto por parte de la comunidad.
     * Falta de capacitación operativa y gerencial en los centros de capacitación de profesionales.
+    * Si bien el modelo es popular con miles de casos de mucho exito (Firefox/linux/MySql) pareciera que el sector analista financiero o estrategico esta poco interesado o informado en el.
+    * Las universidades hoy por hoy siguen enseñando el modelo de negocio basado en producto olvidandose de los modelos open y servicios.
     
-==Evaluación de Fuerza Competitiva.==
-
-  Este analisis corresponde a los de algunas 3 empresas multinacionales que desarrollan este modelo de negocio (F) y otras 3 que elguieron el modelo de software privativo (P)
+==Evaluación de Fuerza Competitiva del Modelo de Negocio Internacionalmente.==
+  
+  Analisis de tres empresas con tres de modelos de negocios diferentes:
+    * Microsoft: Totalmente Privativo.
+    * Cannonical: FLOSS.
+    * Google: Hibrido.
   Escala de Calificación: 1 = debil, 10 = fuerte.
   
-|| *Factor Clava del Exito/Variable competitiva*          || *Peso* || Netscape (F) || SUN (F) || Cannonical (F) || Microsoft (P) || SAP (P) || HP (P) ||
-|| *Calidad y Comportamiento del producto*                ||  10    ||
-|| *Reputacion o imagen*                                  ||  10    ||
-|| *Acceso o costo a personal calificado*                 ||   8    ||
-|| *Habilidades tecnologicas*                             ||   8    ||
-|| *Capacidad de Fabricacion*                             ||   7    ||
-|| *Marketing/Distribucion*                               ||   7    ||
-|| *Fuerza Financiera*                                    ||   8    ||
-|| *Posicion Relativa de Costos*                          ||   9    ||
-|| *Calificacion general (Sumatoria(peso x Calificación)* ||   -    ||
+|| *Factor Clava del Exito/Variable competitiva*          || *Peso*   || Google || Cannonical || Microsoft ||
+|| *Calidad y Comportamiento de los productos*            ||  *10*    || 10     || 10         || 6         ||
+|| *Reputacion o imagen*                                  ||  *10*    || 10     || 8          || 6         ||
+|| *Acceso o costo a personal calificado*                 ||   *8*    || 10     || 8          || 10        ||
+|| *Habilidades tecnologicas*                             ||   *8*    || 10     || 6          || 8         ||
+|| *Capacidad de Fabricacion*                             ||   *7*    || 10     || 8          || 6         ||
+|| *Marketing/Distribucion*                               ||   *7*    || 10     || 10         || 10        ||
+|| *Fuerza Financiera*                                    ||   *8*    || 10     || 6          || 10        ||
+|| *Posicion Relativa de Costos*                          ||   *9*    || 9      || 7          || 10        ||
+|| *Calificacion general (Sumatoria(peso x Calificación)* ||   -      || *661*  || *623*      || *494*     ||
+
+==Conclusiones En Cuanto A La Posicion Competitiva Del Modelo De Negocio.==
+  
+Se encuentra esto
+  * El analisis hizo un fuerte incapie en cuestiones tecnicas y la habilidad de la empresa para generar nuevos productos (no de comprarlo).
+  * Posiblemente microsoft nunca desaparesca pero es evidente que su fuerza esta en el dinero y no en habilidades tecnicas.
+  * En este analisis se evidencia como microsoft no esta bien visto pero aun asi es la empresa casi siempre elegida.
+  * Google desarrollo un modelo de negocio hibrido en el cual su I/D es open source y esta formando un banco de datos de codigo con el google code.
+  * Cannonical es una empresa relativamente nueva pero que logro posicionar al GNU/Linux en un mercado masivo (Ubuntu).
+  * El modelo es factible y prometedor, y probablemente el reemplazo de los modelos actuales, todabia es muy poco predecible.
+  * Tiene una amplia proyeccion internacional.
+  
+
+ 
+  
+  
