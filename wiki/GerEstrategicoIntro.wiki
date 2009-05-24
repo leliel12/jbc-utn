@@ -10,16 +10,16 @@
   
 ==Bibliografía y Enlaces Recomendados==
 
-Grulic: http://www.grulic.org.ar
-GNU: http://www.gnu.org
-Software Legal: http://www.softwarelegal.org.ar
-Free Software Foundation: http://www.fsf.org
-Business Software Alliancie: http://www.bsa.com
-Yachay: http://www.yachay.com.pe
-Open Source: http://www.opensource.org
-Roberto Santos, "Repercusion socioeconomica del Software Libre", http://www.hispalinux.es/~rsantos/charla-repercusion-socioeconomica-sl/
-Vida Libre: http://www.vialibre.org.ar
-Google: http://www.google.com
+  * Grulic: http://www.grulic.org.ar
+  * GNU: http://www.gnu.org
+  * Software Legal: http://www.softwarelegal.org.ar
+  * Free Software Foundation: http://www.fsf.org
+  * Business Software Alliancie: http://www.bsa.com
+  * Yachay: http://www.yachay.com.pe
+  * Open Source: http://www.opensource.org
+  * Roberto Santos, "Repercusion socioeconomica del Software Libre", http://www.hispalinux.es/~rsantos/charla-repercusion-socioeconomica-sl/
+  * Vida Libre: http://www.vialibre.org.ar
+  * Google: http://www.google.com
 
 
 
