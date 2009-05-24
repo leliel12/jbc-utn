@@ -1,12 +1,12 @@
 =Aclaraciones Iniciales.=
 
-  * Durantes este texto se referira recurrentemente al modelo FLOSS utilizando indistintamente FreeSoftwar, OpenSource o Software Libre como sinonimos.
+  * Durante este texto se referirá recurrentemente al modelo !FLOSS utilizando indistintamente !FreeSoftware, !OpenSource o Software Libre como sinónimos.
   * FLOSS:
     FOSS, son las siglas, en inglés, de un concepto que designa al "Free and Open Source Software", es decir, al "Software Libre y de Código abierto", sin hacer distinciones entre sus diferencias.
     FLOSS, es la sigla que identifica, también en inglés, al concepto del "Free/Libre & Open Source Software", pero haciendo mención a la idea filosofía del Software Libre (Free Software), donde "Free" menciona el concepto de "Libre", y no la idea del software gratis, de ahí lo de "F/L", ya que en inglés se tiende a confundir y hasta a trasladarse la confusión al español.
     El software gratis, muy cercano al concepto del freeware, que no es software libre, y rara vez es de código abierto, sólo está libre para descargarlo, pero no posee las implicaciones y características del software libre, como tampoco los alineamientos con el movimiento filosófico del código abierto.
   
-  * En este informe, analizaremos las capacidad del modelo FLOSS para brindad productos  stisfactorios al usuario.
+  * En este informe, analizaremos las capacidad del modelo FLOSS para brindad productos  satisfactorios al usuario.
 
 
 
