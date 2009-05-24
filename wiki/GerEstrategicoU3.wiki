@@ -1,8 +1,9 @@
 =Análisis De La Situación de la Empresa=
 
-==F.O.D.A==
+==F.O.D.A.==
 
 ||                 || *Fortalezas* || *Debilidades*   ||
-|| *Oportunidades* ||
+|| *Oportunidades* || * s
+                      * s
 || *Amenazas*      ||
 
