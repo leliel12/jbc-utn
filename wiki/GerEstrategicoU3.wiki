@@ -30,39 +30,43 @@
     * Presiones de las grandes multinacionales por aferrarse a modelos antiguos.
     * Perdida del interés del proyecto por parte de la comunidad.
     * Falta de capacitación operativa y gerencial en los centros de capacitación de profesionales.
-    * Si bien el modelo es popular con miles de casos de mucho exito (Firefox/linux/MySql) pareciera que el sector analista financiero o estrategico esta poco interesado o informado en el.
-    * Las universidades hoy por hoy siguen enseñando el modelo de negocio basado en producto olvidandose de los modelos open y servicios.
+    * Si bien el modelo es popular con miles de casos de mucho éxito(Firefox/linux/MySql) pareciera que el sector analista financiero o estratégico esta poco interesado o informado en el.
+    * Las universidades hoy por hoy siguen enseñando el modelo de negocio basado en producto olvidándose de los modelos open y servicios.
     
 ==Evaluación de Fuerza Competitiva del Modelo de Negocio Internacionalmente.==
   
-  Analisis de tres empresas con tres de modelos de negocios diferentes:
+  Análisis de tres empresas con tres de modelos de negocios diferentes:
     * Microsoft: Totalmente Privativo.
     * Cannonical: FLOSS.
-    * Google: Hibrido.
-  Escala de Calificación: 1 = debil, 10 = fuerte.
+    * Google: Híbrido.
+  Escala de Calificación: 1 = débil, 10 = fuerte.
   
-|| *Factor Clava del Exito/Variable competitiva*          || *Peso*   || Google || Cannonical || Microsoft ||
+|| *Factor Clava del Éxito/Variable competitiva*          || *Peso*   || Google || Cannonical || Microsoft ||
 || *Calidad y Comportamiento de los productos*            ||  *10*    || 10     || 10         || 6         ||
-|| *Reputacion o imagen*                                  ||  *10*    || 10     || 8          || 6         ||
+|| *Reputación o imagen*                                  ||  *10*    || 10     || 8          || 6         ||
 || *Acceso o costo a personal calificado*                 ||   *8*    || 10     || 8          || 10        ||
-|| *Habilidades tecnologicas*                             ||   *8*    || 10     || 6          || 8         ||
-|| *Capacidad de Fabricacion*                             ||   *7*    || 10     || 8          || 6         ||
-|| *Marketing/Distribucion*                               ||   *7*    || 10     || 10         || 10        ||
+|| *Habilidades tecnológicas*                             ||   *8*    || 10     || 6          || 8         ||
+|| *Capacidad de Fabricación*                             ||   *7*    || 10     || 8          || 6         ||
+|| *Marketing/Distribución*                               ||   *7*    || 10     || 10         || 10        ||
 || *Fuerza Financiera*                                    ||   *8*    || 10     || 6          || 10        ||
-|| *Posicion Relativa de Costos*                          ||   *9*    || 9      || 7          || 10        ||
-|| *Calificacion general (Sumatoria(peso x Calificación)* ||   -      || *661*  || *623*      || *494*     ||
+|| *Posición Relativa de Costos*                          ||   *9*    || 9      || 7          || 10        ||
+|| *Calificación general (Sumatoria(peso x Calificación)* ||   -      || *661*  || *623*      || *494*     ||
 
-==Conclusiones En Cuanto A La Posicion Competitiva Del Modelo De Negocio.==
-  
-Se encuentra esto
-  * El analisis hizo un fuerte incapie en cuestiones tecnicas y la habilidad de la empresa para generar nuevos productos (no de comprarlo).
-  * Posiblemente microsoft nunca desaparesca pero es evidente que su fuerza esta en el dinero y no en habilidades tecnicas.
-  * En este analisis se evidencia como microsoft no esta bien visto pero aun asi es la empresa casi siempre elegida.
-  * Google desarrollo un modelo de negocio hibrido en el cual su I/D es open source y esta formando un banco de datos de codigo con el google code.
+==Conclusiones En Cuanto A La Posición Competitiva Del Modelo De Negocio.==
+
+  * El análisis hizo un fuerte incapié en cuestiones técnicas y la habilidad de la empresa para generar nuevos productos (no de comprarlo).
+  * Posiblemente Microsoft nunca desaparezca pero es evidente que su fuerza esta en el dinero y no en habilidades técnicas.
+  * En este análisis se evidencia como Microsoft no esta bien visto pero aun aso es la empresa casi siempre elegida.
+  * Google desarrollo un modelo de negocio híbrido en el cual su I/D es open source y esta formando un banco de datos de código con el google code.
   * Cannonical es una empresa relativamente nueva pero que logro posicionar al GNU/Linux en un mercado masivo (Ubuntu).
-  * El modelo es factible y prometedor, y probablemente el reemplazo de los modelos actuales, todabia es muy poco predecible.
-  * Tiene una amplia proyeccion internacional.
+  * El modelo es factible y prometedor, y probablemente el reemplazo de los modelos actuales, todavía es muy poco predecible.
+  * Tiene una amplia proyección internacional.
   
+==Puntos a Atacar por La Compañía==
+  * Evitar que la competencia vea la manera de distribución FLOSS como una amenaza y se reúnan en una alianza en contra de Kenya.
+  * Fomentar la capacitación de personal técnico administrativo y gerencial en el modelo de negocio.
+  * Ganarse la confianza de un mercado que cree que lo "gratis es malo".
+  * Lograr una diferenciación en nivel técnico.
 
  
   
