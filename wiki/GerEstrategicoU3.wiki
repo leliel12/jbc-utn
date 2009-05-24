@@ -13,19 +13,13 @@
     * Modelo de negocio "bien visto"".
     * Acceso a profesionales con experiencia en cuestiones complejas.
   * *Debilidades.*
-    * Falta de confianza de los clientes al modelo de negocio por
-    desconocimiento.
-    * Existen diferencias en el "cómo se hacen las cosas" cuando se usa una 
-    plataforma de software libre.
-    * Factorización el aprendizaje de los usuarios y administradores como un 
-    costo de operación.
-    * No existen esfuerzos coordinados de marketing en promover el modelo de 
-    negocio.
-    * Las comunidades de software libre hacen pocos esfuerzos para llegar de 
-    forma significativa al común de los usuarios
+    * Falta de confianza de los clientes al modelo de negocio por desconocimiento.
+    * Existen diferencias en el "cómo se hacen las cosas" cuando se usa una plataforma de software libre.
+    * Factorización el aprendizaje de los usuarios y administradores como un costo de operación.
+    * No existen esfuerzos coordinados de marketing en promover el modelo de negocio.
+    * Las comunidades de software libre hacen pocos esfuerzos para llegar de forma significativa al común de los usuarios
   * *Oportunidades.*
-    * Facilidad de entrada a nuevos mercados dada el acceso gratuito a nuestras 
-    tecnologías.
+    * Facilidad de entrada a nuevos mercados dada el acceso gratuito a nuestras tecnologías.
     * Mejoras potenciales de nuestros productos por partes de terceros.
     * Ausencia de barreras comerciales geográficas.
     * Ofrecer reglas claras a nuestros competidores
@@ -35,12 +29,12 @@
     * Acuerdos monopólicos fuertes.
     * Presiones de las grandes multinacionales por aferrarse a modelos antiguos.
     * Perdida del interés del proyecto por parte de la comunidad.
-    * Falta de capacitación operativa y gerencial en los centros de 
-    capacitación de profesionales.
+    * Falta de capacitación operativa y gerencial en los centros de capacitación de profesionales.
     
 ==Evaluación de Fuerza Competitiva.==
 
-  Este analisis corresponde a los de algunas 3 empresas multinacionales
-  que desarrollan este modelo de negocio (inficadas con [F])
+  Este analisis corresponde a los de algunas 3 empresas multinacionales 
+  que desarrollan este modelo de negocio (inficadas con [F]) y otras 3 
+  que elguieron el modelo de software privativo ([p])
   
 Factor Clava del Exito/Variable competitiva || Peso || Netscape ||
