@@ -4,7 +4,36 @@
 
 ==Características Económicas Dominantes de La Industria==
 
+  * *Tamaño del mercado*: Actualmente no encontramos en el mercado cordobés empresas que promocionen la utilización de software libre en lo que se refiere a licenciamiento. Aunque se utilizan herramientas de desarrollo libres, casi el 100% de las empresas cobran licencias para utilizar su software.
+  * *Amplitud de la rivalidad competitiva*: 
+  * *Tasa de crecimiento del mercado*:
+  * *Etapa en el ciclo de vida (crecimiento rápido, madurez temprana, saturación y decadencia)*:
+  * *Cantidad de compañías en la industria*: Tomando como referencia el Cluster Córdoba Technology, encontramos alrededor de 111 compañías registradas (consideramos que sólo algunas compañías no estarían registradas en esta asociación, en base al reconocimiento de las más conocidas en este grupo).
+  * *Clientes*: 
+  * *Grado de integración vertical*:
+  * *Facilidad de entrada / salida*:
+  * *Tecnología / innovación*: La tecnología de producción es muy diversa. Muchas empresas utilizan plataformas de desarrollo antiguas, ya que sus productos tienen años de desarrollo y no están dispuestos a migrar a nuevos entornos con lo que desperdician posibilidades de incrementar su productividad; o bien dejaron de investigar nuevos conceptos para estas tecnologías que agilizaron el desarrollo.
+  * *Características de los productos*:
+  * *Economías de Escala*:
+  * *Efectos de la curva de aprendizaje*:
+  * *Utilización de la capacidad*:
+  * *Rentabilidad de la industria*:
+
 ==Fuerzas Motrices Mas Importantes==
+
+  * *Cambios en la tasa de crecimiento a largo plazo de la industria*: Actualmente esta tasa está decreciendo debido a la crisis mundial, lo que provoca que las empresas pospongan las inversiones.
+  * *Cambios en cuanto a quién compra el producto y cómo lo usa*: Se está haciendo hincapié en el control de licenciamiento legal sobre el software el cuál perjudica a la mayoría de las empresas ya que cuentan con productos ilegales o piratas, lo que favorecería a la aceptación de productos y migración a sistemas operativos de licencia libre.
+  * *Innovación en los productos*: Es necesario realizar un análisis de las últimas tendencias en desarrollo de productos, para estar al corriente o incluso adelantarse en la producción de nuevas versiones.
+  * *Cambio en la tecnología*: Los cambios en la tecnología generalmente no influyen en la utilización del model open source, ya que los sistemas desarrollados bajo esta metodología tienen a la baja utilización de recursos.
+  * *Innovación en la mercadotecnia*: A través de un modelo open source, estamos ofreciendo una nueva forma de vender un producto, con menos costos para los compradores y con una gran diferenciación con respecto a los competidores.
+  * * Entrada o salida de compañías importantes*: Deberíamos preocuparnos por el ingreso de otras compañías sólo en el caso de que trabajen con el mismo modelo y tenga una diferenciación notable con respecto a nuestros productos.
+  * *Difusión del conocimiento técnico*: Estaríamos en una red de conocimiento donde cada avance es compartido y de libre acceso, con lo que estaríamos actualizados con los últimos avances en materia de desarrollo.
+  * *Aumento en la globalización de la industria*: Un buen desempeño y trayectoria a nivel local, puede permitirnos expandir nuestras barreras internacionalmente, con la ventaja de bajos costos locales y beneficios de recibir pagos en moneda extranjera.
+  * *Cambios en costo y eficiencia*: Con el desarrollo organizado de componentes y la experiencia en el mercado, se puede hacer una gran disminución de costos e incremento de la productividad.
+  * *Nueva preferencia de los compradores hacia un producto diferenciado en lugar de uno común y corriente (o hacia un producto más estandarizado en vez de productos fuertemente diferenciados)*: Se deben desarrollar componentes estándar y dejar abierta la posibilidad de adaptación para cada caso particular con el fin de satisfacer las necesidades de clientes que requieran productos diferenciados.
+  * *Influencias de la reglamentación y cambios en las políticas gubernamentales*: Investigar periódicamente la reglamentación vigente que regula a la industria del software con el fin de establecer políticas internas de cumplimiento de las mismas.
+  * *Preocupaciones, actitudes y estilos de vida sociales cambiantes*: Esto está fuertemente relacionado con quién compra el producto y como lo usa. Se debe conocer el estilo de vida de los consumidores con el fin de desarrollar un producto que esté en sintonía con ese estilo.
+  * *Reducciones en el riesgo empresarial y el riesgo debido a la incertidumbre*: El riesgo inicial que se correría es relativamente bajo, ya que no habrá necesidad de gran inversión inicial y la estructura de costos será recucida. Existirá incertidumbre hasta que la compañía logre reconocimiento y aceptación en el mercado.
 
 ===Exploración de Entorno===
 
@@ -23,4 +52,3 @@
 ==Evaluación de Posiciones Competitivas de los Rivales==
 
 ==Análisis de Los competidores==
-
