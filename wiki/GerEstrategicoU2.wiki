@@ -74,6 +74,6 @@
   * *FCE relacionados con habilidades*
     * *Experiencia en una tecnología en particular*: para poder asesorar basado en una fuerte base de conocimientos.
   * *Capacidad de la organización*
-    *Capacidad de responder con rapidez a las cambiantes condiciones de mercado*: analizar periódicamente los cambios que ocurren en el mercado para mantener un alto nivel de competitividad.
-  * *Otros tipos de FCE*
-    *Imágen / reputación favorable con los clientes*: dada por el cumplimiento de los requerimientos, la calidad del producto y del servicio.
+    * *Capacidad de responder con rapidez a las cambiantes condiciones de mercado*: analizar periódicamente los cambios que ocurren en el mercado para mantener un alto nivel de competitividad.
+  * * Otros tipos de FCE*
+    * *Imágen / reputación favorable con los clientes*: dada por el cumplimiento de los requerimientos, la calidad del producto y del servicio.
