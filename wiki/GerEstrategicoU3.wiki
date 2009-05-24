@@ -33,8 +33,16 @@
     
 ==Evaluación de Fuerza Competitiva.==
 
-  Este analisis corresponde a los de algunas 3 empresas multinacionales 
-  que desarrollan este modelo de negocio (inficadas con [F]) y otras 3 
-  que elguieron el modelo de software privativo ([p])
+  Este analisis corresponde a los de algunas 3 empresas multinacionales que desarrollan este modelo de negocio (F) y otras 3 que elguieron el modelo de software privativo (P)
+  Escala de Calificación: 1 = debil, 10 = fuerte.
   
-Factor Clava del Exito/Variable competitiva || Peso || Netscape ||
+|| *Factor Clava del Exito/Variable competitiva*          || *Peso* || Netscape (F) || SUN (F) || Cannonical (F) || Microsoft (P) || SAP (P) || HP (P) ||
+|| *Calidad y Comportamiento del producto*                ||  10    ||
+|| *Reputacion o imagen*                                  ||  10    ||
+|| *Acceso o costo a personal calificado*                 ||   8    ||
+|| *Habilidades tecnologicas*                             ||   8    ||
+|| *Capacidad de Fabricacion*                             ||   7    ||
+|| *Marketing/Distribucion*                               ||   7    ||
+|| *Fuerza Financiera*                                    ||   8    ||
+|| *Posicion Relativa de Costos*                          ||   9    ||
+|| *Calificacion general (Sumatoria(peso x Calificación)* ||   -    ||
