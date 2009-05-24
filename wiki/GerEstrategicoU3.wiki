@@ -2,8 +2,5 @@
 
 ==F.O.D.A.==
 
-||                 || *Fortalezas* || *Debilidades*   ||
-|| *Oportunidades* || * s
-                      * s
-|| *Amenazas*      ||
+  *===Fortalezas===*
 
