@@ -8,9 +8,8 @@
   
   * En este informe, analizaremos las capacidad del modelo FLOSS para brindad productos  satisfactorios al usuario.
   
-==Bibliografía y Enlaces Recomendados==
+==Bibliografía y Enlaces Recomendados.==
 
-  * Grulic: http://www.grulic.org.ar
   * GNU: http://www.gnu.org
   * Software Legal: http://www.softwarelegal.org.ar
   * Free Software Foundation: http://www.fsf.org
@@ -19,7 +18,14 @@
   * Open Source: http://www.opensource.org
   * Roberto Santos, "Repercusion socioeconomica del Software Libre", http://www.hispalinux.es/~rsantos/charla-repercusion-socioeconomica-sl/
   * Vida Libre: http://www.vialibre.org.ar
-  * Google: http://www.google.com
+  * La Catedral y El Bazaar: http://biblioweb.sindominio.net/telematica/catedral.html
+  * Manifiesto GNU: http://www.gnu.org/gnu/manifesto.es.html
+  * Monopolios Artificiales Sobre Bienes Intangibles: http://www.vialibre.org.ar/mabi/
+  * El Derecho De Leer: http://www.gnu.org/philosophy/right-to-read.es.html
+  * Aprender La Libertad: http://www.aprenderlalibertad.org/
+  * Free Software, Free Society: Selected Essays of Richard M. Stallman: http://www.gnu.org/philosophy/fsfs/rms-essays.pdf
+  * Free as in Freedom: http://www.jus.uio.no/sisu/free_as_in_freedom.richard_stallman_crusade_for_free_software.sam_williams/sisu_manifest.html
+  * Economía en Monopolios Artificiales: http://code.google.com/p/jbc-mini-projects/source/browse/trunk/papers/Economia_Monopolios_artificiales/Economia+Monopolios+artificiales2c.pdf
 
 
 
