@@ -2,5 +2,12 @@
 
 ==F.O.D.A.==
 
-  *===Fortalezas===*
+  * *Fortalezas*
+    * Reutilizacion de soluciones ya existentes.
+    * No depender solo de los empleados para la soluciones.
+    * Desarrollo de grandes tecnologias complejas con costos pequeños
+    * Modelo de negocio "bien visto"".
+    * Acceso a profesionales con experiencia en cuestiones complejas.
+  * *Oportunidades*
+    *
 
