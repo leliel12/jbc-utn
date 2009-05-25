@@ -16,8 +16,8 @@
   * *Características de los productos*: Parcialmente estandarizadas, la mayoría de los productos tienen licenciamiento y se ejecutan en plataformas Microsoft.
   * *Economías de Escala*: Las compañías deberían contar con licencias y para desarrollo, además de sus costos fijos.
   * *Efectos de la curva de aprendizaje*: Es importante la experiencia en determinados proyectos y lenguajes, ya que puede existir mucha  reutilización de componentes.
-  * *Utilización de la capacidad*:
-  * *Rentabilidad de la industria*:
+  * *Utilización de la capacidad*: Como los recursos de fabricación son humanos, se considera que la eficiencia es entre un 60% y 70%.
+  * *Rentabilidad de la industria*: de acuerdo a la demanda y a la predisposición de las empresas a invertir en software, puede ser de moderada a alta.
 
 ==Fuerzas Motrices Mas Importantes==
 
