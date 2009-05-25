@@ -6,3 +6,5 @@ Seleccionaremos una estrategia de diferenciación basada en precio, calidad y ve
   * Con respecto al precio, al ser una alternativa open source, la implementación inicial del desarrollo no tendría costo para nuestros clientes. Esto nos diferenciaría prácticamente de cualquier tipo de compañía, ya que casi el 100% de los productos ofrecidos en el mercado tienen licenciamiento.
   * Con respecto la calidad, implementar métricas y estricto testing a nuestros desarrollos que permitan evaluar la codificación y reducir al mínimo los errores que llegan a los clientes.
   * Con respecto a la velocidad de servicio, ofrecer un sistema de gestión de requerimientos mediante tickets, que permitan trabajar los pedidos por cliente de acuerdo a fecha de ingreso y prioridad.
+
+Esto nos permitirá fidelizar a nuestros clientes, asegurar su satisfacción y ganar reputación en el mercado; establecer un precio competitivo sobre el soporte y desarrollo brindado; buscar la mejora contínua de nuestros productos y servicios que dificulten a otras empresas competir directamente contra nuestros factores diferenciadores.
