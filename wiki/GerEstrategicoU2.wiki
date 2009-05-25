@@ -5,17 +5,17 @@
 ==Características Económicas Dominantes de La Industria==
 
   * *Tamaño del mercado*: Actualmente no encontramos en el mercado cordobés empresas que promocionen la utilización de software libre en lo que se refiere a licenciamiento. Aunque se utilizan herramientas de desarrollo libres, casi el 100% de las empresas cobran licencias para utilizar su software.
-  * *Amplitud de la rivalidad competitiva*: 
-  * *Tasa de crecimiento del mercado*:
-  * *Etapa en el ciclo de vida (crecimiento rápido, madurez temprana, saturación y decadencia)*:
+  * *Amplitud de la rivalidad competitiva*: Consideramos el mercado de Córdoba capital.
+  * *Tasa de crecimiento del mercado*: desconocida.
+  * *Etapa en el ciclo de vida*: crecimiento rápido.
   * *Cantidad de compañías en la industria*: Tomando como referencia el Cluster Córdoba Technology, encontramos alrededor de 111 compañías registradas (consideramos que sólo algunas compañías no estarían registradas en esta asociación, en base al reconocimiento de las más conocidas en este grupo).
-  * *Clientes*: 
-  * *Grado de integración vertical*:
-  * *Facilidad de entrada / salida*:
+  * *Clientes*: todo tipo de empresas que no dispongan de sistemas de gestión o de soporte a sus operaciones y deseen adquirir una alternativa open source.
+  * *Grado de integración vertical*: por lo general las empresas son las que desarrollan y se encargan de la distribución de los productos.
+  * *Facilidad de entrada / salida*: barreras moderadas de entrada, dependientes principalmente de la reputación de los competidores.
   * *Tecnología / innovación*: La tecnología de producción es muy diversa. Muchas empresas utilizan plataformas de desarrollo antiguas, ya que sus productos tienen años de desarrollo y no están dispuestos a migrar a nuevos entornos con lo que desperdician posibilidades de incrementar su productividad; o bien dejaron de investigar nuevos conceptos para estas tecnologías que agilizaron el desarrollo.
-  * *Características de los productos*:
-  * *Economías de Escala*:
-  * *Efectos de la curva de aprendizaje*:
+  * *Características de los productos*: Parcialmente estandarizadas, la mayoría de los productos tienen licenciamiento y se ejecutan en plataformas Microsoft.
+  * *Economías de Escala*: Las compañías deberían contar con licencias y para desarrollo, además de sus costos fijos.
+  * *Efectos de la curva de aprendizaje*: Es importante la experiencia en determinados proyectos y lenguajes, ya que puede existir mucha  reutilización de componentes.
   * *Utilización de la capacidad*:
   * *Rentabilidad de la industria*:
 
