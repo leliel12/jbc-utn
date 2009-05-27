@@ -60,7 +60,7 @@
   * Google desarrollo un modelo de negocio híbrido en el cual su I/D es open source y esta formando un banco de datos de código con el google code.
   * Cannonical es una empresa relativamente nueva pero que logro posicionar al GNU/Linux en un mercado masivo (Ubuntu).
   * El modelo es factible y prometedor, y probablemente el reemplazo de los modelos actuales, todavía es muy poco predecible.
-  * Tiene una amplia proyección internacional.
+  * El modelo de negocio tiene una amplia proyección internacional.
   
 ==Puntos a Atacar por La Compañía==
   * Evitar que la competencia vea la manera de distribución FLOSS como una amenaza y se reúnan en una alianza en contra de Kenya.
