@@ -1,5 +1,3 @@
-#summary Práctico para Gerenciamiento
-
 = Introduccion =
 
 ==Sobre Kenya==
