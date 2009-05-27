@@ -5,7 +5,7 @@
 ==Características Económicas Dominantes de La Industria==
 
   * *Tamaño del mercado*: Actualmente no encontramos en el mercado cordobés empresas que promocionen la utilización de software libre en lo que se refiere a licenciamiento. Aunque se utilizan herramientas de desarrollo libres, casi el 100% de las empresas cobran licencias para utilizar su software.
-  * *Amplitud de la rivalidad competitiva*: Consideramos el mercado de Córdoba capital.
+  * *Amplitud de la rivalidad competitiva*: Consideramos las Empresas de Córdoba capital.
   * *Tasa de crecimiento del mercado*: desconocida.
   * *Etapa en el ciclo de vida*: crecimiento rápido.
   * *Cantidad de compañías en la industria*: Tomando como referencia el Cluster Córdoba Technology, encontramos alrededor de 111 compañías registradas (consideramos que sólo algunas compañías no estarían registradas en esta asociación, en base al reconocimiento de las más conocidas en este grupo).
