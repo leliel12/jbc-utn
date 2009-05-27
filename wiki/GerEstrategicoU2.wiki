@@ -59,9 +59,9 @@ Se deben realizar con frecuencia análisis que permitan evaluar cuáles son las 
 
 ==Análisis de Los competidores==
 
-  * *Identificación de las estrategias de los competidores*
-  * *Evaluación de quiénes serán los principales jugadores de la industria*
-  * *Predicción de los movimientos de los competidores*
+  * *Identificación de las estrategias de los competidores*: Investigar las acciones recientes de las empresas que trabajan con Software de Gestión en el mercado local, para analizar las intenciones a futuro de ellas.
+  * *Evaluación de quiénes serán los principales jugadores de la industria*: Identificar los productos existentes en el mercado que competirán en el segmento de Software de Gestión junto con los factores que los diferencian.
+  * *Predicción de los movimientos de los competidores*: En base a la información recabada, preparar escenarios que supongan los movimientos de los competidores en cuanto a los avances en Sistemas de Gestión y utilizarlos para la planificación estratégica.
 
 ==Factores Clave del Éxito==
 
