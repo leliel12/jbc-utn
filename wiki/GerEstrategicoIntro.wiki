@@ -24,7 +24,8 @@
   * Free Software, Free Society: Selected Essays of Richard M. Stallman: http://www.gnu.org/philosophy/fsfs/rms-essays.pdf
   * Free as in Freedom: http://www.jus.uio.no/sisu/free_as_in_freedom.richard_stallman_crusade_for_free_software.sam_williams/sisu_manifest.html
   * Economía en Monopolios Artificiales: http://jbc-mini-projects.googlecode.com/svn/trunk/papers/ema/
-  * Understanding Open Source and Free Software Licensing: http://oreilly.com/catalog/9780596005818/?CMP=OTC-KW7501011010&ATT=osfreesoft
+  * Understanding Open Source and Free Software Licensing: http://oreilly.com/catalog/osfreesoft/book/
+  * O'Reilly Open Books Project: http://oreilly.com/openbook/
 
 
 
