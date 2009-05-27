@@ -230,9 +230,6 @@ Se deben realizar con frecuencia análisis que permitan evaluar cuáles son las 
   * Lograr una diferenciación en nivel técnico.
 
  
-  
-  #summary One-sentence summary of this page.
-
 = Estrategia Propuesta =
 
 Seleccionaremos una estrategia de diferenciación basada en precio, calidad, innovación, velocidad de servicio y mejora contínua.
