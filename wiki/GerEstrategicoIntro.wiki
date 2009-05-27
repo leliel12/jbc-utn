@@ -14,7 +14,7 @@
   * Software Legal: http://www.softwarelegal.org.ar
   * Free Software Foundation: http://www.fsf.org
   * Open Source Initiative: http://www.opensource.org
-  * Roberto Santos, "Repercusion socioeconomica del Software Libre", http://www.hispalinux.es/~rsantos/charla-repercusion-socioeconomica-sl/
+  * Software Libre - Monografías.com: http://www.monografias.com/trabajos12/elsoflib/elsoflib.shtml
   * Vida Libre: http://www.vialibre.org.ar
   * La Catedral y El Bazaar: http://biblioweb.sindominio.net/telematica/catedral.html
   * Manifiesto GNU: http://www.gnu.org/gnu/manifesto.es.html
