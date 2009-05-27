@@ -1,0 +1,245 @@
+=Aclaraciones Iniciales.=
+
+  * Durante este texto se referirá recurrentemente al modelo !FLOSS utilizando indistintamente !FreeSoftware, !OpenSource o Software Libre como sinónimos.
+  * FLOSS:
+    FOSS, son las siglas, en inglés, de un concepto que designa al "Free and Open Source Software", es decir, al "Software Libre y de Código abierto", sin hacer distinciones entre sus diferencias.
+    FLOSS, es la sigla que identifica, también en inglés, al concepto del "Free/Libre & Open Source Software", pero haciendo mención a la idea filosofía del Software Libre (Free Software), donde "Free" menciona el concepto de "Libre", y no la idea del software gratis, de ahí lo de "F/L", ya que en inglés se tiende a confundir y hasta a trasladarse la confusión al español.
+    El software gratis, muy cercano al concepto del freeware, que no es software libre, y rara vez es de código abierto, sólo está libre para descargarlo, pero no posee las implicaciones y características del software libre, como tampoco los alineamientos con el movimiento filosófico del código abierto.
+  
+  * En este informe, analizaremos las capacidad del modelo FLOSS para brindad productos  satisfactorios al usuario.
+  
+==Bibliografía y Enlaces Recomendados.==
+
+  * GNU: http://www.gnu.org
+  * Software Legal: http://www.softwarelegal.org.ar
+  * Free Software Foundation: http://www.fsf.org
+  * Open Source Initiative: http://www.opensource.org
+  * Software Libre - Monografías.com: http://www.monografias.com/trabajos12/elsoflib/elsoflib.shtml
+  * Vida Libre: http://www.vialibre.org.ar
+  * La Catedral y El Bazaar: http://biblioweb.sindominio.net/telematica/catedral.html
+  * Manifiesto GNU: http://www.gnu.org/gnu/manifesto.es.html
+  * Monopolios Artificiales Sobre Bienes Intangibles: http://www.vialibre.org.ar/mabi/
+  * El Derecho De Leer: http://www.gnu.org/philosophy/right-to-read.es.html
+  * Aprender La Libertad: http://www.aprenderlalibertad.org/
+  * Free Software, Free Society: Selected Essays of Richard M. Stallman: http://www.gnu.org/philosophy/fsfs/rms-essays.pdf
+  * Free as in Freedom: http://www.jus.uio.no/sisu/free_as_in_freedom.richard_stallman_crusade_for_free_software.sam_williams/sisu_manifest.html
+  * Economía en Monopolios Artificiales: http://jbc-mini-projects.googlecode.com/svn/trunk/papers/ema/
+  * Understanding Open Source and Free Software Licensing: http://oreilly.com/catalog/osfreesoft/book/
+  * O'Reilly Open Books Project: http://oreilly.com/openbook/
+
+
+
+
+
+ 
+  
+  #summary Práctico para Gerenciamiento
+
+= Introduccion =
+
+==Sobre Kenya==
+ Kenya es una proyecto de empresa de software en la provincia de Córdoba.
+ Dada la creciente demanda de tecnología en el ámbito local producto de la crisis internacional, se decidió proponer una empresa que aproveche el software libre como plataforma de desarrollo y modelo de negocio.
+ Todos sus productos serán llevados adelante en lenguajes, IDE's y sistemas operativos libres (java/python/ruby/ansi C/C++/Netbeans/Linux/oSolaris) y a su vez estos mismos serán licenciados de esta misma manera. Esta dedición de ha tomado por X motivos principales:
+ * No reinventar la rueda (aprovechar lo realizado).
+ * Fomentar la competencia y que el cliente nos elija por nuestro trabajo del día a día y no por ser 'esclavo' de un producto.
+ * Motivos éticos que se enumeran en los valores.
+ El software libre ha llevado al éxito a empresas al borde de la quiebra como Netscape, y ha sido casi ignorado en el mercado local. Es nuestra intención aprovechar ese descuido.
+
+==Visión==
+ Ser una referencia en calidad y ética de software regionalmente.
+
+==Misión==
+ Satisfacer las necesidades de los clientes y la comunidad en general con productos tecnológicos de calidad manteniendo reglas claras y honestas con nuestros competidores.
+
+==Valores==
+
+  * Fomentar los motivos éticos de las cuatro Libertades del software libre:
+    * Ejecutar el programa con cualquier propósito.
+    * Estudiar y modificar el programa.
+    * Copiar el programa de manera que se pueda ayudar al vecino o a cualquiera.
+    * Mejorar el programa y publicar las mejoras.
+  * Fomentar la motivación pragmática (ventajas técnicas y económicas) abanderada por la Open Source Initiative en sus 10:
+    * Libre redistribución.
+    * Código fuente.
+    * Trabajos derivados.
+    * Integridad del código fuente del autor.
+    * Sin discriminación de personas o grupos.
+    * Sin discriminación de áreas de iniciativa.
+    * Distribución de la licencia.
+    * La licencia no debe ser específica de un producto.
+    * La licencia no debe restringir otro software.
+    * La licencia debe ser tecnológicamente neutral.
+  * Promover un forma de trabajo colaborativa en el mercado.
+  * Fomentar a las personas que colaboren en mejorar la tecnología y compartirla.#summary One-sentence summary of this page.
+
+=Análisis Industrial y Competitivo=
+
+==Características Económicas Dominantes de La Industria==
+
+  * *Tamaño del mercado*: Actualmente no encontramos en el mercado cordobés empresas que promocionen la utilización de software libre en lo que se refiere a licenciamiento. Aunque se utilizan herramientas de desarrollo libres, casi el 100% de las empresas cobran licencias para utilizar su software.
+  * *Amplitud de la rivalidad competitiva*: Consideramos las Empresas de Córdoba capital.
+  * *Tasa de crecimiento del mercado*: desconocida.
+  * *Etapa en el ciclo de vida*: crecimiento rápido.
+  * *Cantidad de compañías en la industria*: Tomando como referencia el Cluster Córdoba Technology, encontramos alrededor de 111 compañías registradas (consideramos que sólo algunas compañías no estarían registradas en esta asociación, en base al reconocimiento de las más conocidas en este grupo).
+  * *Clientes*: todo tipo de empresas que no dispongan de sistemas de gestión o de soporte a sus operaciones y deseen adquirir una alternativa open source.
+  * *Grado de integración vertical*: por lo general las empresas son las que desarrollan y se encargan de la distribución de los productos.
+  * *Facilidad de entrada / salida*: barreras moderadas de entrada, dependientes principalmente de la reputación de los competidores.
+  * *Tecnología / innovación*: La tecnología de producción es muy diversa. Muchas empresas utilizan plataformas de desarrollo antiguas, ya que sus productos tienen años de desarrollo y no están dispuestos a migrar a nuevos entornos con lo que desperdician posibilidades de incrementar su productividad; o bien dejaron de investigar nuevos conceptos para estas tecnologías que agilizaron el desarrollo.
+  * *Características de los productos*: Parcialmente estandarizadas, la mayoría de los productos tienen licenciamiento y se ejecutan en plataformas Microsoft.
+  * *Economías de Escala*: Las compañías que trabajan con licencias inician con costos fijos de adquisición de productos además de los de equipamiento y variables para producción en general, mientras que las que trabajan con el modelo open source sólo tendrían que gastar en equipamiento y variables. Cuando se actualiza la plataforma de desarrollo, las empresas deben invertir nuevamente para actualizarse.
+  * *Efectos de la curva de aprendizaje*: Es importante la experiencia en determinados proyectos y lenguajes, ya que puede existir mucha  reutilización de componentes.
+  * *Utilización de la capacidad*: Como los recursos de fabricación son humanos, se considera que la eficiencia es entre un 60% y 70%.
+  * *Rentabilidad de la industria*: de acuerdo a la demanda y a la predisposición de las empresas a invertir en software, puede ser de moderada a alta.
+
+==Fuerzas Motrices Mas Importantes==
+
+  * *Cambios en la tasa de crecimiento a largo plazo de la industria*: Actualmente esta tasa está decreciendo debido a la crisis mundial, lo que provoca que las empresas pospongan las inversiones.
+  * *Cambios en cuanto a quién compra el producto y cómo lo usa*: Se está haciendo hincapié en el control de licenciamiento legal sobre el software el cuál perjudica a la mayoría de las empresas ya que cuentan con productos ilegales o piratas, lo que favorecería a la aceptación de productos y migración a sistemas operativos de licencia libre.
+  * *Innovación en los productos*: Es necesario realizar un análisis de las últimas tendencias en desarrollo de productos, para estar al corriente o incluso adelantarse en la producción de nuevas versiones.
+  * *Cambio en la tecnología*: Los cambios en la tecnología generalmente no influyen en la utilización del model open source, ya que los sistemas desarrollados bajo esta metodología tienen a la baja utilización de recursos.
+  * *Innovación en la mercadotecnia*: A través de un modelo open source, estamos ofreciendo una nueva forma de vender un producto, con menos costos para los compradores y con una gran diferenciación con respecto a los competidores.
+  * *Entrada o salida de compañías importantes*: Deberíamos preocuparnos por el ingreso de otras compañías sólo en el caso de que trabajen con el mismo modelo y tenga una diferenciación notable con respecto a nuestros productos.
+  * *Difusión del conocimiento técnico*: Estaríamos en una red de conocimiento donde cada avance es compartido y de libre acceso, con lo que estaríamos actualizados con los últimos avances en materia de desarrollo.
+  * *Aumento en la globalización de la industria*: Un buen desempeño y trayectoria a nivel local, puede permitirnos expandir nuestras barreras internacionalmente, con la ventaja de bajos costos locales y beneficios de recibir pagos en moneda extranjera.
+  * *Cambios en costo y eficiencia*: Con el desarrollo organizado de componentes y la experiencia en el mercado, se puede hacer una gran disminución de costos e incremento de la productividad.
+  * *Nueva preferencia de los compradores hacia un producto diferenciado en lugar de uno común y corriente (o hacia un producto más estandarizado en vez de productos fuertemente diferenciados)*: Se deben desarrollar componentes estándar y dejar abierta la posibilidad de adaptación para cada caso particular con el fin de satisfacer las necesidades de clientes que requieran productos diferenciados.
+  * *Influencias de la reglamentación y cambios en las políticas gubernamentales*: Investigar periódicamente la reglamentación vigente que regula a la industria del software con el fin de establecer políticas internas de cumplimiento de las mismas.
+  * *Preocupaciones, actitudes y estilos de vida sociales cambiantes*: Esto está fuertemente relacionado con quién compra el producto y como lo usa. Se debe conocer el estilo de vida de los consumidores con el fin de desarrollar un producto que esté en sintonía con ese estilo.
+  * *Reducciones en el riesgo empresarial y el riesgo debido a la incertidumbre*: El riesgo inicial que se correría es relativamente bajo, ya que no habrá necesidad de gran inversión inicial y la estructura de costos será recucida. Existirá incertidumbre hasta que la compañía logre reconocimiento y aceptación en el mercado.
+
+===Exploración de Entorno===
+
+Se deben realizar con frecuencia análisis que permitan evaluar cuáles son las tendencias en cuando a desarrollo de nuevos productos, qué tecnologías utilizan y que beneficios adicionales brindan a los clientes por su utilización, con el fin de elaborar una estrategia a futuro.
+
+==Análisis de Fuerzas Competitivas==
+
+===Rivalidad entre Vendedores===
+
+  Actualmente existe mucha competencia entre las empresas locales por vender sistemas de gestión administrativa, de gestión de clientes, etc. Algunas empresas cuentan con vasta experiencia y otras realizan grandes inversiones en marketing.
+
+===Poder de Negociacion de los Compradores===
+
+  Al existir tantas alternativas, los compradores estan en condiciones de analizar características contra precios de los productos. Debido a la variedad de características y costos, algunas empresas ofrecen horas de soporte y capacitación incluídas en el presupuesto de venta con el fin de aventajar a los competidores en beneficio de los compradores sin reducir los precios.
+
+===Entradas Potenciales===
+
+  Pueden afectar siempre y cuando planteen un modelo de negocio similar y puedan competir contra los factores que nos diferencian.
+
+==Evaluación de Posiciones Competitivas de los Rivales==
+
+*MAPA DE GRUPOS ESTRATEGICOS DE LA INDUSTRIA DE SOFTWARE DE CORDOBA*
+
+==Análisis de Los competidores==
+
+  * *Identificación de las estrategias de los competidores*: Investigar las acciones recientes de las empresas que trabajan con Software de Gestión en el mercado local, para analizar las intenciones a futuro de ellas.
+  * *Evaluación de quiénes serán los principales jugadores de la industria*: Identificar los productos existentes en el mercado que competirán en el segmento de Software de Gestión junto con los factores que los diferencian.
+  * *Predicción de los movimientos de los competidores*: En base a la información recabada, preparar escenarios que supongan los movimientos de los competidores en cuanto a los avances en Sistemas de Gestión y utilizarlos para la planificación estratégica.
+
+==Factores Clave del Éxito==
+
+  * *FCE relacionados con la tecnología*
+    * *Capacidad de innovación el el proceso de producción*: desarrollar y mejorar herramientas que agilicen el desarrollo e incrementen la productividad en general.
+    * *Capacidad de innovación en los productos*: analizar las tendencias de usabilidad y   requerimientos de los usuarios para ofrecer más de lo que ellos esperan.
+    * *Experiencia en una tecnología*: Estudiar contínuamente los avances y mejoras en una tecnología determinada para aplicar nuevas ideas basadas en una fuerte base de conocimiento.
+  * *FCE relacionados con la fabricación*
+    * *Eficiencia de producción a bajo costo*: identificar una línea de productos a desarrollar y establecer componentes comunes que permitan la óptima reutilización y minimicen el tiempo de nuevos desarrollos.
+    * *Calidad de fabricación*: Identificación temprana de errores y documentación de los mismos para que estén presentes en nuevos desarrollos y eviten la reincidencia.
+    * *Alta productividad de la mano de obra*: está relacionado a tener herramientas que faciliten el desarrollo y a la reutilización de componentes previamente desarrollados.
+    * *Flexibilidad de fabricación*: desarrollo de templates que sirvan como guía pero que a su vez puedan ser adaptados a las necesidades específicas de los clientes.
+  * *FCE relacionados con la distribución*
+    * *Entrega rápida*: Asegurar al cliente el inmediato cumplimiento de sus requerimientos para afianzar la confianza del mismo en nuestro trabajo.
+  * *FCE relacionados con la mercadotecnia*
+    * *Servicio confiable y asistencia técnica disponible*: Asegurar el cumplimiento de fechas, baja cantidad de defectos y vías de comunicación para soporte.
+    * *Exactitud en el cumplimiento de los pedidos*: Establecer una buena comunicación para el seguimiento de los requerimientos en el comienzo, avances y finalización para asegurar la satisfacción de los mismos.
+    * *Habilidades comerciales*: Seleccionar medios de promoción de productos y servicios adecuados para publicitar el trabajo realizado. Asegurar la reputación con clientes actuales brindando un servicio acorde a lo esperado.
+    * *Garantías para los clientes*: Negociación de cómo se llevarán a cabo los requerimientos, aprobación de parte de los clientes y qué especificaciones podrán cambiar en los avances de los mismos.
+  * *FCE relacionados con habilidades*
+    * *Experiencia en una tecnología en particular*: para poder asesorar basado en una fuerte base de conocimientos.
+  * *Capacidad de la organización*
+    * *Capacidad de responder con rapidez a las cambiantes condiciones de mercado*: analizar periódicamente los cambios que ocurren en el mercado para mantener un alto nivel de competitividad.
+  * * Otros tipos de FCE*
+    * *Imágen / reputación favorable con los clientes*: dada por el cumplimiento de los requerimientos, la calidad del producto y del servicio.=Análisis De La Situación de la Empresa.=
+
+==Indicadores del Comportamiento Estratégico.==
+
+  N/A
+
+==F.O.D.A.==
+
+  * *Fortalezas.*
+    * Reutilización de soluciones ya existentes.
+    * No depender solo de los empleados para la soluciones.
+    * Desarrollo de grandes tecnologías complejas con costos pequeños
+    * Modelo de negocio "bien visto"".
+    * Acceso a profesionales con experiencia en cuestiones complejas.
+  * *Debilidades.*
+    * Falta de confianza de los clientes al modelo de negocio por desconocimiento.
+    * Existen diferencias en el "cómo se hacen las cosas" cuando se usa una plataforma de software libre.
+    * Factorización el aprendizaje de los usuarios y administradores como un costo de operación.
+    * No existen esfuerzos coordinados de marketing en promover el modelo de negocio.
+    * Las comunidades de software libre hacen pocos esfuerzos para llegar de forma significativa al común de los usuarios
+  * *Oportunidades.*
+    * Facilidad de entrada a nuevos mercados dada el acceso gratuito a nuestras tecnologías.
+    * Mejoras potenciales de nuestros productos por partes de terceros.
+    * Ausencia de barreras comerciales geográficas.
+    * Ofrecer reglas claras a nuestros competidores
+    * Los proveedores y los clientes se ven beneficiados por nuestro trabajo.
+    * Modelo de negocio con amplia proyección a futuro.
+  * *Amenazas.*
+    * Acuerdos monopólicos fuertes.
+    * Presiones de las grandes multinacionales por aferrarse a modelos antiguos.
+    * Perdida del interés del proyecto por parte de la comunidad.
+    * Falta de capacitación operativa y gerencial en los centros de capacitación de profesionales.
+    * Si bien el modelo es popular con miles de casos de mucho éxito(Firefox/linux/MySql) pareciera que el sector analista financiero o estratégico esta poco interesado o informado en el.
+    * Las universidades hoy por hoy siguen enseñando el modelo de negocio basado en producto olvidándose de los modelos open y servicios.
+    
+==Evaluación de Fuerza Competitiva del Modelo de Negocio Internacionalmente.==
+  
+  Análisis de tres empresas con tres de modelos de negocios diferentes:
+    * Microsoft: Totalmente Privativo.
+    * Cannonical: FLOSS.
+    * Google: Híbrido.
+  Escala de Calificación: 1 = débil, 10 = fuerte.
+  
+|| *Factor Clava del Éxito/Variable competitiva*          || *Peso*   || Google || Cannonical || Microsoft ||
+|| *Calidad y Comportamiento de los productos*            ||  *10*    || 10     || 10         || 6         ||
+|| *Reputación o imagen*                                  ||  *10*    || 10     || 8          || 6         ||
+|| *Acceso o costo a personal calificado*                 ||   *8*    || 10     || 8          || 10        ||
+|| *Habilidades tecnológicas*                             ||   *8*    || 10     || 6          || 8         ||
+|| *Capacidad de Fabricación*                             ||   *7*    || 10     || 8          || 6         ||
+|| *Marketing/Distribución*                               ||   *7*    || 10     || 10         || 10        ||
+|| *Fuerza Financiera*                                    ||   *8*    || 10     || 6          || 10        ||
+|| *Posición Relativa de Costos*                          ||   *9*    || 9      || 7          || 10        ||
+|| *Calificación general (Sumatoria(peso x Calificación)* ||   -      || *661*  || *623*      || *494*     ||
+
+==Conclusiones En Cuanto A La Posición Competitiva Del Modelo De Negocio.==
+
+  * El análisis hizo un fuerte incapié en cuestiones técnicas y la habilidad de la empresa para generar nuevos productos (no de comprarlo).
+  * Posiblemente Microsoft nunca desaparezca pero es evidente que su fuerza esta en el dinero y no en habilidades técnicas.
+  * En este análisis se evidencia como Microsoft no esta bien visto pero aun aso es la empresa casi siempre elegida.
+  * Google desarrollo un modelo de negocio híbrido en el cual su I/D es open source y esta formando un banco de datos de código con el google code.
+  * Cannonical es una empresa relativamente nueva pero que logro posicionar al GNU/Linux en un mercado masivo (Ubuntu).
+  * El modelo es factible y prometedor, y probablemente el reemplazo de los modelos actuales, todavía es muy poco predecible.
+  * El modelo de negocio tiene una amplia proyección internacional.
+  
+==Puntos a Atacar por La Compañía==
+  * Evitar que la competencia vea la manera de distribución FLOSS como una amenaza y se reúnan en una alianza en contra de Kenya.
+  * Fomentar la capacitación de personal técnico administrativo y gerencial en el modelo de negocio.
+  * Ganarse la confianza de un mercado que cree que lo "gratis es malo".
+  * Lograr una diferenciación en nivel técnico.
+
+ 
+  
+  #summary One-sentence summary of this page.
+
+= Estrategia Propuesta =
+
+Seleccionaremos una estrategia de diferenciación basada en precio, calidad, innovación, velocidad de servicio y mejora contínua.
+  * *Precio*: al ser una alternativa open source, la implementación inicial del desarrollo no tendría costo para nuestros clientes. Esto nos diferenciaría prácticamente de cualquier tipo de compañía, ya que casi el 100% de los productos ofrecidos en el mercado tienen licenciamiento.
+  * *Calidad*: implementar métricas y estricto testing a nuestros desarrollos que permitan evaluar la codificación y reducir al mínimo los errores que llegan a los clientes.
+  * *Innovación*: Estar atento a nuevas falencias o requerimientos encontrados en nuestros clientes, que permitan descubrir nuevas oportunidades y ofrecer soluciones que agregue valor a su negocio.
+  * *Velocidad de servicio*: ofrecer un sistema de gestión de requerimientos mediante tickets, que permitan trabajar los pedidos por cliente de acuerdo a fecha de ingreso y prioridad.
+  * *Mejora Contínua*: hacer revisiones en períodos de tiempo establecidos a nuestros productos con el fin de evaluarlos de manera crítica e identificar las mejoras necesarias a introducir para incrementar la productividad en la utilización y beneficios brindados por los mismos.
+
+Esto nos permitirá fidelizar a nuestros clientes a través de la confianza en el producto, lograr que su satisfacción sea sostenible a lo largo del tiempo a través de la mejora contínua y ganar reputación en el mercado; establecer un precio competitivo sobre el soporte y desarrollo brindado que permita obtener los beneficios económicos esperados y que nuestros productos y servicios dificulten a otras empresas competir directamente contra nuestros factores diferenciadores.
