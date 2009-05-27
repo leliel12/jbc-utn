@@ -24,7 +24,7 @@
     * Estudiar y modificar el programa.
     * Copiar el programa de manera que se pueda ayudar al vecino o a cualquiera.
     * Mejorar el programa y publicar las mejoras.
-  * Fomentar la motivación pragmática (ventajas técnicas y económicas)abanderada por la Open Source Initiative en sus 10:
+  * Fomentar la motivación pragmática (ventajas técnicas y económicas) abanderada por la Open Source Initiative en sus 10:
     * Libre redistribución.
     * Código fuente.
     * Trabajos derivados.
