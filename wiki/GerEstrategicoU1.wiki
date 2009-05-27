@@ -7,7 +7,7 @@
  Dada la creciente demanda de tecnología en el ámbito local producto de la crisis internacional, se decidió proponer una empresa que aproveche el software libre como plataforma de desarrollo y modelo de negocio.
  Todos sus productos serán llevados adelante en lenguajes, IDE's y sistemas operativos libres (java/python/ruby/ansi C/C++/Netbeans/Linux/oSolaris) y a su vez estos mismos serán licenciados de esta misma manera. Esta dedición de ha tomado por X motivos principales:
  * No reinventar la rueda (aprovechar lo realizado).
- * Fomentar la competencia y que el cliente nos elija por nuestro trabajo del dia a día y no por ser 'esclavo' de un producto.
+ * Fomentar la competencia y que el cliente nos elija por nuestro trabajo del día a día y no por ser 'esclavo' de un producto.
  * Motivos éticos que se enumeran en los valores.
  El software libre ha llevado al éxito a empresas al borde de la quiebra como Netscape, y ha sido casi ignorado en el mercado local. Es nuestra intención aprovechar ese descuido.
 
