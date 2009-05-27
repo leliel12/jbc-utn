@@ -14,7 +14,7 @@
   * *Facilidad de entrada / salida*: barreras moderadas de entrada, dependientes principalmente de la reputación de los competidores.
   * *Tecnología / innovación*: La tecnología de producción es muy diversa. Muchas empresas utilizan plataformas de desarrollo antiguas, ya que sus productos tienen años de desarrollo y no están dispuestos a migrar a nuevos entornos con lo que desperdician posibilidades de incrementar su productividad; o bien dejaron de investigar nuevos conceptos para estas tecnologías que agilizaron el desarrollo.
   * *Características de los productos*: Parcialmente estandarizadas, la mayoría de los productos tienen licenciamiento y se ejecutan en plataformas Microsoft.
-  * *Economías de Escala*: Las compañías deberían contar con licencias y para desarrollo, además de sus costos fijos.
+  * *Economías de Escala*: Las compañías que trabajan con licencias inician con costos fijos de adquisición de productos además de los de equipamiento y variables para producción en general, mientras que las que trabajan con el modelo open source sólo tendrían que gastar en equipamiento y variables. Cuando se actualiza la plataforma de desarrollo, las empresas deben invertir nuevamente para actualizarse.
   * *Efectos de la curva de aprendizaje*: Es importante la experiencia en determinados proyectos y lenguajes, ya que puede existir mucha  reutilización de componentes.
   * *Utilización de la capacidad*: Como los recursos de fabricación son humanos, se considera que la eficiencia es entre un 60% y 70%.
   * *Rentabilidad de la industria*: de acuerdo a la demanda y a la predisposición de las empresas a invertir en software, puede ser de moderada a alta.
