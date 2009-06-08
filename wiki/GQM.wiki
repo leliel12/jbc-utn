@@ -1,0 +1,40 @@
+#summary One-sentence summary of this page.
+
+= Práctico 1 =
+
+==Contexto.==
+
+Actualmente esta en desarrollo nuestro proyecto final el cual consiste en un video juego online con interfaz web.
+El juego presenta varias características comunes como la simulación de exploración de un mundo, las batallas entre jugadores y la creación de construcciones y unidades. Dado el diseño modular del producto el único momento donde puede generarse un gran cuello de botella para el procesamiento de las peticiones de los usuarios es cuando solicita una batalla.
+Estos algoritmos, las batallas, se resuelven por medio de la teoría de colas la cual puede hacer que los tiempos de calculo crezcan eminencialmente generando retardos de mas 3 segundos (inaceptables en tiempos de procesadores).
+Es por esto que decidimos implementar este practico para medir, y luego controlar estos comportamientos para que mas personas puedan disfrutar al mismo tiempo del producto.
+
+==GQM==
+
+===Objetivo.===
+
+Disminuir la latencia[1] de ejecución de un algoritmo a menos de un segundo de ejecución considerando la claridad[2] de código y  diseño, sin retrasar los plazos de entrega.
+
+===GQM.===
+
+  * *Preguntas*
+    * ¿Como mido los tiempos de ejecución del programa?
+      * *Metricas*
+          * Tiempo de Ejecución (m final – m inicial)
+          * Profiling.
+      * ¿Como mido la complejidad de mi código?
+      * *Metricas*
+          * Complejidad Ciclomática.
+          * Complejidad esencial.
+          * Incumplimiento de la Ley de Demeter sobre linea de código.
+      * ¿Como mido la complejidad de mi diseño?
+      * *Metricas*
+          * Promedio de Cohesión Funcional.
+          * Cantidad de Patrones.
+          * Cantidad de Anti-Patrones.
+
+== Referencias ==
+
+  # Latencia: Termino utilizado en retardo de transmisión de datos en las redes. Reutilizado en este caso como la suma de los retardos parciales de los algoritmos.
+  # Claridad: código con poca ofuscación[3].
+  # Ofuscación: Es el código fuente o diseño lógico  que se ha hecho difícil de entender de manera intencional o accidental. Ofuscación y optimización no son necesariamente opuestas, pero involuntariamente a veces se produce cuando los programadores o diseñadores ofuscan en un intento de optimizar prematuramente.
