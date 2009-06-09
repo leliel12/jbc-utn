@@ -12,7 +12,7 @@ Los requerimientos básicos con los que contamos son:
   * Batallas entre jugadores.
   * Creación de Construcciones y Unidades *que sería esto?*.
 
-Analizaremos los tiempos de procesamiento para las solicitudes de batallas entre jugadores, que es cuando es necesario un óptimo tiempo de respuesta. La forma de trabajo de estas solicitudes se basa en Teoría de Colas y el propósito es hacer que el tiempo entre estas sea el menor a dos segundos.
+Analizaremos los tiempos de procesamiento para las solicitudes de batallas entre jugadores, que es cuando es necesario un óptimo tiempo de respuesta. La forma de trabajo de estas solicitudes se basa en Teoría de Colas y el propósito es hacer que el tiempo entre estas sea el menor a un segundo.
 
 ==GQM==
 
