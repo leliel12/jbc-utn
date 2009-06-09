@@ -4,7 +4,14 @@
 
 ==Contexto.==
 
-Actualmente esta en desarrollo nuestro proyecto final el cual consiste en un video juego online con interfaz web.
+Nuestro estudio consistirá en un video juego online con interfaz web, el cual será el desarrollo realizado para la materia PROYECTO FINAL.
+
+Los requerimientos básicos con los que contamos son:
+
+* Simulación de exploración de un mundo.
+* Batallas entre jugadores.
+* Creación de Construcciones y Unidades *que sería esto?*.
+
 El juego presenta varias características comunes como la simulación de exploración de un mundo, las batallas entre jugadores y la creación de construcciones y unidades. Dado el diseño modular del producto el único momento donde puede generarse un gran cuello de botella para el procesamiento de las peticiones de los usuarios es cuando solicita una batalla.
 Estos algoritmos, las batallas, se resuelven por medio de la teoría de colas la cual puede hacer que los tiempos de calculo crezcan eminencialmente generando retardos de mas 3 segundos (inaceptables en tiempos de procesadores).
 Es por esto que decidimos implementar este practico para medir, y luego controlar estos comportamientos para que mas personas puedan disfrutar al mismo tiempo del producto.
