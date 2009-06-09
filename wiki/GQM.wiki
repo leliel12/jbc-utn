@@ -22,8 +22,10 @@ Disminuir la latencia[1] de ejecución del algoritmo de solicitud de batalla a m
 
 ===GQM.===
 
+<wiki:comment>
 *SOBRE CADA UNA DE LAS METRICAS EXPLICARIA QUÉ ES Y COMO SE MIDE, PARA QUE QUEDE BIEN CLARO. YO DESCONOZCO QUE ES COMPLEJIDAD ESENCIAL POR EJEMPLO*
 *OFUSCACION ENTIENDO QUE ES LA CLARIDAD DE LOS CARACTERES DEL CODIGO. UN CODIGO OFUSCADO SERIA UN CODIGO NO ENTENDIBLE A SIMPLE VISTA, ME EQUIVOCO? NO TENDRIA QUE VER CON LA COMPLEJIDAD*
+</wiki:comment>
 
   * *Preguntas*
     * ¿Como mido la latencia en la ejecución del algoritmo de solicitud de batalla?
