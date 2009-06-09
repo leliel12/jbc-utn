@@ -22,6 +22,8 @@ Disminuir la latencia[1] de ejecución del algoritmo de solicitud de batalla a m
 
 ===GQM.===
 
+*SOBRE CADA UNA DE LAS METRICAS EXPLICARIA QUÉ ES Y COMO SE MIDE, PARA QUE QUEDE BIEN CLARO. YO DESCONOZCO QUE ES COMPLEJIDAD ESENCIAL POR EJEMPLO*
+
   * *Preguntas*
     * ¿Como mido la latencia en la ejecución del algoritmo de solicitud de batalla?
       * *Metricas*
