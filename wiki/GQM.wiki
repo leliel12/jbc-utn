@@ -18,7 +18,7 @@ Analizaremos los tiempos de procesamiento para las solicitudes de batallas entre
 
 ===Objetivo.===
 
-Disminuir la latencia[1] de ejecución de un algoritmo a menos de un segundo de ejecución considerando la claridad[2] de código y  diseño, sin retrasar los plazos de entrega.
+Disminuir la latencia[1] de ejecución del algoritmo de solicitud de batalla a menos de un segundo de ejecución considerando la claridad[2] de código y  diseño, sin retrasar los plazos de entrega.
 
 ===GQM.===
 
