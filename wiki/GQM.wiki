@@ -38,4 +38,4 @@ Disminuir la latencia[1] de ejecución del algoritmo de solicitud de batalla a m
 == Referencias ==
 
   # Latencia: Termino utilizado en retardo de transmisión de datos en las redes. Reutilizado en este caso como la suma de los retardos parciales de los algoritmos.
-  # Complejidad (Ciclomática): cantidad de bifurcaciones que posee un método o  función.
+  # Complejidad: Que tan dificil de entender y resolver es un algoritmo.
