@@ -38,5 +38,4 @@ Disminuir la latencia[1] de ejecución del algoritmo de solicitud de batalla a m
 == Referencias ==
 
   # Latencia: Termino utilizado en retardo de transmisión de datos en las redes. Reutilizado en este caso como la suma de los retardos parciales de los algoritmos.
-  # Claridad: código con poca ofuscación[3].
-  # Ofuscación: Es el código fuente o diseño lógico  que se ha hecho difícil de entender de manera intencional o accidental. Ofuscación y optimización no son necesariamente opuestas, pero involuntariamente a veces se produce cuando los programadores o diseñadores ofuscan en un intento de optimizar prematuramente.
+  # Complejidad (Ciclomática): cantidad de bifurcaciones que posee un método o  función.
