@@ -25,7 +25,8 @@ Disminuir la latencia[1] de ejecución del algoritmo de solicitud de batalla a m
     * ¿Como mido la complejidad de mi código?
       * *Metricas*
           * Complejidad Ciclomática.
-            Cantidad de bifurcaciones que posee un metodo/funcion.
+           Cantidad de bifurcaciones que posee un metodo/funcion.
+           A mas cantidad de bifurcaciones, mas complejidad.
           
           * Incumplimiento de la Ley de Demeter sobre linea de código.
           La ley de Demeter en objetos, se cumple solo si una operación de un objeto utiliza:
