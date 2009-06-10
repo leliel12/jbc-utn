@@ -11,11 +11,11 @@ Es por esto que decidimos implementar este practico para medir, y luego controla
 
 ==GQM==
 
-===Objetivo.===
+===Objetivo===
 
 Disminuir la latencia[1] de ejecución del algoritmo de solicitud de batalla a menos de un segundo de ejecución considerando la complejidad[2] de código sin retrasar los plazos de entrega.
 
-===GQM.===
+===Preguntas / Métricas===
 
   * *Preguntas*
     * ¿Como mido la latencia en la ejecución del algoritmo de solicitud de batalla?
