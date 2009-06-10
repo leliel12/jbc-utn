@@ -4,44 +4,35 @@
 
 ==Contexto.==
 
-Nuestro estudio consistirá en un video juego online con interfaz web, el cual será el desarrollo realizado para la materia PROYECTO FINAL.
-
-Los requerimientos básicos con los que contamos son:
-
-  * Simulación de exploración de un mundo.
-  * Batallas entre jugadores.
-  * Creación de Construcciones y Unidades *que sería esto?*.
-
-Analizaremos los tiempos de procesamiento para las solicitudes de batallas entre jugadores, que es cuando es necesario un óptimo tiempo de respuesta. La forma de trabajo de estas solicitudes se basa en Teoría de Colas y el propósito es hacer que el tiempo entre estas sea el menor a un segundo.
+Actualmente esta en desarrollo nuestro proyecto final el cual consiste en un video juego online con interfaz web.
+El juego presenta varias características comunes como la simulación de exploración de un mundo, las batallas entre jugadores y la creación de construcciones y unidades. Dado el diseño modular del producto el único momento donde puede generarse un gran cuello de botella para el procesamiento de las peticiones de los usuarios es cuando solicita una batalla.
+Estos algoritmos, las batallas, se resuelven por medio de la teoría de colas la cual puede hacer que los tiempos de calculo crezcan exponencialmente generando retardos de mas 3 segundos (inaceptables en tiempos de procesadores).
+Es por esto que decidimos implementar este practico para medir, y luego controlar estos comportamientos para que mas personas puedan disfrutar al mismo tiempo del producto.
 
 ==GQM==
 
 ===Objetivo.===
 
-Disminuir la latencia[1] de ejecución del algoritmo de solicitud de batalla a menos de un segundo de ejecución considerando la claridad[2] de código y  diseño, sin retrasar los plazos de entrega.
+Disminuir la latencia[1] de ejecución del algoritmo de solicitud de batalla a menos de un segundo de ejecución considerando la complejidad[2] de código sin retrasar los plazos de entrega.
 
 ===GQM.===
-
-<wiki:comment>
-*SOBRE CADA UNA DE LAS METRICAS EXPLICARIA QUÉ ES Y COMO SE MIDE, PARA QUE QUEDE BIEN CLARO. YO DESCONOZCO QUE ES COMPLEJIDAD ESENCIAL POR EJEMPLO*
-*OFUSCACION ENTIENDO QUE ES LA CLARIDAD DE LOS CARACTERES DEL CODIGO. UN CODIGO OFUSCADO SERIA UN CODIGO NO ENTENDIBLE A SIMPLE VISTA, ME EQUIVOCO? NO TENDRIA QUE VER CON LA COMPLEJIDAD*
-</wiki:comment>
 
   * *Preguntas*
     * ¿Como mido la latencia en la ejecución del algoritmo de solicitud de batalla?
       * *Metricas*
-          * Tiempo de Ejecución (m final – m inicial)
-          * Profiling. *¿Qué es esto?*
-    * ¿Como mido la complejidad de mi código? *El objetivo dice claridad y creo que no tiene nada que ver con complejidad*
+          * Latencia (m final – m inicial): 
+            Es el tiempo total desde que se lanza el algortimo hasta que retorna los valores.
+    * ¿Como mido la complejidad de mi código?
       * *Metricas*
           * Complejidad Ciclomática.
-          * Complejidad esencial.
+            Cantidad de bifurcaciones que posee un metodo/funcion.
+          
           * Incumplimiento de la Ley de Demeter sobre linea de código.
-    * ¿Como mido la complejidad de mi diseño? *arriba habla de claridad, de nuevo*
-      * *Metricas*
-          * Promedio de Cohesión Funcional.
-          * Cantidad de Patrones.
-          * Cantidad de Anti-Patrones.
+          La ley de Demeter en objetos, se cumple solo si una operación de un objeto utiliza:
+            * Las operaciones propias del objeto.
+            * Los objetos que tenga asociados o sean atributos del objeto.
+            * Los objetos que recibe como parámetro la operación.
+            * Los objetos que cree la operación.
 
 == Referencias ==
 
