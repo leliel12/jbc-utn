@@ -13,22 +13,13 @@ El software es, innegablemente, una industria global. Debemos estar sumamente at
  Las habilidades distintivas son las fortalezas únicas que permiten que una compañía logre niveles superiores de eficiencia, calidad, innovación o capacidad de satisfacer al cliente. Ya que el software es en si mismo "conocimiento e información" esta transferencia se da para lograr "Economía de Localización" por que en si mismo el producto no altera su valor pero si los sueldos de las personas que lo realizan.
 
 ==Realizar Economías de Localización==
-Estas economías son aquellas que surgen del desarrollo de una actividad de
-creación de valor en el sitio optimo para esa actividad (sic).
-Ubicar una actividad en el sitio optimo puede dar unos de estos efectos:
-  * Disminuir los costos de creación de valor, ayudando a que la compañía
-  alcance bajos costos.
-  * Permitir que la compañía diferencie su oferta de productos y fije un precio
-  superior.
-En el caso del software los esta estrategia se gano su propio de *"OutSourcing"*
-El outsourcing es una analogía de los procesos de producción industrial, permite 
-reducir considerablemente los riesgos en la construcción y manutención de 
-proyectos de software, ofrece beneficios directos sobre la confiabilidad y 
-nivel de satisfacción de los productos entregados, proporcionando una mayor
-claridad presupuestaria y un calendario más acotado de los proyectos.
-Este concepto de servicio permite optimizar los recursos y potencialidades 
-tecnológicas, así como, las ventajas comparativas obtenidas a través de 
-economías de escala y una mejor relación costo beneficio. 
+ Estas economías son aquellas que surgen del desarrollo de una actividad de creación de valor en el sitio optimo para esa actividad (sic).
+ Ubicar una actividad en el sitio optimo puede dar unos de estos efectos:
+  * Disminuir los costos de creación de valor, ayudando a que la compañía alcance bajos costos.
+  * Permitir que la compañía diferencie su oferta de productos y fije un precio superior.
+ En el caso del software los esta estrategia se gano su propio de *"Outsourcing"*
+ El outsourcing es una analogía de los procesos de producción industrial, permite reducir considerablemente los riesgos en la construcción y manutención de proyectos de software, ofrece beneficios directos sobre la confiabilidad y nivel de satisfacción de los productos entregados, proporcionando una mayor claridad presupuestaria y un calendario más acotado de los proyectos.
+ Este concepto de servicio permite optimizar los recursos y potencialidades tecnológicas, así como, las ventajas comparativas obtenidas a través de economías de escala y una mejor relación costo beneficio. 
 
 ==Desplazamiento Descendiente en la Curva de Experiencia==
 La curva de experiencia se refiere a la disminución sistemática en los costos de
