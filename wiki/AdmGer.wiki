@@ -1,31 +1,16 @@
 =Introducción=
 
-El desarrollo de software hoy ya no tiene límites geográficos: vemos software 
-producido en cualquier parte del mundo, las 24 horas, los 7 días de cada semana 
-del año. La dinámica del comercio mundial de software en términos de flujo de 
-trabajo, movimiento de productos y movilidad de profesionales es indudablemente 
-global.
-El software es, innegablemente, una industria global. Debemos estar sumamente
-atentos a la evolución de los diferentes parámetros que influyen en la
-asignación y distribución de los recursos para llevar a cabo su desarrollo.
+ El desarrollo de software hoy ya no tiene límites geográficos: vemos software producido en cualquier parte del mundo, las 24 horas, los 7 días de cada semana del año. La dinámica del comercio mundial de software en términos de flujo de trabajo, movimiento de productos y movilidad de profesionales es indudablemente global.
+El software es, innegablemente, una industria global. Debemos estar sumamente atentos a la evolución de los diferentes parámetros que influyen en la asignación y distribución de los recursos para llevar a cabo su desarrollo.
 
 =Obtener utilidades de la expansión global.=
-Las compañías que operan internacionalmente pueden obtener beneficios de las siguientes maneras:
+ Las compañías que operan internacionalmente pueden obtener beneficios de las siguientes maneras:
         # Obtener gran rendimiento a partir de sus habilidades distintivas.
-        # Realizar lo que se conoce economía de localización al
-distribuir las actividades individuales de creación de valor a
-aquellos sirios donde se pueden ejecutar en forma mas eficiente.
-        # Bajar la curva de experiencia antes que los competidores,
-disminuyendo de esta manera los costos de la creación de valor.
+        # Realizar lo que se conoce economía de localización al distribuir las actividades individuales de creación de valor a aquellos sirios donde se pueden ejecutar en forma mas eficiente.
+        # Bajar la curva de experiencia antes que los competidores, disminuyendo de esta manera los costos de la creación de valor.
 
 ==Transferencia de habilidades distintivas==
-Las habilidades distintivas son las fortalezas únicas que permiten
-que una compañía logre niveles superiores de eficiencia, calidad,
-innovación o capacidad de satisfacer al cliente.
-Ya que el software es en si mismo "conocimiento e información" esta
-transferencia se da para lograr "Economía de Localización" por que en si mismo
-el producto no altera su valor pero si los sueldos de las personas que lo
-realizan.
+ Las habilidades distintivas son las fortalezas únicas que permiten que una compañía logre niveles superiores de eficiencia, calidad, innovación o capacidad de satisfacer al cliente. Ya que el software es en si mismo "conocimiento e información" esta transferencia se da para lograr "Economía de Localización" por que en si mismo el producto no altera su valor pero si los sueldos de las personas que lo realizan.
 
 ==Realizar Economías de Localización==
 Estas economías son aquellas que surgen del desarrollo de una actividad de
