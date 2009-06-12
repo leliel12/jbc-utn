@@ -1,0 +1,116 @@
+=Introducción=
+
+El desarrollo de software hoy ya no tiene límites geográficos: vemos software 
+producido en cualquier parte del mundo, las 24 horas, los 7 días de cada semana 
+del año. La dinámica del comercio mundial de software en términos de flujo de 
+trabajo, movimiento de productos y movilidad de profesionales es indudablemente 
+global.
+El software es, innegablemente, una industria global. Debemos estar sumamente
+atentos a la evolución de los diferentes parámetros que influyen en la
+asignación y distribución de los recursos para llevar a cabo su desarrollo.
+
+=Obtener utilidades de la expansión global.=
+Las compañías que operan internacionalmente pueden obtener beneficios de las siguientes maneras:
+        # Obtener gran rendimiento a partir de sus habilidades distintivas.
+        # Realizar lo que se conoce economía de localización al
+distribuir las actividades individuales de creación de valor a
+aquellos sirios donde se pueden ejecutar en forma mas eficiente.
+        # Bajar la curva de experiencia antes que los competidores,
+disminuyendo de esta manera los costos de la creación de valor.
+
+==Transferencia de habilidades distintivas==
+Las habilidades distintivas son las fortalezas únicas que permiten
+que una compañía logre niveles superiores de eficiencia, calidad,
+innovación o capacidad de satisfacer al cliente.
+Ya que el software es en si mismo "conocimiento e información" esta
+transferencia se da para lograr "Economía de Localización" por que en si mismo
+el producto no altera su valor pero si los sueldos de las personas que lo
+realizan.
+
+==Realizar Economías de Localización==
+Estas economías son aquellas que surgen del desarrollo de una actividad de
+creación de valor en el sitio optimo para esa actividad (sic).
+Ubicar una actividad en el sitio optimo puede dar unos de estos efectos:
+  * Disminuir los costos de creación de valor, ayudando a que la compañía
+  alcance bajos costos.
+  * Permitir que la compañía diferencie su oferta de productos y fije un precio
+  superior.
+En el caso del software los esta estrategia se gano su propio de *"OutSourcing"*
+El outsourcing es una analogía de los procesos de producción industrial, permite 
+reducir considerablemente los riesgos en la construcción y manutención de 
+proyectos de software, ofrece beneficios directos sobre la confiabilidad y 
+nivel de satisfacción de los productos entregados, proporcionando una mayor
+claridad presupuestaria y un calendario más acotado de los proyectos.
+Este concepto de servicio permite optimizar los recursos y potencialidades 
+tecnológicas, así como, las ventajas comparativas obtenidas a través de 
+economías de escala y una mejor relación costo beneficio. 
+
+==Desplazamiento Descendiente en la Curva de Experiencia==
+La curva de experiencia se refiere a la disminución sistemática en los costos de
+producción incurridos durante la vida del producto.
+En el caso del software si uno traslada el producto cerca de puntos de
+capacitación, es evidente que la curva de aprendizaje ya estará mas "avanzada".
+Por otra parte cuando un software ya tiene muchos años de desarrollo en un lugar. 
+Trasladar esa experiencia a otras zonas puede ser por demás costoso.
+
+=Presiones para el logro de reducciones en costos y para obtener mayor capacidad de aceptación local=
+
+La compañías que compiten en el mercado global usualmente enfrentan dos tipos de  presiones:
+  * Presiones para el logro de de reducción en los costos.
+  * Presiones para obtener mayor capacidad de aceptación local.
+
+==Presiones para el logro de de reducción en los costos.==
+
+Con el fin de responder a estas imposiciones, una empresa necesita disminuir los
+costos de creación de valor, mediante la producción en serie de un bien
+estandarizado en un lugar óptimo del mundo, con el fin de realizar economías en
+la localización.
+Este tipo de presiones pueden ser particularmente intensas en industrias que
+generan productos populares, donde es difícil la diferenciación significativa,
+donde el precio constituye la principal arma competitiva.
+También son intensas en industrias donde los principales competidores se apoyan
+en lugares de bajo costo, donde existe una persistente capacidad sobrante y
+donde los consumidores son poderosos y enfrentan bajos costos de cambio.
+Los analistas concluyen que la liberación del comercio mundial ha incrementado
+las presiones en los costos.
+La mayoría de las organizaciones actualmente tratan de racionalizar sus
+operaciones en una forma consistente con el logro de una posición de bajo costo.
+Desplazan la producción a instalaciones de bajo costo y ofrecen productos
+estandarizados a nivel mundial, en un intento por realizar economías en la curva
+de experiencia. 
+
+==Presiones para obtener mayor capacidad de aceptación local.==
+
+Las presiones para el logro de una capacidad de aceptación local surgen a partir
+de los siguientes factores:
+
+  # *Diferencias en los gustos y preferencias de los consumidores.*
+    Cuando los gustos y preferencia de los consumidores se diferencian
+    significativamente entre países, ya sea por razones históricas o culturales,
+    el producto y/o los mensajes de mercadeo deben ajustarse para atraer los
+    gustos de los consumidores locales.
+    Las modernas tecnologías de comunicación  y transporte  han creado las
+    condiciones para una convergencia de gustos y preferencias de los
+    consumidores en distintas naciones. El resultado es el surgimiento de
+    enormes mercados globales para productos estandarizados de consumo.
+    En contraste, se ha observado en la industria de los electrodomésticos, como
+    los consumidores reaccionan ante una sobre dosis de productos estandarizados
+    a nivel mundial, al mostrar una renovada preferencia por productos que se
+    ajustan a las condiciones locales.
+  # *Diferencias en infraestructura y prácticas tradicionales.*
+    En un intento por obtener mayor capacidad de aceptación local, surge la
+    necesidad de ajustar los productos de forma apropiada, en base a las
+    exigencias locales.
+    _Ej:_ los productos que funcionan en diferentes sistemas eléctricos.
+  # *Diferencias en canales de distribución.*
+ Las estrategias de mercadeo de una compañía quizá tenga que responder a
+ diferencias en los canales de distribución existentes entre los países.
+  # *Exigencias de los gobiernos anfitriones.*
+Las exigencias económicas y políticas impuestas por los países anfitriones, como
+amenazas de proteccionismo, nacionalismo económico y reglas de contenido local.
+
+==Implicaciones.==
+Las presiones para el logro de la capacidad de aceptación loca, implica que
+puede no ser posible que una compañía obtenga todos los beneficios de la
+curva de experiencia y de las economías de localización, debido al hecho de que,
+al tener una capacidad de aceptación local tiende a incrementar los costos.
