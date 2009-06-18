@@ -84,3 +84,68 @@
  La estrategia transnacional tiene sentido cuando una compañía enfrenta grandes presiones tanto para lograr reducciones en costos como para alcanzar un nivel de capacidad de aceptación local. Las compañías que siguen una estrategia transnacional tratan de lograr en forma simultánea ventajas de bajo costo y de diferenciación. Contar con un nivel de capacidad de aceptación local incrementa los costos.
 
  Al utilizar este tipo de estrategias puede surgir un problema que consiste en tratar de lograr en forma simultánea eficiencia en costos, aprendizaje global y capacidad de aceptación local se establecen exigencias contradictorias en una organización. Es importante notar que los problemas organizacionales asociados a seguir esencialmente objetivos contrarios constituyen un gran impedimento para implementar una estrategia transnacional.
+
+=Selección del modo de ingreso.=
+
+ Al considerar el ingreso en un mercado extranjero se plantea la pregunta acerca de la mejor forma de ingresar. Existen 5 alternativas importantes: exportación, licenciamiento, franquicia, ingreso en una joint venture con una compañía de un país anfitrión y establecimiento de una subsidiaria propia en el país anfitrión.
+
+==Exportación==
+
+La mayoría de las compañías fabricantes comienzan su expansión global como exportadores y después se cambian a un modo diferente de atender aun mercado extranjero. 
+
+*Ventajas*
+  * Evita los costos de establecer operaciones de fabricación en el país anfitrión, que a menudo son considerables; y puede ser consistente con la realización de economías en costo con base en la curva de experiencia y de economías de localización. Al fabricar el producto en un sitio centralizado y luego exportarlo a oteros mercados nacionales, la compañía puede realizar considerables economías de escala a partir de su volumen global de ventas.
+
+*Desventajas*
+  * Exportar desde la sede de la compañía puede no ser apropiado si existen lugares de bajo costo para la fabricación del producto en el exterior
+  * Los elevados costos de transporte pueden hacer que la exportación no sea económica.
+  * De igual manera, las barreras arancelarias pueden hacer que la exportación no sea económica, y la amenaza de su imposición por parte del gobierno de un país donde la compañía exporta puede hacer que la estrategia sea muy riesgosa.
+  * Una empresa puede delegar actividades de mercadeo en cada país donde realice los negocios a un agente local, pero no existe garantía de que el agente actúe en pro de los intereses de la compañía. A menudo agentes extranjeros llevan los productos de compañías competidoras y, por lo tanto, poseen lealtades divididas.
+
+==Licenciamiento==
+
+El licenciamiento internacional es un convenio en el que un licenciado extranjero compra los derechos para fabricar los productos de una compañía en su país por una tarifa negociadora (normalmente pago de regalías con base en la cantidad de unidades vendidas). 
+
+*Ventajas*
+  * La compañía no tiene que afrontar los costos y riesgos de desarrollo asociados con la apertura de un mercado extranjero. Por lo tanto, puede ser una alternativa bastante atractiva para las compañías que carecen del capital para desarrollar operaciones en el extranjero.
+
+*Desventajas*
+  * No proporciona a una compañía un estricto control sobre las funciones de fabricación, marketing y de estrategias en otros países necesarios para alcanzar economías en costos con base en la cuerva de experiencia y economías de localización.
+  * Competir en un mercado global puede hacer necesario que la compañía coordine movimientos estratégicos en los países de tal modo que las utilidades obtenidas en  un país se puedan utilizar para apoyar los ataques competitivos en otro. El licenciamiento, por su propia naturaleza, limita enormemente la capacidad de una compañía para hacerlo.
+  * El riesgo asociado de autorizar mediante licenciamiento know-how tecnológico a compañías extranjeras. Para muchas compañías el know-how tecnológico forma la base de su ventaja competitiva, y desearían mantener control sobre el uso para el cual se ha establecido. Al autorizar el uso de su tecnología, una compañía rápidamente puede perder su control.
+
+==Franquicia==
+
+En este caso la compañía vende al concesionario derechos limitados para utilizar su marca a cambio del pago de una suma global y una participación en sus utilidades. Sin embargo, a diferencia de las partes en al mayoría de los acuerdos de licenciamiento, el concesionario debe cumplir con estrictas reglas sobre la forma como realiza los negocios.
+
+*Ventajas*
+  * Son similares a las del licenciamiento. Específicamente, el que la otorga no tiene que asumir por su propia cuenta costos de desarrollo y riesgos de apertura en un mercado extranjero, pues el titular se encarga de éstos.
+
+*Desventajas*
+  * Son menos pronunciadas que en el caso del licenciamiento. Debido a que la franquicia es una estrategia utilizada por compañías de servicios, quien la otorga no debe considerar la necesidad de coordinar la fabricación con el fin de lograr efectos de la curva de experiencia y economías de localización. No obstante, la franquicia puede limitar la capacidad de una compañía para lograr una coordinación estratégica global.
+  * Una desventaja significativa tiene que ver con el control de calidad. Los concesionarios extranjeros quizá no están tan interesados en la calidad como debieran, y la calidad deficiente puede significar no solo pérdidas en ventas en el mercado extranjero, sino también una declinación en la reputación mundial de la compañía.
+
+==Joint ventures==
+
+La forma más típica de joint venture es una empresa de 50/50, en la que cada parte toma un 50% de la propiedad accionaria y el control operativo es compartido por un equipo de gerentes de ambas firmas matrices.
+
+*Ventajas*
+  * Una compañía puede sentir que se puede beneficiar del conocimiento de un socio local acerca de las condiciones competitivas, cultura, lengua, sistemas políticos y sistemas de negocios de un país anfitrión.
+  * Cuando los costos de desarrollo y riesgos de apertura en un mercado extranjero son elevados, una compañía puede ganar al compartir estos costos y riesgos con un socio local.
+  * Por último, en muchos países las consideraciones políticas hacen de las joint ventures el único modo factible de ingreso.
+
+*Desventajas*
+  * Una compañía que ingresa a una joint venture corre el riesgo de perder el control sobre su tecnología ante su socio. Con el fin de minimizar este riesgo, la compañía puede buscar una participación mayoritaria de acciones en la joint venture, ya que como socio dominante podría ejercer mayor control sobre su tecnología.
+  * Una joint venture no proporciona a una compañía estricto control sobre sus subsidiarias, factor que podría necesitarse con el fin de obtener efectos de la curva de experiencia o economías de localización o involucrarse en ataques globales coordinados en contra de sus rivales mundiales.
+
+==Subsidiarias propias==
+
+Una subsidiaria propia es aquella en la que la compañía matriz posee el 100% de las acciones. Para establecerla en un mercado extranjero, una empresa puede establecer una operación completamente nueva o adquirir una firma establecida en ese país y utilizarla para promover sus productos en el mercado anfitrión.
+
+*Ventajas*
+  * Cuando la ventaja competitiva de una compañía se fundamenta en el control de su habilidad tecnológica, una subsidiaria propia normalmente constituirá el modo de ingreso preferido, pues reduce el riesgo de la compañía de perder este control.
+  * Proporciona a la empresa el tipo de control rígido sobre las operaciones en diferentes países que necesite si se va a comprometer en una coordinación estratégica global.
+  * Puede ser la mejor selección si una compañía desea realizar economías de localización y obtener efectos con base en la curva de experiencia. Cuando las presiones en costos son intensas, a una firma le puede dar resultado configurar su cadena de valor en tal forma que se maximice el valor agregado en cada etapa.
+
+*Desventajas*
+  * Generalmente es el método más costoso de atender un mercado extranjero. La compañía matriz debe afrontar todos los costos y riesgos de establecer operaciones en el exterior.
