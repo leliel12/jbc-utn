@@ -178,4 +178,4 @@
     * Compartir la visión de la compañía en cuanto al propósito de la alianza.
     * No debe existir la probabilidad de que uno de los socios explote en forma oportunista en la alianza para sus propios fines.
     * Estructura de la Alianza.
-* Forma como ésta se maneja.
+    * Forma como ésta se maneja.
