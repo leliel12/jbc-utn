@@ -91,7 +91,7 @@
 
 ==Exportación==
 
-La mayoría de las compañías fabricantes comienzan su expansión global como exportadores y después se cambian a un modo diferente de atender aun mercado extranjero. 
+ La mayoría de las compañías fabricantes comienzan su expansión global como exportadores y después se cambian a un modo diferente de atender aun mercado extranjero. 
 
 *Ventajas*
   * Evita los costos de establecer operaciones de fabricación en el país anfitrión, que a menudo son considerables; y puede ser consistente con la realización de economías en costo con base en la curva de experiencia y de economías de localización. Al fabricar el producto en un sitio centralizado y luego exportarlo a oteros mercados nacionales, la compañía puede realizar considerables economías de escala a partir de su volumen global de ventas.
@@ -104,7 +104,7 @@ La mayoría de las compañías fabricantes comienzan su expansión global como e
 
 ==Licenciamiento==
 
-El licenciamiento internacional es un convenio en el que un licenciado extranjero compra los derechos para fabricar los productos de una compañía en su país por una tarifa negociadora (normalmente pago de regalías con base en la cantidad de unidades vendidas). 
+ El licenciamiento internacional es un convenio en el que un licenciado extranjero compra los derechos para fabricar los productos de una compañía en su país por una tarifa negociadora (normalmente pago de regalías con base en la cantidad de unidades vendidas). 
 
 *Ventajas*
   * La compañía no tiene que afrontar los costos y riesgos de desarrollo asociados con la apertura de un mercado extranjero. Por lo tanto, puede ser una alternativa bastante atractiva para las compañías que carecen del capital para desarrollar operaciones en el extranjero.
@@ -116,7 +116,7 @@ El licenciamiento internacional es un convenio en el que un licenciado extranjer
 
 ==Franquicia==
 
-En este caso la compañía vende al concesionario derechos limitados para utilizar su marca a cambio del pago de una suma global y una participación en sus utilidades. Sin embargo, a diferencia de las partes en al mayoría de los acuerdos de licenciamiento, el concesionario debe cumplir con estrictas reglas sobre la forma como realiza los negocios.
+ En este caso la compañía vende al concesionario derechos limitados para utilizar su marca a cambio del pago de una suma global y una participación en sus utilidades. Sin embargo, a diferencia de las partes en al mayoría de los acuerdos de licenciamiento, el concesionario debe cumplir con estrictas reglas sobre la forma como realiza los negocios.
 
 *Ventajas*
   * Son similares a las del licenciamiento. Específicamente, el que la otorga no tiene que asumir por su propia cuenta costos de desarrollo y riesgos de apertura en un mercado extranjero, pues el titular se encarga de éstos.
@@ -127,7 +127,7 @@ En este caso la compañía vende al concesionario derechos limitados para utiliz
 
 ==Joint ventures==
 
-La forma más típica de joint venture es una empresa de 50/50, en la que cada parte toma un 50% de la propiedad accionaria y el control operativo es compartido por un equipo de gerentes de ambas firmas matrices.
+ La forma más típica de joint venture es una empresa de 50/50, en la que cada parte toma un 50% de la propiedad accionaria y el control operativo es compartido por un equipo de gerentes de ambas firmas matrices.
 
 *Ventajas*
   * Una compañía puede sentir que se puede beneficiar del conocimiento de un socio local acerca de las condiciones competitivas, cultura, lengua, sistemas políticos y sistemas de negocios de un país anfitrión.
@@ -140,7 +140,7 @@ La forma más típica de joint venture es una empresa de 50/50, en la que cada p
 
 ==Subsidiarias propias==
 
-Una subsidiaria propia es aquella en la que la compañía matriz posee el 100% de las acciones. Para establecerla en un mercado extranjero, una empresa puede establecer una operación completamente nueva o adquirir una firma establecida en ese país y utilizarla para promover sus productos en el mercado anfitrión.
+ Una subsidiaria propia es aquella en la que la compañía matriz posee el 100% de las acciones. Para establecerla en un mercado extranjero, una empresa puede establecer una operación completamente nueva o adquirir una firma establecida en ese país y utilizarla para promover sus productos en el mercado anfitrión.
 
 *Ventajas*
   * Cuando la ventaja competitiva de una compañía se fundamenta en el control de su habilidad tecnológica, una subsidiaria propia normalmente constituirá el modo de ingreso preferido, pues reduce el riesgo de la compañía de perder este control.
