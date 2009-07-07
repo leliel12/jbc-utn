@@ -14,36 +14,29 @@ public class SpiderException extends Exception {
     public static final byte ERROR = 1;
     public static final byte FATAL_ERROR = 2;
     public static final byte FILE_HANDLER_NOT_FOUND = 3;
-    private enum type {1,2,3};
     private byte exceptionType;
 
-    public SpiderException(byte exceptionType) {
-        super(getExceptionTypeName(exceptionType));
-        this.setExceptionType(exceptionType);
+    public SpiderException(Exception ex, byte exceptionType) {
+        this(ex.getMessage(), exceptionType);
+        super.setStackTrace(ex.getStackTrace());
     }
 
     public SpiderException(String msg, byte exceptionType) {
-        super(getExceptionTypeName(exceptionType) + " - " + msg);
+        super(msg);
         this.setExceptionType(exceptionType);
     }
 
-    /**
-     * @return the exceptionType
-     */
     public byte getExceptionType() {
         return exceptionType;
     }
 
-    /**
-     * @param exceptionType the exceptionType to set
-     */
     private void setExceptionType(byte exceptionType) {
         this.exceptionType = exceptionType;
     }
 
-    public static String getExceptionTypeName(byte exType) {
+    public String getExceptionTypeName() {
         String toReturn;
-        switch (exType) {
+        switch (exceptionType) {
             case WARNING:
                 toReturn = "Warning";
                 break;
@@ -54,7 +47,7 @@ public class SpiderException extends Exception {
                 toReturn = "Fatal Error";
                 break;
             case FILE_HANDLER_NOT_FOUND:
-                toReturn="File Handler Not Found";
+                toReturn = "File Handler Not Found";
                 break;
             default:
                 toReturn = "Unknow Type";

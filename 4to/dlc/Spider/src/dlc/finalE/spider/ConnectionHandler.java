@@ -14,6 +14,8 @@ public interface ConnectionHandler {
 
     public void add2PostList(PostNode postNode) throws SpiderException;
 
+    public boolean existsPostOf(String word) throws SpiderException;
+
     public VocNode[] getFullVocabulary() throws SpiderException;
 
     public PostNode getPostOf(String word) throws SpiderException;

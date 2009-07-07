@@ -18,32 +18,18 @@ public class VocNode {
         this.word = word;
     }
 
-    /**
-     * @return the nr
-     */
     public long getNr() {
         return nr;
     }
 
-    /**
-     * @param nr the nr to set
-     */
-    public void setNr(long nr) throws SpiderException {
-        this.nr = nr;
-    }
-
-    /**
-     * @return the maxTf
-     */
     public long getMaxTf() {
         return maxTf;
     }
 
-    /**
-     * @param maxTf the maxTf to set
-     */
     public void setMaxTf(long maxTf) throws SpiderException {
-        this.maxTf = maxTf;
+        if (this.maxTf < maxTf) {
+            this.maxTf = maxTf;
+        }
     }
 
     @Override
@@ -62,8 +48,15 @@ public class VocNode {
     }
 
     @Override
-    public int hashCode(){
+    public int hashCode() {
         return this.word.hashCode();
     }
 
+    void incNr(long nr) {
+        this.nr += nr;
+    }
+
+    public int getId(){
+        return this.hashCode();
+    }
 }

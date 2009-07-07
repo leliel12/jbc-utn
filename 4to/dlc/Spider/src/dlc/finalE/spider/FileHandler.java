@@ -12,16 +12,8 @@ import java.io.File;
  */
 public interface FileHandler {
 
-    public void setFile(File f) throws SpiderException;
-
-    public String getNextWord() throws SpiderException;
-
-    public boolean hasNextWord() throws SpiderException;
+    public String[] getWords(File f) throws SpiderException;
 
     public boolean isMyHandler(File f)throws SpiderException;
-
-    public void clearWordBuffer()throws SpiderException;
-
-    public File getExampleFile() throws SpiderException;
 
 }

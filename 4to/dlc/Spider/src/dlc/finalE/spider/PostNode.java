@@ -4,9 +4,8 @@
  */
 package dlc.finalE.spider;
 
+import dlc.finalE.spider.WordLocation.WordLocationNode;
 import java.io.File;
-import java.util.HashSet;
-import java.util.Hashtable;
 
 /**
  *
@@ -14,22 +13,33 @@ import java.util.Hashtable;
  */
 public class PostNode {
 
-    String word;
-    Hashtable<WordLocation, WordLocation> locations;
+    private String word;
+    private WordLocation locations;
 
     public PostNode(String word) {
         this.word = word;
-        locations = new Hashtable<WordLocation, WordLocation>();
+        this.locations = new WordLocation();
     }
 
-    public boolean addLocation(File file, long tf) {
-        WordLocation loc = new WordLocation(file, tf);
-        return false;
+    public void addLocation(File file, long tf){
+        this.locations.addLocation(file, tf);
     }
 
-    @Override
-    public int hashCode() {
-        return word.hashCode();
+    public WordLocationNode[] getLocations(){
+        return this.locations.getLocations();
+    }
+
+    public String getWord(){
+        return this.word;
+    }
+
+     public int getNR(){
+        return this.locations.size();
+    }
+
+    public long getMaxTf() {
+        WordLocationNode maxTFNode = this.locations.get(0);
+        return maxTFNode.getTf();
     }
 
     @Override
@@ -47,49 +57,14 @@ public class PostNode {
         return true;
     }
 
-    public class WordLocation {
+    @Override
+    public int hashCode() {
+        return this.word.hashCode();
+    }
 
-        private String fileAbsolutePath;
-        private long tf;
-
-        public WordLocation(File file, long tf) {
-            this.setFileAbsolutePath(file);
-            this.tf = tf;
-        }
-
-        public String getFileAbsolutePath() {
-            return fileAbsolutePath;
-        }
-
-        public void setFileAbsolutePath(File file) {
-            this.fileAbsolutePath = file.getAbsolutePath();
-        }
-
-        public long getTf() {
-            return tf;
-        }
-
-        public void setTf(long tf) {
-            this.tf = tf;
-        }
-
-        public int hashCode() {
-            return fileAbsolutePath.hashCode();
-        }
-
-        @Override
-        public boolean equals(Object obj) {
-            if (obj == null) {
-                return false;
-            }
-            if (getClass() != obj.getClass()) {
-                return false;
-            }
-            final String other = (String) obj;
-            if ((this.fileAbsolutePath== null) ? (other != null) : !this.fileAbsolutePath.equals(other)) {
-                return false;
-            }
-            return true;
-        }
+    public int getId(){
+        return this.hashCode();
     }
 }
+
+

@@ -47,7 +47,7 @@ public class Spider implements Runnable {
             } catch (SpiderException ex) {
                 errorWrapper(ex);
             } catch (InterruptedException ex) {
-                errorWrapper(new SpiderException("InterruptedException", SpiderException.FATAL_ERROR));
+                errorWrapper(new SpiderException(ex, SpiderException.FATAL_ERROR));
             }
         } while (true);
     }
@@ -68,23 +68,8 @@ public class Spider implements Runnable {
     }
 
     public synchronized boolean addFileHandler(final FileHandler fh) {
-        boolean added = false;
-        boolean exist = false;
-        File exampleFile = null;
-        try {
-            exampleFile = fh.getExampleFile();
-            for (Iterator<FileHandler> it = fileHandlers.iterator(); it.hasNext() && !exist;) {
-                FileHandler fileHandler = it.next();
-                exist = fileHandler.isMyHandler(exampleFile);
-            }
-            if (!exist) {
-                this.fileHandlers.add(fh);
-                added = true;
-            }
-        } catch (SpiderException ex) {
-            errorWrapper(ex);
-        }
-        return added;
+        this.fileHandlers.add(fh);
+        return true;
     }
 
     public synchronized boolean removeFileHandler(final FileHandler fh) {
@@ -102,8 +87,7 @@ public class Spider implements Runnable {
     }
 
     private void indexerWrapper(final File[] toIndex) throws SpiderException {
-        for (int i = 0; i < toIndex.length; i++) {
-            File file = toIndex[i];
+        for (File file: toIndex) {
             boolean indexed = false;
             for (Iterator<FileHandler> it = fileHandlers.iterator(); it.hasNext() && !indexed;) {
                 FileHandler handler = it.next();
