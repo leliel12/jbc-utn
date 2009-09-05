@@ -3,6 +3,7 @@
 __author__ = 'Juan B Cabral 40.42 - 5k4'
 __licence__ = 'GPL 3'
 
+
 def _get_matrix_size(mtx):
     ''' _get_matrix_size(mtx=[[]]) -> (n,m)
     Retorna un par (n,n) donde n es la cantidad de filas de la matriz
@@ -114,7 +115,7 @@ def aplicate_mask(img, mask):
     
     
 def mid_filter(img, mask_size):
-    '''mid_filter(img=[[]], mask_size=n -> [[]]
+    '''mid_filter(img=[[]], mask_size=n) -> [[]]
     Retorna una imagen aplicando un filtro medio nxn'''
     i, j = mask_size
     mask = []
@@ -122,6 +123,7 @@ def mid_filter(img, mask_size):
         row = [(1.0 / (i*j)) for idxj in range(j)]
         mask.append(row)
     return aplicate_mask(img, mask)
+
 
 def med_filter(img, mask_size):
     '''med_filter(img=[[]], mask_size=n -> [[]]
@@ -156,18 +158,21 @@ if __name__ == '__main__':
         
     print('TEST CASE')
     img = [
-            [1, 2, 3,4],
-            [5, 6, 7,8],
-            [9, 10, 11,12],
-            [13, 14, 15,16]
+            [1, 1, 0, 0,0],
+            [1, 1, 0, 0,0],
+            [1, 1, 0, 0,0],
+            [1, 1, 1, 1,1],
+            [1, 1, 0, 0,0],
+            [1, 1, 0, 0,0],
+            [1, 1, 0, 0,0]
          ]
     print("\t img matrix:")
     print_matrix(img, 2)
     
     mask = [
-            [2, 1, 3],
-            [4, 5, 6],
-            [7, 8, 9]
+            [1, 0, -1],
+            [2, 0, -2],
+            [1, 0, -1]
            ]
                
     print("\n\t mask:")
