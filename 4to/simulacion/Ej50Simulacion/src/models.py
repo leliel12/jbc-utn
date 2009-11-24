@@ -1,4 +1,11 @@
 ###############################################################################
+# DOCS
+###############################################################################
+
+"""Modelos comunes de lugar"""
+
+
+###############################################################################
 # IMPORTS
 ###############################################################################
 
@@ -18,6 +25,7 @@ class AbstractLugar(object):
         self._total_aviones = 0
         self._sin_espera = 0
         self._total_time_espera = 0.0
+        self._max_espera = 0.0
         self.auto_charge()
         
     def tiempo_espera(self):
@@ -31,6 +39,7 @@ class AbstractLugar(object):
         self._total_aviones = 0
         self._sin_espera = 0
         self._total_time_espera = 0.0
+        self._max_espera = 0.0
         self.auto_charge()
     
     def add_avion(self, entrada, salida=None):
@@ -48,6 +57,8 @@ class AbstractLugar(object):
         espera = actual_time - avion[0]
         if not espera:
             self._sin_espera += 1
+        elif espera > self._max_espera:
+            self._max_espera = espera
         self._total_time_espera += espera
         
     def last_avion(self):
@@ -67,11 +78,19 @@ class AbstractLugar(object):
     
     @property
     def perc_sin_espera(self):
-        return (self._sin_espera * 100.0) / self._total_aviones
-        
+        if self._total_aviones:
+            return (self._sin_espera * 100.0) / self._total_aviones
+        return 100.0
+    
+    @property
+    def max_espera(self):
+        return self._max_espera
+       
     @property
     def promedio_espera(self):
-        return self._total_time_espera / self._total_aviones
+        if self._total_aviones:
+            return self._total_time_espera / self._total_aviones
+        return 0
         
         
 ###############################################################################

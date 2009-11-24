@@ -2,7 +2,7 @@
 # DOCS
 ###############################################################################
 
-"""La logica del ejercicio"""
+"""Modulo principal"""
 
 ###############################################################################
 # IMPORTS
@@ -64,9 +64,6 @@ class Gears(object):
         self._estacion = models.Estacion()
         self._eventos = []
     
-    def iter_events(self):
-        return iter(self._eventos)
-    
     def _next_time(self, actual_time):
         times = []
         if self._siguiente_llegada > actual_time:
@@ -87,7 +84,7 @@ class Gears(object):
             return True
     
     def _tratar_desvio(self, actual_time):
-        if self._estacion.actual_aviones > 35:
+        if self._estacion.actual_aviones >= 35:
             self._en_vuelo.last_avion()
             return True
         
@@ -138,17 +135,44 @@ class Gears(object):
                 eventos.append(LLEGADA)
             if self._tratar_desvio(actual_time):
                 eventos.append(DESVIO)
-            if self._tratar_despegue(actual_time):
+            elif self._tratar_despegue(actual_time):
                 eventos.append(DESPEGUE)
-            if self._tratar_aterrisaje(actual_time):
+            elif self._tratar_aterrisaje(actual_time):
                 eventos.append(ATERRISAJE)
-            if self._tratar_salida(actual_time):
+            elif self._tratar_salida(actual_time):
                 eventos.append(SALIDA_PISTA)
             if eventos:
                 self._generar_estadisticas(i, eventos, actual_time)
                 i += 1
             actual_time = self._next_time(actual_time)
         
+    @property
+    def events(self):
+        return self._eventos
+    
+    @property
+    def max_tierra(self):
+        return self._estacion.max_espera
+           
+    @property
+    def prom_tierra(self):
+        return self._estacion.promedio_espera
+    
+    @property
+    def max_vuelo(self):
+        return self._en_vuelo.max_espera
+    
+    @property
+    def prom_vuelo(self):
+        return self._en_vuelo.promedio_espera
+    
+    @property
+    def per_sal(self):
+        return self._estacion.perc_sin_espera
+    
+    @property
+    def perc_atr(self):
+        return self._en_vuelo.perc_sin_espera
 
 ###############################################################################
 # FUNCTIONS
@@ -157,7 +181,7 @@ class Gears(object):
 def dhm(minutes):
     h, m = divmod(minutes, 60)
     d, h = divmod(h, 24)
-    return "Dia: %d %d:%02d" % (d, h, m)
+    return "Dia: %d - %d:%02d" % (d, h, m)
     
 
 ###############################################################################
