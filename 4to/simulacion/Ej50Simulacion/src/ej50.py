@@ -4,11 +4,23 @@
 
 import sys
 import gears
-from PyQt4 import QtGui
-from PyQt4.QtCore import * 
-from PyQt4.QtGui import * 
-from frame import Ui_MainWindow
 
+from PyQt4 import QtGui
+from PyQt4.QtCore import QAbstractTableModel, Qt, QVariant
+from PyQt4.QtCore import Qt
+from PyQt4.QtCore import QVariant
+
+import qtbuilder
+
+###############################################################################
+# CONSTANTS
+###############################################################################
+
+builder = qtbuilder.QtBuilder()
+
+
+# SETUP
+builder.add_from_file("frame.ui")
 
 ###############################################################################
 # CLASE PRINCIPAL
@@ -17,8 +29,9 @@ from frame import Ui_MainWindow
 class Ej50(QtGui.QMainWindow):
     def __init__(self, parent=None):
         super(Ej50, self).__init__(parent)
-        self.ui = Ui_MainWindow()
+        self.ui = builder.get_object("Ui_MainWindow")
         self.g = gears.Gears()
+        print dir(self.ui)
         self.ui.setupUi(self)
         
         
