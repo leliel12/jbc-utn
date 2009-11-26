@@ -31,7 +31,6 @@ class Ej50(QtGui.QMainWindow):
         super(Ej50, self).__init__(parent)
         self.ui = builder.get_object("Ui_MainWindow")
         self.g = gears.Gears()
-        print dir(self.ui)
         self.ui.setupUi(self)
         
         
@@ -39,7 +38,6 @@ class Ej50(QtGui.QMainWindow):
         self.g.run(self.ui.spinBox.value())
         n_n = EventsTableModel(self.g.events)
         self.ui.tableView.setModel(n_n)
-        print self.g.max_tierra
         self.ui.le_max_tierra.setText(str(self.g.max_tierra))
         self.ui.le_prom_tierra.setText(str(self.g.prom_tierra))
         self.ui.le_max_vuelo.setText(str(self.g.max_vuelo))
