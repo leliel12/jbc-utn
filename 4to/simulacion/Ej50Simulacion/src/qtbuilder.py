@@ -47,6 +47,7 @@ __date__ = '2009-11-25'
 ################################################################################
 
 from PyQt4 import uic
+from PyQt4.uic.Compiler import compiler
 
 
 ################################################################################
@@ -57,12 +58,35 @@ class QtBuilder(object):
     def __init__(self):
         self._widgets = {}
     
+    def _register(self, widget):
+        self._widgets[widget.__name__] = widget
+    
     def get_object(self, name):
         return self._widgets[name]()
+        
+    def get_objects(self, names):
+        return [self.get_object(name) for name in names]
     
     def add_from_file(self, filename):
         widget = uic.loadUiType(filename)[0]
-        self._widgets[widget.__name__] = widget
+        self._register(widget)
+        
+    def add_from_string(self, string):
+        """Based on pyqt loadUiType"""
+        import sys
+        from PyQt4 import QtGui
+        if sys.hexversion >= 0x03000000:
+            from PyQt4.uic.port_v3.string_io import StringIO
+        else:
+            from PyQt4.uic.port_v2.string_io import StringIO
+        code_string = StringIO()
+        ui_string = StringIO()
+        ui_string.write(string)
+        ui_string.seek(0)
+        winfo = compiler.UICompiler().compileUi(ui_string, code_string)
+        ui_globals = {}
+        exec(code_string.getvalue(), ui_globals)
+        self._register(ui_globals[winfo["uiclass"]])
 
 
 ################################################################################
