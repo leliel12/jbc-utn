@@ -20,8 +20,8 @@ builder = qtbuilder.QtBuilder()
 
 
 # SETUP
-#builder.add_from_file("frame.ui")
-builder.add_from_string(open("frame.ui").read())
+builder.add_from_file("frame.ui")
+
 
 ###############################################################################
 # CLASE PRINCIPAL
