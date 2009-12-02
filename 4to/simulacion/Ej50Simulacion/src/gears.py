@@ -84,9 +84,10 @@ class Gears(object):
             return True
     
     def _tratar_desvio(self, actual_time):
-        if self._estacion.actual_aviones >= 35:
-            self._en_vuelo.last_avion()
-            return True
+        if self._en_vuelo.actual_aviones \
+            and self._estacion.actual_aviones >= 35:
+                self._en_vuelo.last_avion()
+                return True
         
     def _tratar_despegue(self, actual_time):
         if self._pista.next_time_event() is not None \
@@ -133,9 +134,9 @@ class Gears(object):
             eventos = []
             if self._tratar_llegada(actual_time):
                 eventos.append(LLEGADA)
-            if self._tratar_desvio(actual_time):
-                eventos.append(DESVIO)
-            elif self._tratar_despegue(actual_time):
+                if self._tratar_desvio(actual_time):
+                    eventos.append(DESVIO)
+            if self._tratar_despegue(actual_time):
                 eventos.append(DESPEGUE)
             elif self._tratar_aterrisaje(actual_time):
                 eventos.append(ATERRISAJE)
