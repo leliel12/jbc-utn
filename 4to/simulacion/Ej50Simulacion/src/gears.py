@@ -84,8 +84,7 @@ class Gears(object):
             return True
     
     def _tratar_desvio(self, actual_time):
-        if self._en_vuelo.actual_aviones \
-            and self._estacion.actual_aviones >= 35:
+        if  self._estacion.actual_aviones >= 35:
                 self._en_vuelo.last_avion()
                 return True
         
