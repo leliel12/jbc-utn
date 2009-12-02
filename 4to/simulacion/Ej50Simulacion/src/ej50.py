@@ -6,7 +6,7 @@ import sys
 import gears
 
 from PyQt4 import QtGui
-from PyQt4.QtCore import QAbstractTableModel, Qt, QVariant
+from PyQt4.QtCore import QAbstractTableModel
 from PyQt4.QtCore import Qt
 from PyQt4.QtCore import QVariant
 
